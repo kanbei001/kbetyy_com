@@ -1,0 +1,47 @@
+	    <div class="common-navbar">
+	    	<div class="slide-navbar">
+	    		<div class="yygk-nav">
+	    		    <div class="nav-title">
+		    			<h1 id="expertId">医院概况</h1>
+		    			<span class="small-title"></span>
+		    		</div>
+		    		<div class="nav-list" id="expertNav">
+		    		{dede:channelartlist typeid='2,3,5,78,139,8,89,11,10'}
+						<div class="nav-info" id="expert_{dede:field.id/}">
+							<a href="{dede:field.typeurl/}"><h3>{dede:field.typename/}</h3>
+							<span class="small-title"></span></a>
+		    			</div>
+					{/dede:channelartlist}
+					</div>
+				</div>
+	    	</div>
+	    	<div class="M-lf2">
+	    		<div class="M-lf2-li">
+	    			<a href="javascript:onKST();">
+	    				<img src="{dede:global.cfg_templets_skin/}/images/fw2.png">
+	    				<span>在线咨询</span>
+	    			</a>	
+	    		</div>
+	    		<div class="M-lf2-li">
+	    			<a href="javascript:show_order();">
+	    				<img src="{dede:global.cfg_templets_skin/}/images/fw3.png">
+	    				<span>预约挂号</span>
+	    			</a>	
+	    		</div>
+	    		<div class="M-lf2-li">
+	    			<a href="javascript:onKST();">
+	    				<img src="{dede:global.cfg_templets_skin/}/images/fw5.png">
+	    				<span>出诊信息</span>
+	    			</a>	
+	    		</div>
+	    		<div class="M-lf2-li">
+	    			<a href="{dede:type typeid="11"}[field:typeurl/]{/dede:type}">
+	    				<img src="{dede:global.cfg_templets_skin/}/images/fw6.png">
+	    				<span>来院路线</span>
+	    			</a>	
+	    		</div>
+	    	</div>
+	    	<div class="M-lf3">
+	    		<img src="{dede:global.cfg_templets_skin/}/images/Miphone.jpg" title="深圳康贝儿童医院热线：028-85056688">
+	    	</div>
+	    </div>

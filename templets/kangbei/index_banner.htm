@@ -1,0 +1,32 @@
+<!--首页 banner-->
+
+<div id="sy_banner_qhcode" class="sy_banner_qhcode">
+  <div class="hd">
+    <ul>
+      <li class="on"></li>
+      <li class=""></li>
+      <li class=""></li>
+      <li class=""></li>
+    </ul>
+  </div>
+  <div class="bd">
+    <ul>
+      <li><a href="javascript:onKST();"><img src="{dede:global.cfg_templets_skin/}/images/index_banner_xewk.jpg" alt="小二外科"></a></li>
+      <li><a href="javascript:onKST();"><img src="{dede:global.cfg_templets_skin/}/images/index_banner_zbz.jpg" alt=""></a></li>
+      <li><a href="javascript:onKST();"><img src="{dede:global.cfg_templets_skin/}/images/index_banner_6.jpg" alt=""></a></li>
+      <li><a href="javascript:onKST();"><img src="{dede:global.cfg_templets_skin/}/images/index_banner_hj.jpg" alt=""></a></li>
+    </ul>
+  </div>
+  <a class="prev" href="javascript:void(0)"></a> <a class="next" href="javascript:void(0)"></a> </div>
+<script type="text/javascript">
+	jQuery(".sy_banner_qhcode").slide({mainCell:".bd ul",effect:"left",autoPlay:true,easing:"easeInQuint",delayTime:1000,interTime:4000});
+	/*$(window).resize(function(){
+	  $("#sy_banner_qhcode .tempWrap").width(1920);
+	  $("#sy_banner_qhcode .tempWrap li").width(1920);
+	  var ww = $(window).width();
+	  if(ww < 1920){
+	    $("#sy_banner_qhcode .tempWrap").css({"margin-left":-(1920-ww)/2+"px"});
+	  }
+	})*/
+</script>
+<!--首页 banner end--> 

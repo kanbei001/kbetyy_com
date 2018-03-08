@@ -1,0 +1,26 @@
+<!-- banner -->
+<div id="sy_banner_qhcode" class="sy_banner_qhcode">
+  <!--<a class="prev" href="javascript:void(0)"></a> <a class="next" href="javascript:void(0)"></a>-->
+  <div class="hd">
+    <!--<ul>
+      <li></li>
+    </ul>-->
+  </div>
+  <div class="bd">
+      <ul>
+        <li><a href="javascript:onKST();"><img src="{dede:global.cfg_templets_skin/}/images/banner02.jpg" alt=""></a></li>
+      </ul>
+
+  </div>
+</div>
+<script type="text/javascript">
+	jQuery(".sy_banner_qhcode").slide({mainCell:".bd ul",effect:"left",autoPlay:true,easing:"easeInQuint",delayTime:1000});
+	/*$(window).resize(function(){
+	  $("#sy_banner_qhcode .tempWrap").width(1920);
+	  $("#sy_banner_qhcode .tempWrap li").width(1920);
+	  var ww = $(window).width();
+	  if(ww < 1920){
+	    $("#sy_banner_qhcode .tempWrap").css({"margin-left":-(1920-ww)/2+"px"});
+	  }
+	})*/
+</script>

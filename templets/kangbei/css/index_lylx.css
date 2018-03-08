@@ -1,0 +1,42 @@
+
+
+
+
+@charset "UTF-8";
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 11:16:24
+ * @templet index_lylx.htm
+ */
+
+/*来院路线 @ 地图信息*/
+.Map{ width: 1200px; height: 581px; margin: 30px auto; overflow: hidden;}
+.BMapLib_SearchInfoWindow{border:0px;padding:15px;}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_top{border:0px;background:#049ce5;}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_title{background:#fff;font-size: 16px;color:#049ce5;font-weight: bold;}
+.BMapLib_SearchInfoWindow .BMapLib_nav{margin-top:10px;}
+.BMapLib_nav_tab{background:#fff;}
+.BMapLib_nav_tab li{background:#eee;border-left:0px;padding-top: 0px;height:30px;line-height: 30px;}
+.BMapLib_nav_tab li.BMapLib_current{background:#049ce5;color:#fff;}
+.BMapLib_search_text{border:1px solid #049ce5;height:32px;line-height:32px;outline: none;padding-left: 10px;}
+.BMapLib_SearchInfoWindow .iw_bt, .BMapLib_SearchInfoWindow .iw_bt_down, .BMapLib_SearchInfoWindow .iw_bt_over{background:#049ce5;border:0px;height:34px;color:#fff;width:50px;}
+#BMapLib_searchBox0{width:100%;}
+#BMapLib_searchBox0 #BMapLib_search_nb_btn0{width:52px;}
+#BMapLib_stationText0{background:#149ce5;color:#fff;height:30px;line-height: 30px;}
+.BMapLib_trans_text{border:1px solid #049ce5;height:32px;line-height: 30px;outline: none;padding-left: 10px;}
+.BMapLib_nav_tab .BMapLib_icon{background:rgba(255,255,255,0);top:0px;}
+.BMapLib_SearchInfoWindow .BMapLib_bubble_tools div{background-color:#fff;width:22px;margin-right:8px;height:22px;margin-top:15px;}
+
+/*来院路线 @ 路线信息*/
+.rod{ width: 1200px;margin:auto; height: auto; overflow: hidden; padding-bottom: 60px;}
+.rodhd{ width: 1200px; height:41px;}
+.rodhd li{ width: 292px; height: 41px; background: #f0f0f0; text-align: center; line-height: 39px; color: #545454; float: left; margin-right: 10px; font-size: 16px;}
+.rodhd li.on{width: 292px; height: 39px; background: #cbebfd; border-bottom: 2px solid #007cc2; line-height: 39px; color: #007cc2;}
+.rodhd li:nth-child(4n){float: right; margin-right:0 ;}
+.rodbd{ width: 1200px; height: auto; overflow: hidden; margin-top: 30px; float: left;}
+.rodbd ul{ width: 100%;}
+.rodbd1{ width: 100%; height: auto; overflow: hidden;}
+.rodbd1 p{ width: 100%; height: auto; line-height: 30px; overflow: hidden; color: #808080; font-size: 16px;}
+.rodbd1 p span.rodbd-span1{color: #f1a334;}
+.rodbd1 p span.rodbd-span2{color: #007cc2;}

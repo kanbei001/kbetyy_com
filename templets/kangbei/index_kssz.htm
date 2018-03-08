@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field.keywords/}" />
+		<meta name="description" content="{dede:field.description/}" />
+	    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+	    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/index_kssz.css">
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+	</head>
+	<body>
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	
+	<!--正文 开始-->
+	<div class="ksdh-container">
+	    <!--科室 当前位置-->
+	    <div class="web-position">
+	    	<img src="{dede:global.cfg_templets_skin/}/images/home_ico.png">
+	    	<p>您所在的位置：{dede:field.position/}</p>
+	    </div>
+	    <!--科室导航-->
+	    <div class="K">
+	    	<div class="K-title">
+	    		<div class="K-title-h1">{dede:field.typename/}</div>
+	    		<span>Department navigation</span>
+	    	</div>
+	    	<div class="k-M">
+	    		<ul>
+	    			<li>
+	    				<div class="k-Mico">
+	    					{dede:type typeid="122"}
+	    					<a href="[field:typelink/]"><em class="em6"></em></a>
+							<a href="[field:typelink/]">[field:typename/]</a>
+							{/dede:type}
+	    				</div>
+	    				<div class="k-Min">
+	    					<p>
+								{dede:channel type="son" typeid="122"}
+	    						<a href="[field:typelink /]">[field:typename/]</a>
+								{/dede:channel}								
+	    					</p>
+	    				</div>
+	    			</li>
+	    			<li class="k-M-ri">
+	    				<div class="k-Mico">
+	    					{dede:type typeid="12"}
+	    					<a href="[field:typelink/]"><em class="em7"></em></a>
+	    					<a href="[field:typelink/]">[field:typename/]</a>
+	    					{/dede:type}
+	    				</div>
+	    				<div class="k-Min">
+	    					<p>
+	    						{dede:channel type="son" typeid="12"}
+	    						<a href="[field:typelink /]">[field:typename/]</a>
+								{/dede:channel}	
+	    					</p>
+	    				</div>
+	    			</li>
+	    			<li>
+	    				<div class="k-Mico">
+	    					{dede:type typeid="13"}
+	    					<a href="[field:typelink/]"><em class="em8"></em></a>
+	    					<a href="[field:typelink/]">[field:typename/]</a>
+	    					{/dede:type}
+	    				</div>
+	    				<div class="k-Min">
+	    					<p>
+	    						{dede:channel type="son" typeid="13"}
+	    						<a href="[field:typelink /]">[field:typename/]</a>
+								{/dede:channel}	
+	    					</p>
+	    				</div>
+	    			</li>
+	    			<li class="k-M-ri">
+	    				<div class="k-Mico">
+	    					{dede:type typeid="14"}
+	    					<a href="[field:typelink/]"><em class="em9"></em></a>
+	    					<a href="[field:typelink/]">[field:typename/]</a>
+	    					{/dede:type}
+	    				</div>
+	    				<div class="k-Min">
+	    					<p>
+	    						{dede:channel type="son" typeid="14"}
+	    						<a href="[field:typelink /]">[field:typename/]</a>
+								{/dede:channel}	
+	    					</p>
+	    				</div>
+	    			</li>
+	    			<li>
+	    				<div class="k-Mico">
+	    					{dede:type typeid="98"}
+	    					<a href="[field:typelink/]"><em class="em10"></em></a>
+	    					<a href="[field:typelink/]">[field:typename/]</a>
+	    					{/dede:type}
+	    				</div>
+	    				<div class="k-Min">
+	    					<p>
+	    						{dede:channel type="son" typeid="98"}
+	    						<a href="[field:typelink /]">[field:typename/]</a>
+								{/dede:channel}	
+	    					</p>
+	    				</div>
+	    			</li>
+	    			<li class="k-M-ri">
+	    				<div class="k-Mico">
+	    					{dede:type typeid="100"}
+	    					<a href="[field:typelink/]"><em class="em11"></em></a>
+	    					<a href="[field:typelink/]">[field:typename/]</a>
+	    					{/dede:type}
+	    				</div>
+	    				<div class="k-Min">
+	    					<p>
+	    						{dede:channel type="son" typeid="100"}
+	    						<a href="[field:typelink /]">[field:typename/]</a>
+								{/dede:channel}	
+	    					</p>
+	    				</div>
+	    			</li>
+	    			<li>
+	    				<div class="k-Mico">
+	    					{dede:type typeid="99"}
+	    					<a href="[field:typelink/]"><em class="em12"></em></a>
+	    					<a href="[field:typelink/]">[field:typename/]</a>
+	    					{/dede:type}
+	    				</div>
+	    				<div class="k-Min">
+	    					<p>
+	    						{dede:channel type="son" typeid="99"}
+	    						<a href="[field:typelink /]">[field:typename/]</a>
+								{/dede:channel}	
+	    					</p>
+	    				</div>
+	    			</li>
+	    			<li class="k-M-ri">
+	    				<div class="k-Mico">
+	    					{dede:type typeid="96"}
+	    					<a href="[field:typelink/]"><em class="em13"></em></a>
+	    					<a href="[field:typelink/]">[field:typename/]</a>
+	    					{/dede:type}
+	    				</div>
+	    				<div class="k-Min">
+	    					<p>
+	    						{dede:channel type="son" typeid="96"}
+	    						<a href="[field:typelink /]">[field:typename/]</a>
+								{/dede:channel}	
+	    					</p>
+	    				</div>
+	    			</li>
+	    			<li>
+	    				<div class="k-Mico">
+	    					{dede:type typeid="50"}
+	    					<a href="[field:typelink/]"><em class="em14"></em></a>
+	    					<a href="[field:typelink/]">[field:typename/]</a>
+	    					{/dede:type}
+	    				</div>
+	    				<div class="k-Min">
+	    					<p>
+	    						{dede:channel type="son" typeid="50"}
+	    						<a href="[field:typelink /]">[field:typename/]</a>
+								{/dede:channel}	
+	    					</p>
+	    				</div>
+	    			</li>
+	    			<li class="k-M-ri">
+	    				<div class="k-Mico">
+	    					{dede:type typeid="15"}
+	    					<a href="[field:typelink/]"><em class="em19"></em></a>
+	    					<a href="[field:typelink/]">[field:typename/]</a>
+	    					{/dede:type}
+	    				</div>
+	    				<div class="k-Min">
+	    					<p>
+	    						{dede:channelartlist typeid="35,37,38"}
+	    						<a href="{dede:field.typeurl/}">{dede:field.typename/}</a>
+								{/dede:channelartlist}	
+	    					</p>
+	    				</div>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    </div>
+	    <!--热文推荐-->
+	    <div class="k-Z">
+	    	<div class="part-title">
+	    		<div class="title-info">热文推荐<span>Article recommendation</span></div>
+	    	</div>
+	    	<div class="k-Z-list">
+	    		<div class="k-Z-list1">
+	    			{dede:arclist flag="p" limit="0,1" orderby='click'}
+	    			<a href="[field:arcurl/]"><img src="[field:picname/]" title="[field:title/]"></a>
+	    			{/dede:arclist}
+	    			<div class="k-Z-list1-div">
+	    				{dede:arclist limit="0,4" flag="c" orderby='click'}
+	    				<p><img src="[field:global.cfg_templets_skin/]/images/j7.jpg"><a href="[field:arcurl/]">[field:title/]</a><span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></p>
+	    				{/dede:arclist}
+	    			</div>
+	    		</div>
+	    		<div class="k-Z-list1 k-Z-list2">
+	    			{dede:arclist flag="p" limit="1,1" orderby='click'}
+	    			<a href="[field:arcurl/]"><img src="[field:picname/]" title="[field:title/]"></a>
+	    			{/dede:arclist}
+	    			<div class="k-Z-list1-div">
+	    				{dede:arclist limit="4,4" flag="c" orderby='click'}
+	    				<p><img src="[field:global.cfg_templets_skin/]/images/j7.jpg"><a href="[field:arcurl/]">[field:title/]</a><span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></p>
+	    				{/dede:arclist}
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>	
+	</div>
+	<!--正文 结束-->
+	{dede:include filename="common/footer.htm"/}
+	</body>
+</html>

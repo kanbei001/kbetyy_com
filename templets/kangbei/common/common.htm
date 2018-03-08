@@ -1,0 +1,113 @@
+<!-- 右侧快捷导航 -->
+<style>
+.fxrt a{text-decoration:none;}
+.fxrt em{font-style:normal;}
+.fxrt .fxk,.fxrt i{transition:all 0.5s ease; -moz-transition:all 0.5s ease; -webkit-transition:all 0.5s ease;}
+.fxrt .s2wm{background:url({dede:global.cfg_templets_skin/}/images/common_fxrt/alt_2wm.png) center top no-repeat; width:246px; height:262px; position:absolute; top:-25px; left:-90px; z-index:2; filter:alpha(opacity=0); opacity:0; visibility:hidden;}
+.fxrt .s2wm.on{visibility:visible; filter:alpha(opacity=100); opacity:1; left:-76px;}
+.fxrt{width:60px; position:fixed; right:0%; top:50%; margin-top:-170px; z-index:99; list-style:none; animation:anmfxrt 0.6s forwards; text-align:left;}
+.fxrt li,.fxrt .fxk{border-radius:6px 0px 0px 6px;}
+.fxrt li{position:relative; height:55px; margin-bottom:2px; float:right; width:100%;}
+.fxrt .fxk{display:block; width:60px; height:55px; color:#fff; overflow:hidden; position:absolute; cursor:pointer; top:0px; right:0px;}
+.fxrt .fxk span,.fxrt .fxk em{font-size:16px; display:block; margin-left:76px; white-space:nowrap;}
+.fxrt .fxk span{margin-top:10px;}
+.fxrt .fxk em{font-size:12px;}
+.fxrt i{background:url({dede:global.cfg_templets_skin/}/images/common_fxrt/ico_fxrt_2017.png) left top no-repeat; float:left; display:block; width:58px; height:53px; margin:1px 0px 0px 1px;border-radius:6px;}
+
+.fxrt .frzx,.fxrt .frzx i{background-color:#ee749c;}
+.fxrt .frzx i{background-position:13px 10px;}
+.fxrt .frzx.on,.fxrt .frzx:hover{width:160px;}
+.fxrt .frzx.on i,.fxrt .frzx:hover i{background-color:#fff; background-position:-89px 10px;}
+
+.fxrt .frtel,.fxrt .frtel i{background-color:#fb8787;}
+.fxrt .frtel i{background-position:13px -45px;}
+.fxrt .frtel.on,.fxrt .frtel:hover{width:190px;}
+.fxrt .frtel.on i,.fxrt .frtel:hover i{background-color:#fff; background-position:-90px -45px;}
+
+.fxrt .frqq,.fxrt .frqq i{background-color:#54aed6;}
+.fxrt .frqq i{background-position:12px -102px;}
+.fxrt .frqq.on,.fxrt .frqq:hover{width:182px;}
+.fxrt .frqq.on i,.fxrt .frqq:hover i{background-color:#fff; background-position:-87px -102px;}
+
+.fxrt .frwx,.fxrt .frwx i{background-color:#61e3a4;}
+.fxrt .frwx i{background-position:12px -160px;}
+.fxrt .frwx.on i,.fxrt .frwx:hover i{background-color:#0FC36C;}
+.fxrt .s2wm{top:-90px; left:-290px;}
+.fxrt .s2wm.on{left:-255px;}
+
+.fxrt .frmap,.fxrt .frmap i{background-color:#b889ba;}
+.fxrt .frmap i{background-position:12px -222px;}
+.fxrt .frmap.on,.fxrt .frmap:hover{width:160px;}
+.fxrt .frmap.on i,.fxrt .frmap:hover i{background-color:#fff; background-position:-87px -222px;}
+
+.fxrt .frbktop,.fxrt .frbktop i{background-color:#7395b2;}
+.fxrt .frbktop i{background-position:12px -288px;transition:all 0.1s ease; -moz-transition:all 0.1s ease; -webkit-transition:all 0.1s ease;}
+.fxrt .frbktop i:hover{background-color:#577fa0;background-position:12px -290px;}
+.fxrt .frbktop i:active{background-color:#446e91;}
+@keyframes anmfxrt{
+	0%{right:-1%; opacity:0;}
+	90%{right:0.5%; opacity:.6;}
+	100% {right:0%; opacity:1;}
+}
+</style><ul class="fxrt">
+  <li><a class="fxk frzx asswtdm" rel="nofollow" href="javascript:onKST();" title="在线咨询"><i></i><span>在线咨询</span><em>Online Chat</em></a></li>
+  <li><span class="fxk frtel" title="健康热线：0755-25111120"><i></i><span>健康热线</span><em>0755-25111120</em></span></li>
+  <!--<li><a class="fxk frqq" rel="nofollow" href="http://crm2.qq.com/page/portalpage/wpa.php?uin=800048688&amp;aty=1&amp;a=1002&amp;curl=&amp;ty=1" title="QQ咨询"><i></i><span>QQ咨询</span><em>QQ Consulting</em></a></li>-->
+  <li><span class="fxk frwx" title="微信二维码"><i></i></span>
+    <div class="s2wm"></div>
+  </li>
+  <li><a class="fxk frmap" href="{dede:type typeid="11"}[field:typeurl/]{/dede:type}" title="来院路线"><i></i><span>来院路线</span><em>Hospital Map</em></a></li>
+  <li><span class="fxk frbktop" title="返回顶部"><i></i></span></li>
+</ul>
+<script>
+$(".fxrt .frwx,.wxskgz").hover(function(){
+	$(this).siblings(".s2wm").addClass("on");
+},function(){
+	$(this).siblings(".s2wm").removeClass("on");
+});
+$(".frbktop").click(function(){$('html,body').stop().animate({scrollTop:0},300);});
+</script>
+
+<!--中间弹窗-->
+<style>
+.ksttc{width:480px; height:320px; position:fixed; top:50%; left:50%; margin-top:-160px; margin-left:-240px; display:none; z-index:500; box-shadow:0 0 10px 2px rgba(0,0,0,0.3);}
+.ksttc p{width:30px; height:30px; position:absolute; top:0; right:0; cursor:pointer;}
+</style>
+<div class="ksttc">
+  <p></p>
+  <a rel="nofollow" href="javascript:onKST();"><img src="{dede:global.cfg_templets_skin/}/images/common_kst/ksttc.jpg"></a>
+</div>
+<script>
+var ksttc_timeout = setTimeout(ksttc_show, 8000);
+function ksttc_show(){
+  $(".ksttc").fadeIn(300);
+}
+function ksttc_hide(){
+  $(".ksttc").fadeOut(300);
+}
+$(".ksttc p").click(function(){
+  ksttc_hide();
+  ksttc_timeout = setTimeout(ksttc_show, 12000);
+});
+</script>
+
+<script>
+$(function(){
+  $("img").error(function(){
+    $(this).attr("src","/images/defaultpic.gif");
+  })
+})
+</script>
+
+<script>
+setInterval(function(){
+  $("#_embed_v3_dc").hide();
+},100);
+</script>
+
+<!--预约挂号-->
+<script src="{dede:global.cfg_templets_skin/}/js/kangbei_order.js"></script>
+
+<!--快商通-->
+<script src="{dede:global.cfg_templets_skin/}/js/onKST.js"></script>
+<script type="text/javascript" src="https://rgtk15.kuaishang.cn/bs/ks.j?cI=198926&fI=115319" charset="utf-8"></script>
