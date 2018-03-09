@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field name='keywords'/}" />
+		<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+        <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+        <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/channel.css">
+        <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+        <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+        <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+        <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+        <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+	</head>
+	<body onload="getData.departExpertInfo({dede:field.typeid/})">
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	<!--正文 开始-->
+	{dede:include filename="common/channer_top.htm"/}
+    <!--第二部分 开始-->
+	<div class="neurology">
+    	<div class="neurology-project">
+    	    <div class="project-title"><p>诊疗项目</p></div>
+    	    <div class="project-info">
+    	    	<div class="project-item item-xwfy">
+    	    		<div class="item-title">
+    	    			<strong>行为发育</strong>
+    	    			<hr/>
+    	    		</div>
+    	    		<div class="item-list">
+    	    			<ul class="xwfy">
+    	    				{dede:channelartlist typeid='45,46,47,48,49,50,55,784,786'}
+                            <li><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a></li>
+                            {/dede:channelartlist}
+    	    			</ul>
+    	    		</div>
+    	    	</div>
+    	    	<div class="project-item item-xesj">
+    	    		<div class="item-title">
+    	    			<strong>小儿神经</strong>
+    	    			<hr/>
+    	    		</div>
+    	    		<div class="item-list">
+    	    			<ul class="xesj">
+    	    				{dede:channelartlist typeid='52,53,723,788,57,56,722,794,724,725,789,790,792,793,794,55'}
+                            <li><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a></li>
+                            {/dede:channelartlist}
+    	    			</ul>
+    	    		</div>
+    	    	</div>
+    	    </div>
+        </div>
+    </div>
+	<!--第二部分 结束-->
+    <!--第三部分 开始-->
+    <div class="recovery-project">
+    	<div class="recovery-item zykf-item">
+    		<img src="{dede:global.cfg_templets_skin/}/images/Y8.jpg">
+    		<div class="item-list">
+    			<ul>
+                    {dede:channelartlist typeid='772,773,774,775,776,777,778,779,780'}
+                    <li><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a></li>
+                    {/dede:channelartlist}
+    			</ul>
+    		</div>
+    	</div>
+    	<div class="recovery-item xykf-item">
+    		<img src="{dede:global.cfg_templets_skin/}/images/Y9.jpg">
+    		<div class="item-list">
+    			<ul>
+                    {dede:channelartlist typeid='127,781,128,129,130,131,133,132,134'}
+                    <li><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a></li>
+                    {/dede:channelartlist}
+    			</ul>
+    		</div>
+    		<div class="item-right">
+    			<ul>
+                     {dede:channelartlist typeid='782,783'}
+                    <li><a href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a></li>
+                    {/dede:channelartlist}
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+    <!--第三部分 结束-->
+    <!--第四部分 开始-->
+    	{dede:include filename="common/channer_expert.htm"/}
+    <!--第四部分 结束-->
+    <!--第五部分 开始-->
+    <div class="yi-kang-yang">
+    	<div class="yky-top">
+    		<div class="yky-tt">
+    			<ul>
+    				<li>医</li>
+    				<li>康</li>
+    				<li>养</li>
+    			</ul>
+    		</div>
+    		<hr/>
+    	</div>
+    	<div class="yky-intro">
+    		<strong>多学科综合诊疗模式   创新式临床医学新主张</strong>
+    		<p>神经康复科疾病的患儿有其特殊性，这类患儿往往不仅具有生理方面困扰，还伴有心理、行为、语言等方面障碍，由此传统单一学科治疗己无法满足患儿整体治疗阶段需要，单纯综合治疗体系也无法为患儿提供全方位诊疗方案，而且随着科学技术进步，临床学科逐步分工细化，专业化程度更加突出，因此，需要采取多学科综合治疗模式，多学科团队成员在工作中平等互助、互相补充，最大程度发挥各学科团队成员的学科优势。</p>
+    	</div>
+    	<div class="yky-item">
+    		<ul>
+    			<li>
+    				<img src="{dede:global.cfg_templets_skin/}/images/Y10.jpg">
+    				<span>^</span>
+    				<div class="dis linear">
+    					<strong>医</strong>
+    					<p>在多位专家的联合会诊下，以中西医诊疗为主导，对患儿施以诊疗。</p>
+    				</div>
+    			</li>
+    			<li>
+    				<img src="{dede:global.cfg_templets_skin/}/images/Y11.jpg">
+    				<span>^</span>
+    				<div class="dis linear">
+    					<strong>康</strong>
+    					<p>根据患儿身心状况，再结合心理治疗、康复训练，营养评估、指导及支持，联合特教，多学科协作交叉诊疗。</p>
+    				</div>
+    			</li>
+    			<li>
+    				<img src="{dede:global.cfg_templets_skin/}/images/Y12.jpg">
+    				<span>^</span>
+    				<div class="dis linear">
+    					<strong>养</strong>
+    					<p>患儿离院后，对其进行健康指导，提升家长对患儿的养护能力，帮助患儿更快融入社会。</p>
+    				</div>
+    			</li>
+    		</ul>
+    	</div>
+    	<div class="yky-advantage">
+    		<strong>医-康-养 多学科综合诊疗模式<span>三大优势</span></strong>
+			<ul class="advantage-item">
+				<li>
+					<div class="advantage-no">优势01</div>
+					<div class="advantage-info">多学科专家联合会诊<br />制定治疗最优方案</div>
+					<p>对所有患者都采取相关多学科专家联合会诊，以制定最合理的诊疗流程和治疗方案。</p>
+				</li>
+				<li>
+					<div class="advantage-no">优势02</div>
+					<div class="advantage-info">节省患者时间<br />提高诊疗效率</div>
+					<p>多学科综合诊疗极大地避免了治疗意见不统一、缺乏连续性等缺点，避免了患者反复挂号，节省了患者时间，提高了诊疗效率。</p>
+				</li>
+				<li>
+					<div class="advantage-no">优势03</div>
+					<div class="advantage-info">从单一治疗到综合治疗<br />全方位关注儿童健康</div>
+					<p>传统治疗模式大多数仅关注治疗，忽视了患儿心理、营养、预后等方面，医康养多学科综合诊疗模式讲究身心同治，最大可能帮助患儿回归社会生活。</p>
+				</li>
+			</ul>
+    	</div>
+    </div>
+    <!--第五部分 结束-->
+    <!-- 主诊项目-->
+    <div class="M-1200 k-table">
+        <h3>主诊项目</h3>
+        <div class="hd K-divhd">
+            <ul>
+                <li>家长关心</li>
+                {dede:channelartlist row=8 typeid='45,47,50,784,49,53,52,789'}
+                <li>{dede:field name='typename' runphp="yes"}if(strlen(@me)>21){@me=str_replace('小儿','',@me);@me=str_replace('儿童','',@me);};{/dede:field}</li>
+                {/dede:channelartlist}
+            </ul>
+        </div>
+        <div class="bd k-divbd">
+            <ul style="display: block;">
+                <div class="k-divbd-div">
+                {dede:arclist  flag="p,z" limit="1" orderby="click" infolen='360'}
+                <a href="[field:arcurl/]"><img src="[field:picname/]"/></a>
+                <div class="head">[field:fulltitle/]</div>
+                <p class='info'>[field:infos/]...<a href="[field:arcurl/]">[详细]</a></p>
+                {/dede:arclist}
+                <div class="k-divbd-div1">
+                    <div class="k-divbd-div2 k-divbd-div3">
+                        {dede:arclist  flag="z" row="3" limit="0,3" orderby="click"}
+                        <p>
+                            <a href="[field:arcurl/]">[field:fulltitle/]</a>
+                            <span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span>
+                        </p>
+                        {/dede:arclist}
+                    </div>
+                    <div class="k-divbd-div3">
+                        {dede:arclist flag="z" row="3" limit="3,3" orderby="click"}
+                        <p>
+                            <a href="[field:arcurl/]">[field:fulltitle/]</a>
+                            <span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span>
+                        </p>
+                        {/dede:arclist}
+                    </div>
+                </div>
+            </div>
+        </ul>
+        {dede:channelartlist row=8 typeid='45,47,50,784,49,53,52,789'}
+            <ul style="display: none;">
+                <div class="k-divbd-div">
+                    {dede:arclist flag="p" limit="0,1" orderby="click" infolen='360'}
+                    <a href="[field:arcurl/]"><img src="[field:picname/]"/></a>
+                    <div class="head">[field:fulltitle/]</div>
+                    <p class='info'>[field:infos/]...<a href="[field:arcurl/]">[详细]</a></p>
+                    {/dede:arclist}
+                    <div class="k-divbd-div1">
+                        <div class="k-divbd-div2 k-divbd-div3">
+                            {dede:arclist row="3" limit="0,3" orderby="click"}
+                            <p>
+                                <a href="[field:arcurl/]">[field:fulltitle/]</a>
+                                <span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span>
+                            </p>
+                            {/dede:arclist}
+                        </div>
+                        <div class="k-divbd-div3">
+                            {dede:arclist row="3" limit="3,3" orderby="click"}
+                            <p>
+                                <a href="[field:arcurl/]">[field:fulltitle/]</a>
+                                <span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span>
+                            </p>
+                            {/dede:arclist}
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            {/dede:channelartlist}
+        </div>
+    </div>
+    <script>
+        jQuery(".k-table").slide({delayTime:0});
+    </script>
+    {dede:include filename="common/footer.htm"/}
+	</body>
+</html>

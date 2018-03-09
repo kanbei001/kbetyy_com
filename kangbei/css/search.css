@@ -1,0 +1,27 @@
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 14:52:13
+ * @templet search.htm[所有频道页]
+ */
+
+@charset "UTF-8";
+@import url('common_right.css');
+.search-container{width:1200px;margin:30px auto;}
+.search-list{width:844px;float: left;}
+.search-list .item{width: 100%; height: 156px;overflow: hidden; border-bottom:1px dashed #dadbdb; padding-bottom: 29px; margin-top: 29px;}
+.search-list .item img{ width: 242px; height: 156px; float: left;}
+.search-list .info{ width: 582px; height: 156px; overflow: hidden; padding-left: 0;float: right;}
+.search-list .info strong{ width: 100%; height: 40px; line-height: 40px; float: left; font-size: 20px; color: #5a5a5a;}
+.search-list .info strong b{font-weight:100}
+.search-list .info strong a{ color:#5a5a5a; }
+.search-list .info p{ width: 100%; height: 96; overflow: hidden; float: left; text-indent: 2em; font-size: 15px; color: #828282; line-height: 32px; padding-top: 12px;}
+.search-list .info p a{color: #f08a57;}
+
+.searchPage{text-align: center;margin-top: 30px;}
+.searchPage a{display:inline-block;background:#eee;color:#111;padding:10px 15px;margin:0px 5px;}
+.searchPage a.thisclass{background:#049ce5;color:#fff;}
+.searchPage a:hover{background:#049ce5;color:#fff;}
+.searchPage table{display:none;}
+
+

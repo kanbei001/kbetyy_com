@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-08-17 14:33:47
+ * @position public_right.htm
+ */
+
+/*公共右侧 @ 推荐医生*/
+.J-ri{ width: 295px; height: auto; float: right; overflow:hidden;}
+.J-ri1{ width: 100%; height: auto; float: left;}
+.J-ri1-title{ width: 100%; height: 40px; line-height: 40px; float: left; font-size: 24px; color: #6c6b6b; border-bottom: 1px solid #dcdcdc;}
+.J-ri1-M{ width: 100%; height: 523px;position:relative;}
+.J-ri1-Mbd{ width: 100%; float:left;}
+.J-ri1-Mbd li{width: 100%; height: 523px; float:left;}
+.J-ri1-Mbd li img{ width: auto; height:228px; float: left; overflow: hidden; margin-top:24px ;}
+.J-ri1-Mz{ width: 89.83%; padding:0 4.8% 4.8% 4.8%; height: auto; border-left: 1px solid #dcdcdc; border-right: 1px solid #dcdcdc; border-bottom: 1px solid #dcdcdc; float: left;}
+.J-ri1-M1{ width: 100%; text-align: center; height: 40px; line-height: 40px; border-bottom: 1px solid #e5e5e5;}
+.J-ri1-M1 strong{font-size: 24px; color: #049ce5; padding-right: 15px; height: 40px;}
+.J-ri1-M1 strong span{ font-size: 18px; color: #f66d08; height: 40px;}
+.J-ri1-M2{ width: 100%; height: auto; overflow: hidden;}
+.J-ri1-M2 .J-ri1-sc{ width: 100%; font-size: 27px; height: 60px; line-height: 60px; color: #646464; text-align: center; margin-top: 0;}
+.J-ri1-M2 span{ width: 100%; height: 16px; float: left; font-size: 14px; line-height: 16px; overflow: hidden; color: #767676; text-align: center;}
+.J-ri1-M3{ width: 100%; height: auto; line-height: 24px; color: #878787; margin-top: 14px;}
+.J-ri1-M3 a{font-weight: bold; color: #464646;} 
+.J-ri1-M-btn{ width: 40%; height: 30px; border: 1px solid #049ce5; border-radius: 15px;margin: 5px auto 0 auto; text-align: center; line-height: 30px;}
+.J-ri1-M-btn a{color: #2292db;}
+.J-ri1-M .prev,
+.J-ri1-M .next{ position:absolute; left:3%; top:43%; margin-top:-25px; display:block; width:32px; height:40px; background:url(../images/j9.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+.J-ri1-M .next{ left:auto; right:3%; background-position:8px 5px; }
+.J-ri1-M .prev:hover,
+.J-ri1-M .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+.J-ri1-M .prevStop{ display:none;  }
+.J-ri1-M .nextStop{ display:none;  }
+
+/*公共右侧 @ 康贝服务*/
+.J-ri2{float: left; background: #fff; border: 1px solid #dcdcdc;}
+.angel-server-comright{padding:20px 5%;}

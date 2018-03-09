@@ -1,0 +1,29 @@
+/*医院概况 | 医院专家 | 护理天地 @ 左侧导航*/
+.common-navbar{ width: 207px; height: auto; float: left; overflow: hidden; top: 10px;background: #fff;}
+.slide-navbar{ width: 100%; height: auto; overflow: hidden; background: #eaeaea; text-align: center;}
+.nav-title{ width: 100%;padding:15px 0px;height:auto;background: #049ce5;color:#fff;}
+.nav-title h1{font-size: 20px;padding-bottom:5px;font-weight: 100}
+.nav-title span.small-title{font-size:16px;font-weight: 100}
+.nav-list{ width: 100%; height: auto; margin: 0 auto; overflow: hidden;}
+.nav-info{ width: 100%;padding:15px 0px;border-bottom: 1px solid #d2d2d2;cursor:pointer;}
+.nav-info a{display: block;width: 100%;}
+.nav-info a h3{font-size: 18px;font-weight: 100;margin-bottom: 5px;}
+.nav-info a span.small-title{display:block;font-size: 14px;font-weight: 100}
+.nav-info:hover{width: 98%;padding:15px 0px;background: #fff; border-left: 2px solid #049ce5; border-bottom: 1px solid #fff; padding-right: 2%;}
+.nav-info-active{width: 98%;padding:15px 0px;background: #fff; border-left: 2px solid #049ce5; border-bottom: 1px solid #fff; padding-right: 2%;}
+.M-lf2{ width:98%;background:#fff; border:1px solid #eaeaea; margin-top: 20px; border-top: 2px solid #8fd7fa; overflow: hidden;}
+.M-lf2-li{ width: 56px; height: 86px; float: left; margin: 8px 15px 0 24px;}
+.M-lf2-li a{color: #8f8f8f;}
+.M-lf2-li a:hover{color: #049CE5;}
+.M-lf3{ width: 100%; height: 79px; margin: 20px auto 0 auto; overflow: hidden; float: left;}
+.M-lf3 img{ width: 100%; height: 79px; overflow: hidden;}
+
+/*医院概况 | 医院专家 | 特色服务 @ 当前位置*/
+.M-932{ width: 932px; height: auto; float: right; margin: 0 auto; overflow: hidden;padding-bottom: 20px;}
+.M-932-title{ width: 100%; height: 44px; line-height: 44px; border-bottom: 1px solid #dcdcdc;}
+.M-932-title-lf{ float: left; height: 43px; border-bottom: 2px solid #049CE5; font-size: 24px; color: #666666;}
+.M-932-title-ri{float: right; height: 44px; font-size: 14px; color: #9f9f9f;}
+.M-932-title-ri img{ width: 17px; height: 14px; float: left; margin: 15px 4px 15px auto;}
+.M-932-title-ri p{ float: left;}
+.M-932-title-ri p a{color: #9f9f9f;}
+.M-932-title-ri p a:hover{color: #049ce5;}

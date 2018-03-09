@@ -1,0 +1,76 @@
+<!--第四部分 开始-->
+<div class="k-1200 k-table">
+	<h3>主诊项目</h3>
+	<div class="hd K-divhd">
+		<ul>
+			<li>家长关心</li>
+			{dede:channelartlist row=8}
+			<li>{dede:field name='typename' runphp="yes"}if(strlen(@me)>21){@me=str_replace('小儿','',@me);@me=str_replace('儿童','',@me);};{/dede:field}</li>
+			{/dede:channelartlist}
+		</ul>
+	</div>
+	<div class="bd k-divbd">
+		<ul style="display: block;">
+			<div class="k-divbd-div">
+				{dede:arclist  flag="p,z" limit="1" orderby="click" infolen='360'}
+				<a href="[field:arcurl/]"><img src="[field:picname/]"/></a>
+				<div class="head">[field:fulltitle/]</div>
+			    <p class='info'>[field:infos/]...<a href="[field:arcurl/]">[详细]</a></p>
+				{/dede:arclist}
+				<div class="k-divbd-div1">
+					<div class="k-divbd-div2 k-divbd-div3">
+						{dede:arclist  flag="z" row="3" limit="0,3" orderby="click"}
+						<p>
+							<a href="[field:arcurl/]">[field:fulltitle/]</a>
+							<span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span>
+						</p>
+						{/dede:arclist}
+					</div>
+					<div class="k-divbd-div3">
+						{dede:arclist flag="z" row="3" limit="3,3" orderby="click"}
+						<p>
+							<a href="[field:arcurl/]">[field:fulltitle/]</a>
+							<span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span>
+						</p>
+						{/dede:arclist}
+					</div>
+				</div>
+			</div>
+		</ul>
+		{dede:channelartlist row=8}
+		<ul style="display: none;">
+			<div class="k-divbd-div">
+				{dede:arclist flag="p" limit="0,1" orderby="click" infolen='360'}
+				<a href="[field:arcurl/]"><img src="[field:picname/]"/></a>
+				<div class="head">[field:fulltitle/]</div>
+			    <p class='info'>[field:infos/]...<a href="[field:arcurl/]">[详细]</a></p>
+				{/dede:arclist}
+				<div class="k-divbd-div1">
+					<div class="k-divbd-div2 k-divbd-div3">
+						{dede:arclist row="3" limit="0,3" orderby="click"}
+						<p>
+							<a href="[field:arcurl/]">[field:fulltitle/]</a>
+							<span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span>
+						</p>
+						{/dede:arclist}
+					</div>
+					<div class="k-divbd-div3">
+						{dede:arclist row="3" limit="3,3" orderby="click"}
+						<p>
+							<a href="[field:arcurl/]">[field:fulltitle/]</a>
+							<span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span>
+						</p>
+						{/dede:arclist}
+					</div>
+				</div>
+			</div>
+		</ul>
+		{/dede:channelartlist}
+		
+	</div>
+</div>
+<script>
+	jQuery(".k-table").slide({delayTime:0});
+</script>
+<!--第四部分 结束-->
+

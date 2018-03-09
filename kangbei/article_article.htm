@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{dede:field.title/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field name='keywords'/}" />
+		<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/article.css">
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+	</head>
+	<body onload="getData.publicExpertInfos({dede:field.typeid/})">
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	<!--正文 开始-->
+	<div class="article-container clear">
+	<!--文章左侧 开始-->	
+	    <div class="J-lf">
+	    	<div class="J-lf-title">
+	    		<img src="{dede:global.cfg_templets_skin/}/images/home_ico.png">
+				<p>您所在的位置：{dede:field name='position'/}</p>
+			</div>
+			<div class="W">
+				<div class="W1">
+					<h1>{dede:field.title /}</h1>
+					<div class="atcAttrInfo">
+						<span class="source">深圳康贝儿童医院</span>
+						<span class="view"><i class="fa fa-eye"></i>   <script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script></span>
+						<span class="time"><i class="fa fa-clock-o"></i>   {dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}</span>
+					</div>
+				</div>
+				<div class="daodu W2">
+				     <span style="font-size: 24px;color: #333;font-weight: bold;">导读&nbsp;&nbsp;</span>
+                     {dede:field name='description'/}
+				</div>
+				<style>
+                    .daodu {background: lightgrey; padding: 20px; width: 810px;margin-bottom: 20px;} 
+                </style>
+				<div class="W2">
+					{dede:field.body/}
+				</div>
+				<div class="W3">
+					<p>{dede:prenext get='pre'/}</p>
+					<p>{dede:prenext get='next'/}</p>
+				</div>
+				<div class="share">
+					<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+					<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+				</div>
+				<div class="rela-article">
+		    		<div class="rela-article-title">
+		    			<strong>推荐文章</strong>
+		    		</div>
+					
+		    		<div class="recomment clear">
+						{dede:arclist row='1' flag='c' titlelen='80' orderby='click'}
+		    			<img src="[field:picname/]">
+		    			<div class="recomment-info">
+		    				<a href="[field:arcurl/]">[field:title/]</a>
+		    				<p>[field:description function="cn_substr(@me,190)"/]...<a href="[field:arcurl/]">[详细]</a></p>
+		    			</div>
+						{/dede:arclist}
+		    		</div>
+		    		<div class="rela-article-list clear">
+	    				<ul>
+							{dede:arclist limit='0,5' titlelen='60' orderby='click'}
+	    					<li>
+	    						<img src="{dede:global.cfg_templets_skin/}/images/j7.jpg">
+	    						<a href="[field:arcurl/]">[field:title/]</a>
+	    					</li>
+							{/dede:arclist}
+	    			    </ul>
+	    				<ul>
+	    					{dede:arclist limit='5,5' titlelen='60' orderby='click'}
+	    					<li>
+	    						<img src="{dede:global.cfg_templets_skin/}/images/j7.jpg">
+	    						<a href="[field:arcurl/]">[field:title/]</a>
+	    					</li>
+							{/dede:arclist}
+	    			    </ul>
+		    		</div>
+	            </div>
+			</div>
+	    </div>
+	<!--文章左侧 结束-->	
+	{dede:include filename="common/list_right.htm"/}
+	</div>
+	<!--正文 结束-->	
+	{dede:include filename="common/footer.htm"/}
+	</body>
+</html>

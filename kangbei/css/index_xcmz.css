@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/**
+ * @authors 康贝儿童医院
+ * @date    2017-08-14 15:23:31
+ * @templet xcmz.htm (哮喘门诊)
+ */
+@import url('channel_public.css');
+
+/*哮喘门诊 @ 哮喘自测*/
+.X1{ width:295px; height: 300px;overflow: hidden; float: right;}
+.X1 a img{ width: 295px; height: 150px; float: left; overflow: hidden;}
+.X1-div{ width:253px; height: 148px;overflow: hidden; border: 1px solid #dcdcdc;padding: 0 20px;}
+.X1-div-tt{ width: 100%; height: 50px; line-height: 50px;}
+.X1-div-tt img{ width: 17px; height: 19px; float: left; margin:18px 10px 18px 0;}
+.X1-div-tt p{font-size: 19px; color: #656565;}
+.X1-div-btn{ width: 100%; height: auto; overflow: hidden;}
+.X1-div-btn-a1{ width: 100%; height: 35px; background: #66d0e7; border-radius:3px; text-align: center; line-height: 35px; font-size: 16px; color: #fff; cursor: pointer;}
+.X1-div-btn-a2{ width: 99%; height: 35px; border: 1px solid #5cbeee; border-radius:3px; text-align: center; line-height: 35px; font-size: 16px; margin: 15px auto;color: #5cbeee; cursor: pointer;}
+
+/*哮喘门诊 @ 常见疾病*/
+.xcmz-project{width:1200px;margin: 45px auto;}
+.X2{ width: 148px; height: 230px; float: left; background: #38b4f1;}
+.X2 p{ width: 120px; height: 100px; float: left; margin: 65px 14px; overflow: hidden;}
+.X2 p strong{width: 100%; text-align: center; height: 37px; border-bottom: 1px solid #90d5f7; font-size: 28px; color: #fff; padding-bottom: 6px;}
+.X2 p span{color: #fff; font-size: 20px; width: 100%; text-transform: uppercase; float: left; margin-top: 6px;}
+.X2-UL{ width:758px; height: auto; float: left;}
+.X2-UL li{ width: 172px; height: 68px; border: 1px solid #dfdede; float:left; margin: 0 0 10px 10px; text-align: center; line-height: 68px;}
+.X2-UL li a{font-size: 18px;}
+.X2-UL li:hover{width: 174px; height: 70px; background: #82c9f5;border:none; float:left; margin: 0 0 10px 10px; text-align: center; line-height: 70px; color: #fff;}
+.X2-UL li:hover a:hover{color: #fff;width: 174px; height: 70px; display: block;}
+.X2-UL li a.X2-UL-li1{ color: #9dda45;}
+.X2-UL li a.X2-UL-li2{ color: #85cef3;}
+.X2-UL li a.X2-UL-li3{ color: #9dda45;}
+.X2-UL li a.X2-UL-li4{ color: #f6b38e;}
+.X2-UL li a.X2-UL-li5{ color: #f4b289;}
+.X2-UL li a.X2-UL-li6{ color: #969696;}
+.X2-UL li a.X2-UL-li7{ color: #7e7e7e;}
+.X2-UL li a.X2-UL-li8{ color: #6ed9ed;}
+.X2-UL li a.X2-UL-li9{ color: #6ed9ed;}
+.X2-UL li a.X2-UL-li10{ color: #9dda45;}
+.X2-UL li a.X2-UL-li11{ color: #f4b289;}
+.X2-UL li a.X2-UL-li12{ color: #90d5f7;}
+.X2-UL li a.X2-UL-li13{ color: #c5c5c5;}
+.X2-UL li.X2-ul-li{ width: 80px; float: left;}
+.X2-UL li.X2-ul-li:hover{ width: 80px; float: left; background: #82c9f5;border:none;}
+.X2-UL li:hover a.X2-UL-li12{ width: 80px; height: 70px;}
+.X2-UL li:hover a.X2-UL-li13{ width: 80px; height: 70px;}
+.X2-img{ width: 294px; height: 229px; float: right;}
+
+/*哮喘门诊 @ 治疗方法*/
+.X3-TITLE{ width: 1200px; height:auto; margin: 30px auto 0 auto; }
+.X3-TITLE p{ width: 100%; height:68px; padding: 0 20px; margin: 0 auto; background: #fff; text-align: center;}
+.X3-TITLE p strong{font-size: 36px; color: #4c4c4c; height: 40px; line-height: 40px; width:100%; float: left;border-bottom: 1px solid #dddddd; padding-bottom: 4px;}
+.X3-TITLE p span{font-size: 20px; color: #959595; text-transform: uppercase; height: 28px; line-height: 28px; background: #fff; padding-top: 4px;}
+.X3-div{ width: 1200px; height: 356px; margin: 40px auto 20px auto; overflow: hidden;}
+.X3-div li{ width:400px; float: left;}
+.X3-div li strong{font-size: 74px; color: #fff; height: 130px; line-height: 130px; width: 100%; float: left; text-align: center;}
+.X3-div li p{ width: 240px; height: 80px; font-size: 24px; color: #fff728; line-height: 28px; margin: 0 auto; overflow: hidden; text-align: center;}
+.X3-div li span{font-size: 20px; color: #fff; width: 300px; margin: 0 50px; padding-top: 20px; border-top: 1px solid #9fdaf7; float: left; line-height: 32px;}
+.X3-div li.X3-div1{background: #45bcf6; width: 400px; height: 356px; text-align: center;}
+.X3-div li.X3-div2{background: #24a9ea;height: 356px;}
+.X3-div li.X3-div3{ background: #0c9ee5;height: 356px;}
+
+/*哮喘门诊 @ 优势*/
+.X4{ width: 1200px; height: auto; overflow: hidden; margin: 45px auto 30px auto;}
+.X4 li{ width: 368px; height: 428px; float: left; border-radius: 8px; overflow: hidden;}
+.X4 li .X4-li1{ width: 100%; height: 74px; line-height: 74px; color: #fff; font-size: 32px; text-align: center;}
+.X4 li .X4-li2{ width: 300px; height: 300px; float: left; padding: 24px 32px;}
+.X4 li .X4-li2 img{ width: 300px; height: 112px; overflow: hidden;}
+.X4 li .X4-li2 p{font-size: 18px; color: #717171; line-height: 35px; padding-top: 15px;}
+.X4 li.X4-div1{border: 1px solid #86dff6;}
+.X4 li.X4-div2{border: 1px solid #f3cd7f; margin: 0 40px;}
+.X4 li.X4-div3{border: 1px solid #f9a491;}
+.X4 li.X4-div1 .X4-li1{ background: #86dff6;}
+.X4 li.X4-div2 .X4-li1{ background: #f3cd7f;}
+.X4 li.X4-div3 .X4-li1{ background: #f9a491;}
+
+/*哮喘门诊 @ 自测内容*/
+.zccg1{ width: 700px; height: 857px; position: relative; display: none; background: #fff;}
+.zccg1-min{ width: 610px; height: 750px; float: left; padding:40px 45px 60px 45px; overflow: hidden;}
+.zccg1-min-title{ width: 96%; float: left; padding-left: 10px; height: 22px; border-left: 2px solid #33a1d7; font-size: 20px; line-height: 22px;}
+.zccg1-min1{ width: 96%; float: left; margin: 0 auto;}
+.zccg1-min1 li{ width: 100%; height: auto; overflow: hidden; margin-top: 40px;}
+.zccg1-min1 li strong{font-size: 18px; color: #424141;}
+.zccg1-min1 li p{font-size: 15px; color: #818181; padding-top: 10px; line-height: 30px;}
+.zccg1_close{ width: 300px; height: 56px; border-radius: 6px; background: #33a0d7; text-align: center; margin: 40px 160px; line-height: 56px;color: #fff;}
+.zccg2{ width: 700px; height: 600px; position: relative; display: none; background: #fff; overflow: hidden;}

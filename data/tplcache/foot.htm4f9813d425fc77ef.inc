@@ -1,0 +1,43 @@
+<?php
+$z[0]=Array("global","",56,88);
+$z[0][4]['name']="cfg_templets_skin";
+$z[1]=Array("global","",195,227);
+$z[1][4]['name']="cfg_templets_skin";
+$z[2]=Array("global","",450,482);
+$z[2][4]['name']="cfg_templets_skin";
+$z[3]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--医院介绍--> \r\n            ",554,675);
+$z[3][4]['typeid']="76";
+$z[4]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--医院新闻--> \r\n            ",690,810);
+$z[4][4]['typeid']="3";
+$z[5]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--医教一体--> \r\n            ",825,945);
+$z[5][4]['typeid']="4";
+$z[6]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--相关视频--> \r\n            ",959,1079);
+$z[6][4]['typeid']="7";
+$z[7]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--专家团队--> \r\n            ",1094,1214);
+$z[7][4]['typeid']="5";
+$z[8]=Array("global","",1269,1301);
+$z[8][4]['name']="cfg_templets_skin";
+$z[9]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--发育行为科--> \r\n            ",1373,1497);
+$z[9][4]['typeid']="12";
+$z[10]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--小儿神经科--> \r\n            ",1511,1635);
+$z[10][4]['typeid']="13";
+$z[11]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--内分泌科--> \r\n            ",1649,1770);
+$z[11][4]['typeid']="14";
+$z[12]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--其它科室--> \r\n            ",1784,1905);
+$z[12][4]['typeid']="15";
+$z[13]=Array("global","",1966,1998);
+$z[13][4]['name']="cfg_templets_skin";
+$z[14]=Array("type","[field:typeurl/]",2178,2228);
+$z[14][4]['typeid']="9";
+$z[15]=Array("type"," <a href=\"[field:typeurl/]\">[field:typename/]</a> <!--其它科室--> \r\n            ",2270,2390);
+$z[15][4]['typeid']="15";
+$z[16]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--来院路线--> \r\n            ",2446,2567);
+$z[16][4]['typeid']="11";
+$z[17]=Array("global","",2721,2753);
+$z[17][4]['name']="cfg_templets_skin";
+$z[18]=Array("global","",3100,3132);
+$z[18][4]['name']="cfg_templets_skin";
+$z[19]=Array("include","",4739,4776);
+$z[19][4]['filename']="common.htm";
+
+?>

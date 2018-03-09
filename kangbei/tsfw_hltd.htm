@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field name='keywords'/}" />
+		<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/index_tsfw.css">
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+	</head>
+	<body onload="getData.departExpertInfo({dede:field.typeid/})">
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	
+	<!--正文 开始-->
+	<div class="hltd-container">
+		<!--护理天地 开始-->
+		<div class="HL">
+			<div class="HL1">
+				<strong>深圳康贝儿童医院 <span>· 护理部</span></strong>
+				<p>Angel children's Hospital Chengdu</p>
+			</div>
+			<div class="HL2">护理团队是深圳康贝儿童医院的重要组成部分，是凸显我们为患儿提供卓越医疗服务质量的必要因素。护理部在原四川大学华西第二医院护理部副主任兼儿科科护士长吴玉萍、原攀钢集团总医院护士长王玉萍的带领下，承担着医院100余张床位的临床护理。深圳康贝儿童医院有着完善的护理管理组织和严格的管理制度，护理工作实行分管院长领导下的主任负责制，形成护理部—科护士长—护士长三级管理架构，建立了护理垂直管理体制与运行机制，为保证护理质量、培养护理人才奠定了坚实的基础。</div>
+			<div class="HL3">
+				<div class="HL3-posi"><img src="{dede:global.cfg_templets_skin/}/images/hltd_img01.jpg"><span>优质护理源于专业</span></div>
+				<ul>
+					<li class="HL3-l">
+						<div class="HL3-w1">
+							<strong>三甲医院主任护师亲自“上阵”</strong>
+						    <p>来自三甲医院经验丰富的主任护师亲自给患儿做护理，保证高品质的护理质量。</p>
+						</div>
+					</li>
+					<li class="HL3-d">
+						<div class="HL3-w2">
+							<strong>FCC护理模式</strong>
+						    <p>针对儿童生理、心理及发育需求所提供的具有安全性与高品质的人性化健康照顾，为患儿提供最全面的健康护理服务。</p>
+						</div>
+					</li>
+					<li class="HL3-l HL3-col1">
+						<div class="HL3-w1">
+							<strong>责任制护理管理制度</strong>
+						    <p>医院成立由副院长、护理部主任、护士长组成的护理质量管理小组，负责全院护理质量管理目标及各项护理质量标准制定并对护理质量实施控制与管理。</p>
+						</div>
+					</li>
+					<li class="HL3-d HL3-col2">
+						<div class="HL3-w2">
+							<strong>遵循AIDET标准沟通模式</strong>
+						    <p>源于以患者为中心的总体理念，并指导护士要向患儿打招呼，做自我介绍，告知每一次见医生或治疗要花费的时间，详细解释会发生什么，并且在患者就诊结束时表示感谢。</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--护理天地 结束-->
+		<!--第三部分 开始-->
+	    {dede:include filename="common/channer_expert.htm"/}
+	    <!--第三部分 结束-->
+	    <!--护理动态&护理知识 开始-->
+	    <div class="HL4">
+	    	<div class="HL4-l">
+	    		<div class="HL4-title">
+	    			<strong>护理动态</strong>
+	    			<a href="/hldt">+MORE</a>
+	    		</div>
+	    		<div class="HL4-l1">
+					{dede:arclist row="1" titlelen="80" typeid="157" limit="0,1"}
+	    			<a href="[field:arcurl/]"><img src="[field:picname/]"></a>
+	    			<div class="HL4-l1-title">
+	    				<strong><a href="[field:arcurl/]">[field:title/]</a></strong>
+	    				<p>[field:description function="cn_substr(@me,190)"/]<a href="[field:arcurl/]">[详细]</a></p>
+	    			</div>
+					{/dede:arclist}
+	    		</div>
+	    		<div class="HL4-hl-l2">
+	    			<ul>
+						{dede:arclist row="5" titlelen="80" typeid="157" limit="1,5"}
+	    				<li>
+	    					<img src="{dede:global.cfg_templets_skin/}/images/j7.jpg">
+	    					<a href="[field:arcurl/]">[field:title/]</a>
+	    					<span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span>
+	    				</li>
+						{/dede:arclist}
+	    			</ul>
+	    		</div>
+	    	</div>
+	    	<div class="HL4-r">
+	    		<div class="HL4-title">
+	    			<strong>护理知识</strong>
+	    			<a href="/hlzs">+MORE</a>
+	    		</div>
+	    		<div class="HL4-l1">
+					{dede:arclist row="1" titlelen="80" typeid="158" limit="0,1"}
+	    			<a href="[field:arcurl/]"><img src="[field:picname/]"></a>
+	    			<div class="HL4-l1-title">
+	    				<strong><a href="[field:arcurl/]">[field:title/]</a></strong>
+	    				<p>[field:description function="cn_substr(@me,190)"/]<a href="[field:arcurl/]">[详细]</a></p>
+	    			</div>
+					{/dede:arclist}
+	    		</div>
+	    		<div class="HL4-hl-l2">
+	    			<ul>
+						{dede:arclist row="5" titlelen="80" typeid="158" limit="1,5"}
+	    				<li>
+	    					<img src="{dede:global.cfg_templets_skin/}/images/j7.jpg">
+	    					<a href="[field:arcurl/]">[field:title/]</a>
+	    					<span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span>
+	    				</li>
+						{/dede:arclist}
+	    			</ul>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--护理动态&护理知识 结束-->
+	</div>    
+	{dede:include filename="common/footer.htm"/}
+	<!--正文 结束-->   
+	</body>
+</html>

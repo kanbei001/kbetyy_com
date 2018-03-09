@@ -1,0 +1,1 @@
+<a href="[field:typelink/]">[field:typename/]</a> <!--来院路线-->

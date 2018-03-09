@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("field","",67,89);
+$z[0][4]['name']="typename";
+$z[1]=Array("field","",131,153);
+$z[1][4]['name']="keywords";
+$z[2]=Array("field","",194,219);
+$z[2][4]['name']="description";
+$z[3]=Array("global","",255,287);
+$z[3][4]['name']="cfg_templets_skin";
+$z[4]=Array("global","",334,366);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",415,447);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("include","",498,533);
+$z[6][4]['filename']="head.htm";
+$z[7]=Array("channelartlist","\n                                            <div class=\"nav-info\" id=\"expert_11\">\n                                                <a href=\"{dede:field name='typeurl'/}\"><h3>{dede:field name='typename'/}</h3>\n                                                <span class=\"small-title\"><!--Hospital profile--></span></a>\n                                            </div>\n                                        ",972,1444);
+$z[7][4]['typeid']="2";
+$z[7][4]['row']="4";
+$z[8]=Array("global","",4858,4890);
+$z[8][4]['name']="cfg_templets_skin";
+$z[9]=Array("global","",5096,5128);
+$z[9][4]['name']="cfg_templets_skin";
+$z[10]=Array("global","",5278,5310);
+$z[10][4]['name']="cfg_templets_skin";
+$z[11]=Array("global","",5465,5497);
+$z[11][4]['name']="cfg_templets_skin";
+$z[12]=Array("global","",5634,5666);
+$z[12][4]['name']="cfg_templets_skin";
+$z[13]=Array("global","",5970,6002);
+$z[13][4]['name']="cfg_templets_skin";
+$z[14]=Array("sql","  \n                                        [field:body/]  \n                                    ",6405,6578);
+$z[14][4]['sql']="Select body from `dede_addonarticle` where aid=413";
+$z[15]=Array("arclist"," \n                                        <img src=\"[field:picname/]\">\n                                    ",6839,7007);
+$z[15][4]['row']="1";
+$z[15][4]['typeid']="2";
+$z[15][4]['idlist']="413";
+$z[16]=Array("include","",9509,9544);
+$z[16][4]['filename']="foot.htm";
+
+?>

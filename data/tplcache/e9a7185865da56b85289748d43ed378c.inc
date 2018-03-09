@@ -1,0 +1,1 @@
+<li><em></em><img src='[field:small function='GetOneImgUrl(@me,0)'/] '></li>

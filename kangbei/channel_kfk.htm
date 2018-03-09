@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+	<meta name="keywords" content="{dede:field name='keywords'/}" />
+	<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+    <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/channel_kangfu.css">
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+</head>
+<body>
+    {dede:include filename="common/header.htm"/}
+	{dede:include filename="common/public_banner.htm"/}	
+    <div class="recovery-position">
+	     <div class="keywords">
+	        <span>热搜关键词</span>：
+	        <a href="/ddz/1233.html">多动症</a>、
+	        <a href="/cdz/1234.html">抽动症</a>、
+	        <a href="/zbz/1235.html">自闭症</a>、
+	        <a href="/zldx/1238.html">智力低下</a>、
+	        <a href="/naotan/1241.html">脑瘫</a>、
+	        <a href="/xxkn/1998.html">学习困难</a>、
+	        <a href="/fych/1237.html">发育迟缓</a>
+	    </div>
+	    <div class="pos">
+	        <p>当前位置：{dede:field name="position"/}</p>
+	    </div>
+    </div>
+
+	<div class="container">	
+		<div class="clear"></div>
+		<!--顶部-->
+		<div class="section-top">
+			<div class="section-intro">
+				<div class="intro-info">
+					<img src="{dede:field.litpic/}"/>
+					<p>{dede:field.jianjie/}...<a href="#">[详细]</a></p>
+				</div>
+				<ul>
+                    <li class="on"><a href="/yyjj/">医院简介</a></li>
+                    <li><a href="/myk/">康贝名医</a></li>
+                    <li><a href="/kangfu/kfcase/">康复案例</a></li>
+                    <li><a href="/swt">康复咨询</a></li>
+                    <li><a href="/swt">QQ咨询</a></li>
+                    <li><a href="/swt">电话咨询</a></li>
+				</ul>
+			</div>
+			<div class="section-dynamic">
+				<div class="dynamic-hot">
+				    {dede:arclist typeid='33' flag='p' row=1 orderby="pubdate" titlelen='50'}
+					<span class="picname"><img src="[field:litpic/]" width='130' height="101" /></span>
+				    <div class="info"><a href="[field:arcurl/]" class="title">[field:title/]</a> 
+				         <p>[field:infos/]...<a href="[field:arcurl/]">[详细]</a></p>
+				    </div>
+				    {/dede:arclist}
+				</div>
+		        <div class="dynamic-list">
+					<ul> 
+					    {dede:arclist typeid='33' row=3 orderby="pubdate" titlelen='50' infolen="70"}
+						<li>
+							<i>0[field:global.autoindex/]</i> 
+							<p><a href="[field:arcurl/]">[field:title/]</a><br/>[field:infos/]...<a href="[field:arcurl/]">[详细]</a></p>
+						</li>
+						{/dede:arclist}
+					</ul>
+				</div>
+			</div>
+			<div class="recovery-evaluation">
+				<div class="title"><h3>儿童康复测评</h3></div>
+				<div class="item">
+					<ul>
+						<li><a href="/swt"><i></i><p>智力筛查</p></a></li>
+						<li><a href="/swt"><i></i><p>适应能力评定</p></a></li>
+						<li><a href="/swt"><i></i><p>智力诊断</p></a></li>
+						<li><a href="/swt"><i></i><p>注意力评定</p></a></li>
+						<li><a href="/swt"><i></i><p>感觉综合评定</p></a></li>
+						<li><a href="/swt"><i></i><p>多动症评定</p></a></li>
+						<li><a href="/swt"><i></i><p>抽动症评定</p></a></li>
+						<li><a href="/swt"><i></i><p>运动能力评定</p></a></li>
+						<li><a href="/swt"><i></i><p>孤独症评定</p></a></li>
+					</ul>						
+				</div>
+			</div>
+		</div>
+		<div class="recovery-project">
+          　<div class="recovery-tit">康复治疗项目<span class="line"></span><span class="rt">MORE+</span></div>
+            <ul class="item">
+                <li><a href="/styyzl/"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-2.jpg"><p>语言治疗（ST）</p><small>适应范围：语言发育迟缓、言语...[更多]</small></a></li>
+                <li><a href="/gjthzl/"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-3.jpg"><p>感觉统合治疗</p><small>适应范围：自闭症、语言发育迟...[更多]</small></a></li>
+                <li><a href="/ptydzl/"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-4.jpg"><p>运动治疗（PT）</p><small>适应范围：脑瘫、小儿脑炎、运...[更多]</small></a></li>
+                <li><a href="/otzyzl/"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-5.jpg"><p>作业治疗（OT）</p><small>适应范围：智力低下、发育迟缓...[更多]</small></a></li>
+                <li><a href="/dggzl/"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-6.jpg"><p>多媒体多感官治疗</p><small>适应范围：自闭症、智力障碍...[更多]</small></a></li>
+                <li><a href="/yxzl/"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-7.jpg"><p>游戏治疗</p><small>适应范围：自闭症，冷漠和逃避...[更多]</small></a></li>
+                <li><a href="/kangfu/wlyz/"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-8.jpg"><p>物理因子治疗</p><small>适应范围：神经损伤、神经麻痹...[更多]</small></a></li>
+                <li><a href="/xlzl/"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-9.jpg"><p>心理咨询治疗</p><small>适应范围：儿童焦虑症、自闭自...[更多]</small></a></li>
+            </ul>
+		</div>
+
+		<div class="experts">
+          　<a href="/swt"><div class="recovery-tit"  style='margin-top: -10px;'>康复医生团队<span class="line"></span><span class="rt">MORE+</span></div></a>
+			<div class="slideTxtBox">
+				<div class="bd">
+					<ul>
+					    <div class="img"><img src="{dede:global.cfg_templets_skin/}/images/kfk/doc1.jpg"></div>
+					    <div class="cen">
+					         <div class="tit">康复科主任 —— 刘超</div> 
+					         <p>四川省有突出贡献优秀专家，原遂宁市中心医院儿科主任，从事儿科临床工作三十多年。亚太地区小儿神经学会会员、中国康复学会会员、四川省儿科专委会常务委员、四川省儿科医师协会常务委员，四川省儿科康复专委会常务委员、四川省高级职称评审专家、四川省医疗事故鉴定专家，遂宁市有突出贡献的优秀专家。</p>
+					         <div class="btn">
+					             <span><a href="#" class="more">查看更多 >></a></span>
+					             <span><a href="/swt" class="swt">在线咨询 >></a></span>
+					         </div>
+					    </div>
+					</ul>
+					<ul>
+						<div class="img"><img src="{dede:global.cfg_templets_skin/}/images/kfk/doc2.jpg"></div>
+					    <div class="cen">
+					         <div class="tit">康复科•PT-OT治疗师 —— 彭洪英</div> 
+					         <p>毕业于乐山职业技术学院，曾在四川省八一康复中心实习。从事于儿童运动功能障碍的评定、治疗工作多年，对小儿脑瘫及其他疾病引起的运动功能障碍的康复有独到见解。</p>
+					         <div class="btn">
+					             <span><a href="#" class="more">查看更多 >></a></span>
+					             <span><a href="/swt" class="swt">在线咨询 >></a></span>
+					         </div>
+					    </div>
+					</ul>
+					<ul>
+						<div class="img"><img src="{dede:global.cfg_templets_skin/}/images/kfk/doc3.jpg"></div>
+					    <div class="cen">
+					         <div class="tit">康复科•音乐（律动）治疗师 —— 陈烁雨</div> 
+					         <p>毕业于四川音乐学院，本科学历，曾在华西附二院作为音乐治疗师为ICU病房的患者做音乐放松，在深圳市残联“阳光家园”作为音乐治疗师为残障人士排练合唱和上音乐课；尤其擅长特殊儿童的音乐治疗。</p>
+					         <div class="btn">
+					             <span><a href="#" class="more">查看更多 >></a></span>
+					             <span><a href="/swt" class="swt">在线咨询 >></a></span>
+					         </div>
+					    </div>
+					</ul>
+					<ul>
+						<div class="img"><img src="{dede:global.cfg_templets_skin/}/images/kfk/doc4.jpg"></div>
+					    <div class="cen">
+					         <div class="tit">康复科•ST-游戏治疗师 —— 刘玲</div> 
+					         <p>毕业于深圳中医药大学，是较早一批获孤独症儿童康复人员上岗证的成员。从事ST-游戏治疗工作7年，有丰富的工作经验，曾在深圳市成华区残疾联合会工作。对儿童多动症，攻击行为，学习困难，恐惧，焦虑，抑郁等心理障碍有独到见解与治疗经验。</p>
+					         <div class="btn">
+					             <span><a href="#" class="more">查看更多 >></a></span>
+					             <span><a href="/swt" class="swt">在线咨询 >></a></span>
+					         </div>
+					    </div>
+					</ul>
+				</div>
+				<div class="hd">
+					<ul>
+					    <li><img src="{dede:global.cfg_templets_skin/}/images/kfk/doc11.jpg" width='167'></li>
+						<li><img src="{dede:global.cfg_templets_skin/}/images/kfk/doc22.jpg" width='167'></li>
+						<li><img src="{dede:global.cfg_templets_skin/}/images/kfk/doc33.jpg" width='167'></li>
+						<li><img src="{dede:global.cfg_templets_skin/}/images/kfk/doc44.jpg" width='167'></li>
+					</ul>
+				</div>
+			</div>
+			<script id="jsID" type="text/javascript">
+			   jQuery(".slideTxtBox").slide({});
+			</script>
+		</div>	
+        
+        <div class="recovery-case">
+          　<a href="/swt"><div class="recovery-tit">康复案例<span class="line"></span><span class="rt">MORE+</span></div></a>
+            <div class="info">
+                <div class="intro">
+                   <img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-10.jpg">
+                   <p>由中国教师发展基金会、华东师范大学言语听觉科学教育部重点实验室、重庆市特殊教育中心、上海泰亿格康复医疗...<a href="/swt">[了解详情]</a></p>
+                    <div class="yy"><a href="/swt">康复直约通道</a></div>
+                </div>
+	            <ul class="list">
+	                <li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-11.jpg"></a></li>
+	                <li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-12.jpg"></a></li>
+	                <li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-13.jpg"></a></li>
+	                <li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-14.jpg"></a></li>
+	                <li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-15.jpg"></a></li>
+	                <li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-16.jpg"></a></li>
+	                <li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-17.jpg"></a></li>
+	                <li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/kfk/kf-18.jpg"></a></li>
+	            </ul>
+            </div>
+		</div>
+
+	<!--底部-->	
+	{dede:include filename="common/footer.htm"/}
+</div>
+</body>
+</html>

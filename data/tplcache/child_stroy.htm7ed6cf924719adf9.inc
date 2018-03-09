@@ -1,0 +1,43 @@
+<?php
+$z[0]=Array("include","",0,35);
+$z[0][4]['filename']="head.htm";
+$z[1]=Array("arclist","\r\n                            <li>\r\n                                <img src=\"[field:picname/]\">\r\n                                <div class=\"child\">\r\n                                    <p><b>姓名：</b> [field:name/]</p>\r\n                                    <p><b>性别：</b> [field:sex/]</p>\r\n                                    <p><b>年龄：</b> [field:age/]岁</p>\r\n                                    <p><b>主治医生：</b> [field:doctor/]</p>\r\n                                    <p><b>病情描述：</b> [field:bqms/]</p>\r\n                                </div>\r\n                            </li>\r\n							\r\n							",512,1260);
+$z[1][4]['row']="3";
+$z[1][4]['addfields']="name,sex,age,doctor,bqms";
+$z[1][4]['channelid']="18";
+$z[1][4]['typeid']="6";
+$z[1][4]['flag']="h";
+$z[2]=Array("arclist","\r\n                            <li>\r\n                                <img src=\"[field:picname/]\">\r\n                                <div class=\"child\">\r\n                                    <p><b>姓名：</b> [field:name/]</p>\r\n                                    <p><b>性别：</b> [field:sex/]</p>\r\n                                    <p><b>年龄：</b> [field:age/]岁</p>\r\n                                    <p><b>主治医生：</b> [field:doctor/]</p>\r\n                                    <p><b>病情描述：</b> [field:bqms/]</p>\r\n                                </div>\r\n                            </li>\r\n							",1838,2577);
+$z[2][4]['row']="3";
+$z[2][4]['addfields']="name,sex,age,doctor,bqms";
+$z[2][4]['channelid']="18";
+$z[2][4]['typeid']="6";
+$z[2][4]['flag']="h";
+$z[3]=Array("arclist","\r\n                            <li>\r\n                                <img src=\"[field:picname/]\">\r\n                                <div class=\"child\">\r\n                                    <p><b>姓名：</b> [field:name/]</p>\r\n                                    <p><b>性别：</b> [field:sex/]</p>\r\n                                    <p><b>年龄：</b> [field:age/]岁</p>\r\n                                    <p><b>主治医生：</b> [field:doctor/]</p>\r\n                                    <p><b>病情描述：</b> [field:bqms/]</p>\r\n                                </div>\r\n                            </li>\r\n							",3142,3881);
+$z[3][4]['row']="3";
+$z[3][4]['addfields']="name,sex,age,doctor,bqms";
+$z[3][4]['channelid']="18";
+$z[3][4]['typeid']="6";
+$z[3][4]['flag']="h";
+$z[4]=Array("arclist","\r\n                            <li>\r\n                                <img src=\"[field:picname/]\">\r\n                                <div class=\"child\">\r\n                                    <p><b>姓名：</b> [field:name/]</p>\r\n                                    <p><b>性别：</b> [field:sex/]</p>\r\n                                    <p><b>年龄：</b> [field:age/]岁</p>\r\n                                    <p><b>主治医生：</b> [field:doctor/]</p>\r\n                                    <p><b>病情描述：</b> [field:bqms/]</p>\r\n                                </div>\r\n                            </li>\r\n							",4446,5185);
+$z[4][4]['row']="3";
+$z[4][4]['addfields']="name,sex,age,doctor,bqms";
+$z[4][4]['channelid']="18";
+$z[4][4]['typeid']="6";
+$z[4][4]['flag']="h";
+$z[5]=Array("arclist","\r\n                            <li>\r\n                                <img src=\"[field:picname/]\">\r\n                                <div class=\"child\">\r\n                                    <p><b>姓名：</b> [field:name/]</p>\r\n                                    <p><b>性别：</b> [field:sex/]</p>\r\n                                    <p><b>年龄：</b> [field:age/]岁</p>\r\n                                    <p><b>主治医生：</b> [field:doctor/]</p>\r\n                                    <p><b>病情描述：</b> [field:bqms/]</p>\r\n                                </div>\r\n                            </li>\r\n							",5750,6489);
+$z[5][4]['row']="3";
+$z[5][4]['addfields']="name,sex,age,doctor,bqms";
+$z[5][4]['channelid']="18";
+$z[5][4]['typeid']="6";
+$z[5][4]['flag']="h";
+$z[6]=Array("arclist","\r\n                            <li>\r\n                                <img src=\"[field:picname/]\">\r\n                                <div class=\"child\">\r\n                                    <p><b>姓名：</b> [field:name/]</p>\r\n                                    <p><b>性别：</b> [field:sex/]</p>\r\n                                    <p><b>年龄：</b> [field:age/]岁</p>\r\n                                    <p><b>主治医生：</b> [field:doctor/]</p>\r\n                                    <p><b>病情描述：</b> [field:bqms/]</p>\r\n                                </div>\r\n                            </li>\r\n							",7055,7794);
+$z[6][4]['row']="3";
+$z[6][4]['addfields']="name,sex,age,doctor,bqms";
+$z[6][4]['channelid']="18";
+$z[6][4]['typeid']="6";
+$z[6][4]['flag']="h";
+$z[7]=Array("include","",8581,8616);
+$z[7][4]['filename']="foot.htm";
+
+?>

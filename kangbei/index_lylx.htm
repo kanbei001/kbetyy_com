@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field.keywords/}"/>
+		<meta name="description" content="{dede:global.cfg_description/}"/>
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=X3SL0HQw0tbd83zOkt2CKALO"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+		<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/index_lylx.css">
+	</head>
+	<body>
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	
+	<!--正文 开始-->
+	<div class="map-container">
+	    <!--科室 当前位置-->
+	    <div class="web-position">
+	    	<img src="{dede:global.cfg_templets_skin/}/images/home_ico.png">
+	    	<p>您所在的位置：{dede:field name="position"/}</p>
+	    </div>
+	    <div class="Map" id="map"></div>
+	   	<script src="{dede:global.cfg_templets_skin/}/js/baidu_map.js"></script>
+	    <div class="rod">
+	    	<div class="hd rodhd">
+	    		<ul>
+	    			<li>公交路线</li>
+	    			<li>地铁路线</li>
+	    		</ul>
+	    	</div>
+	    	<div class="bd rodbd">
+	    		<ul style="display: block;">
+	    			<div class="rodbd1">
+	    				<p><span class="rodbd-span1">深圳龙华汽车站：</span>乘坐 372 路、312路、m269路，在 大浪交警中队公交站 下车，步行100米左右即可到达我院。</p>
+	    				<p><span class="rodbd-span1">深圳龙华汽车站、深圳北站：</span>乘坐 m354路，在 大浪交警中队公交站 下车，步行100米左右即可到达我院。</p>
+	    				<p><span class="rodbd-span1">深圳北站：</span>乘坐 海上田园旅游专线1 路，在 国泰家私城 下车，步行1000米左右到达我院。</p>
+	    				<!--<p><span class="rodbd-span2">温馨提醒：</span></p>-->
+	    			</div>
+	    		</ul>
+	    		<ul style="display: none;">
+	    			<div class="rodbd1">
+	    			  
+	    				<p><span class="rodbd-span1">龙胜站：</span>乘坐地铁4号线，在龙胜地铁站下车，A出口出，沿龙华和平路前行200米后右转，于建大轮胎厂下坡50米即到我院。</p>
+	    				
+	    			</div>
+	    		</ul>
+	    	</div>
+	    </div>
+		
+	    <script>
+	    	jQuery(".rod").slide({delayTime:0});
+	    </script>
+	</div>   
+	{dede:include filename="common/footer.htm"/} 
+	</body>
+</html>

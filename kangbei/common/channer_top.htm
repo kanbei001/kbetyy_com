@@ -1,0 +1,46 @@
+<!--科室 当前位置-->
+<div class="web-position">
+    <img src="{dede:global.cfg_templets_skin/}/images/home_ico.png">
+    <p>您所在的位置：{dede:field name='position'/}</p>
+</div>
+<!--科室 第一部分-->
+<div class="section-top">
+	<div class="section-intro">
+		<div class="section-name">{dede:field.typename/}</div>
+		{dede:arclist row="1"  flag="kj" titlelen='80'}
+		<img src="[field:picname/]" title="[field:title/]">
+		<div class="section-info">[field:description function="cn_substr(@me,140)"/] . . . <a href="[field:arcurl/]">[科室详情]</a></div>
+		{/dede:arclist}
+	</div>
+	<div class="M-k1cen">
+        <div class="M-k1cen1">健康热点 <span><a href='/swt/'>+MORE</a></span></div>
+        <div class="M-k1cen2">
+            {dede:arclist row="1" limit="0,1"  flag="j" titlelen='80' orderby='click'}
+            <div class="M-k1cen2-div">
+                <strong>[field:title/]</strong>
+                <p>[field:description function="cn_substr(@me,240)"/]...<a href="[field:arcurl/]">[详细]</a></p>
+            </div>
+            {/dede:arclist}
+        </div>
+        <div class="M-k1cen3">
+            <div class="M-k1cen3-div">
+                <ul>
+                    {dede:arclist  row="3" limit="1,3"  flag="j" titlelen='80' orderby='click'}
+                    <li>
+                        <a href="[field:arcurl/]">[field:title/] <span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span></a>
+                    </li>
+                    {/dede:arclist}
+                </ul>
+            </div>
+            
+        </div>
+	</div>
+	<!--快速咨询 开始-->
+    <div class="angel-server-channel">
+    	<p class="server-tit">康贝服务 <span>service</span></p>
+        <div class="info">
+		{dede:include filename="common/public_tsfw.htm"/}
+        </div>
+    </div>
+    <!--快速咨询 结束-->
+</div>

@@ -1,0 +1,41 @@
+<?php
+$z[0]=Array("global","",55,87);
+$z[0][4]['name']="cfg_templets_skin";
+$z[1]=Array("global","",191,223);
+$z[1][4]['name']="cfg_templets_skin";
+$z[2]=Array("global","",365,397);
+$z[2][4]['name']="cfg_templets_skin";
+$z[3]=Array("global","",620,652);
+$z[3][4]['name']="cfg_templets_skin";
+$z[4]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--医院介绍--> \n            ",722,842);
+$z[4][4]['typeid']="76";
+$z[5]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--医院新闻--> \n            ",856,975);
+$z[5][4]['typeid']="3";
+$z[6]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--医教一体--> \n            ",989,1108);
+$z[6][4]['typeid']="4";
+$z[7]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--相关视频--> \n            ",1121,1240);
+$z[7][4]['typeid']="7";
+$z[8]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--专家团队--> \n            ",1254,1373);
+$z[8][4]['typeid']="5";
+$z[9]=Array("global","",1425,1457);
+$z[9][4]['name']="cfg_templets_skin";
+$z[10]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--发育行为科--> \n            ",1527,1650);
+$z[10][4]['typeid']="12";
+$z[11]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--小儿神经科--> \n            ",1663,1786);
+$z[11][4]['typeid']="13";
+$z[12]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--内分泌科--> \n            ",1799,1919);
+$z[12][4]['typeid']="14";
+$z[13]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--其它科室--> \n            ",1932,2052);
+$z[13][4]['typeid']="15";
+$z[14]=Array("global","",2110,2142);
+$z[14][4]['name']="cfg_templets_skin";
+$z[15]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--其它科室--> \n            ",2345,2465);
+$z[15][4]['typeid']="15";
+$z[16]=Array("type"," <a href=\"[field:typelink/]\">[field:typename/]</a> <!--来院路线--> \n            ",2521,2641);
+$z[16][4]['typeid']="11";
+$z[17]=Array("global","",2792,2824);
+$z[17][4]['name']="cfg_templets_skin";
+$z[18]=Array("global","",3163,3195);
+$z[18][4]['name']="cfg_templets_skin";
+
+?>

@@ -1,0 +1,1 @@
+<p class="item-pic"><a href="[field:arcurl/]"><img src="[field:litpic/]"/></a></p>

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 14:52:13
+ * @templet kangfu.htm[所有频道页]
+ */
+/*康复科 @ 公共部分标题*/
+.recovery-tit{font-size: 20px;line-height: 26px;color: #333333;border-left: 2px solid #049ce5;text-indent: 0.5em;margin-bottom:20px;}
+.recovery-tit .line {background: #eaeaea; display: inline-block; height: 1px; margin: 5px 10px; width: 985px; } 
+.recovery-tit .rt {color: #666666; float: right; font-size: 14px; }
+
+/*康复科 @ 关键词和当前位置*/
+.recovery-position{ width: 1200px; margin: 20px auto 0;} 
+.recovery-position .keywords{float: left;}
+.recovery-position .keywords span{color: #ff5400;}
+.recovery-position .keywords a{color:666666}
+.recovery-position .pos{color:666666;float: right;}
+
+/*康复科 @ 介绍*/
+.section-top{ width: 1200px; height: 440px; margin: 15px auto 0 auto;border-top: 1px solid #dddddd;border-bottom: 1px solid #dddddd;}
+.section-top .section-intro{ padding: 30px 30px 0 0;width: 300px;height: 410px;border-right: 1px solid #dddddd;float: left;}
+.section-intro .intro-info p{color:666666;text-indent: 2em;line-height: 26px;margin-top:15px;}
+.section-intro .intro-info p a{color: #ff5400;}
+.section-intro ul{margin-top:10px;}
+.section-intro ul li{width: 85px;height: 32px;line-height: 32px; margin:5px 18px 5px 0;float: left;border: 1px solid #049ce5;text-align: center;}
+.section-intro ul li:nth-child(3n){margin-right: 0}
+.section-intro ul li a{}
+.section-intro ul li.on,.section-intro ul li:hover{background: #049ce5;}
+.section-intro ul li.on a,.section-intro ul li:hover a{color: #fff;}
+/*康复科 @ 动态*/
+.section-dynamic{ width: 510px; height: auto; padding: 30px 0 0 30px;border-right: 1px solid #dddddd;float: left;}
+.section-dynamic .head{font-size: 20px;line-height: 40px;color: #333333;border-bottom: 1px solid #dddddd;padding-bottom: 10px;}
+.section-dynamic .head a{font-size: 14px;color: #999999;float: right;}
+.section-dynamic .dynamic-hot{display: inline-block;padding-bottom: 15px;border-bottom: 1px dashed #dddddd;}
+.section-dynamic .dynamic-hot .picname{display: block;width:130px;height:110px;overflow: hidden;float: left;}
+.section-dynamic .dynamic-hot .info{width: 330px;float:right;margin-left:20px;}
+.section-dynamic .dynamic-hot .info a.title{color: #ff5400; display: inline-block; font-size: 16px;line-height: 26px; font-weight: bold;}
+.section-dynamic .dynamic-hot .info p{line-height: 26px;color: #666666; text-indent: 2em;}
+.section-dynamic .dynamic-list ul{margin-top: -3px;}
+.section-dynamic .dynamic-list ul li{ height: 95px;border-bottom: 1px dashed #dddddd;margin-right: 30px;}
+.section-dynamic .dynamic-list ul li i{width: 50px;height: 50px;background: #049ce5;color: #fff;font-size: 26px;line-height: 50px;text-align: center;display: inline-block;margin:21px 20px 0 0;}
+.section-dynamic .dynamic-list ul li p {float: right; margin-top: 20px; width: 410px;font-size: 14px;line-height: 26px;color: #666666; }
+.section-dynamic .dynamic-list ul li p a{color: #333333;font-size: 16px;}
+.section-dynamic .dynamic-list ul li:nth-child(3){ border: none;}
+
+/*康复科 @ 康复测评*/
+.recovery-evaluation{ width: 328px; height: auto;float:right;}
+.recovery-evaluation .title{margin:30px 0 0 25px;} 
+.recovery-evaluation .title h3 {background:url("../images/kfk/tbg.jpg") no-repeat; color: #fff; font-size: 20px; height: 60px; line-height: 50px; text-align: left; text-indent: 10px; width: 303px; }
+.recovery-evaluation .title h3 small{font-size:14px;}
+.recovery-evaluation .item{padding-top: 5px;}
+.recovery-evaluation .item ul{margin-left: 25px; position: relative; overflow: hidden; }
+.recovery-evaluation .item ul li {color: #888888; float: left; height: 110px; margin-right:7px; text-align: left; width: 93px; }
+.recovery-evaluation .item ul li:nth-child(3n){margin-right: 0}
+.recovery-evaluation .item ul li a{ text-align: center; color: #888888; font-size: 14px;}
+.recovery-evaluation .item ul li:nth-child(3n+1) a{text-align: left;}
+.recovery-evaluation .item ul li:nth-child(3n) a{text-align: right;}
+.recovery-evaluation .item ul li a i {background: url("../images/kfk/img.jpg") no-repeat scroll -14px -17px; display: inline-block; height: 60px; margin-top: 15px; width: 60px; }
+.recovery-evaluation .item ul li a p{margin-top: 5px;}
+.recovery-evaluation .item ul li:nth-child(2) a i{background-position: -135px -17px;margin-left: 15px;}
+.recovery-evaluation .item ul li:nth-child(3) a i{background-position: -256px -17px;margin-left:30px;}
+.recovery-evaluation .item ul li:nth-child(4) a i{background-position: -14px -121px;}
+.recovery-evaluation .item ul li:nth-child(5) a i{background-position: -136px -121px;margin-left: 15px;}
+.recovery-evaluation .item ul li:nth-child(6) a i{background-position: -256px -121px;margin-left:30px;}
+.recovery-evaluation .item ul li:nth-child(7) a i{background-position: -14px -226px;}
+.recovery-evaluation .item ul li:nth-child(8) a i{background-position: -136px -226px;margin-left: 15px;}
+.recovery-evaluation .item ul li:nth-child(9) a i{background-position: -256px -226px;margin-left:30px;}
+
+/*康复科 @ 康复治疗项目*/
+.recovery-project{width: 1200px;margin:20px auto;}
+.recovery-project ul{width:100%;height:560px;overflow: hidden;}
+.recovery-project ul li{float: left;margin-right: 32px;margin-bottom:20px;}
+.recovery-project ul li:nth-child(4n){margin-right: 0;}
+.recovery-project ul li p {font-size: 17px; line-height: 26px;margin:10px 0 0 10px; } 
+.recovery-project ul li:hover {border-radius: 5px; box-shadow: 1px 5px 5px #888888; } 
+.recovery-project ul li:hover p {color: #ff6324; } 
+.recovery-project ul li small{font-size: 14px; line-height: 26px;padding:5px 10px;display: inline-block;}
+
+/*康复科 @ 医生团队*/
+.experts{width: 1200px;margin:20px auto; display: table;}
+.experts .slideTxtBox{ text-align:left; width: 100%; } 
+.experts .slideTxtBox .hd {height: 368px; line-height: 30px; position: relative; width: 28.7%;float: right; } 
+.experts .slideTxtBox .hd ul {float: left; position: absolute; top: -1px; } 
+.experts .slideTxtBox .hd ul li {cursor: pointer; margin-right:10px; float: left; } 
+.experts .slideTxtBox .hd ul li:nth-child(2n) {margin-right:0; } 
+.experts .slideTxtBox .hd ul li.on img{border-radius: 5px;box-shadow: 1px 5px 5px #888888;} 
+.experts .slideTxtBox .bd{width: 70% ;float: left;} 
+.experts .slideTxtBox .bd ul{zoom:1;  } 
+.experts .slideTxtBox .bd .img{float: left;} 
+.experts .slideTxtBox .bd .cen {float: right; margin-top: 25px; width: 56%; }
+.experts .slideTxtBox .bd .cen .tit {border: medium none; color: #333; font-size: 20px; font-weight: bold; line-height: 26px; text-indent: 0; } 
+.experts .slideTxtBox .bd .cen p {color: #333; line-height: 34px; margin: 35px 20px 0 0; letter-spacing: 1px; } 
+.experts .btn{margin-top: 60px;} 
+.experts .btn span a{padding: 11px 25px;border: 1px solid #ff5603;} 
+.experts .btn .swt {background: #ff5603; color: #fff;margin-left:60px; }
+
+/*康复科 @ 康复案例*/
+.recovery-case{width: 1200px;margin:20px auto;}
+.recovery-case .info{width:100%;height:354px;}
+.recovery-case .intro{width: 300px;float: left;}
+.recovery-case .intro img{}
+.recovery-case .intro p{line-height: 28px;width: 300px;}
+.recovery-case .intro p a{color: #ff5603;}
+.recovery-case .intro .yy a {background:url("../images/kfk/btn.jpg") no-repeat; color: #fff; display: inline-block; height: 44px; line-height: 40px; margin: 20px auto 0 50px; text-indent: 4.25em; width: 164px; } 
+.recovery-case .list{float: right;width: 890px;}
+.recovery-case .list li{float: left;margin:0 10px 10px 0;}
+.recovery-case .list li:nth-child(4n){margin-right:0;}

@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]">[field:title/]</a><span><img src="/style/images/hotgif.gif"></span></li>

@@ -1,0 +1,15 @@
+
+<field:name itemname="姓名" autofield="1" notsend="0" type="text" isnull="true" islist="0" default=""  maxlength="250" page="">
+</field:name>
+
+<field:sex itemname="性别" autofield="1" notsend="0" type="text" isnull="true" islist="0" default=""  maxlength="250" page="">
+</field:sex>
+
+<field:age itemname="年龄" autofield="1" notsend="0" type="text" isnull="true" islist="0" default=""  maxlength="250" page="">
+</field:age>
+
+<field:doctor itemname="主治医生" autofield="1" notsend="0" type="text" isnull="true" islist="0" default=""  maxlength="250" page="">
+</field:doctor>
+
+<field:描述 itemname="病情描述" autofield="1" notsend="0" type="text" isnull="true" islist="0" default=""  maxlength="250" page="">
+</field:描述>

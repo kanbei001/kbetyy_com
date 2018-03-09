@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+		<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field name='keywords'/}" />
+		<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/zt_xly.css">
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+ 
+</head>
+	<body>
+	<script>
+		getData.mobile_device_detect('http://m.cdkid.cn');
+	</script>
+	<!-- top -->
+	{dede:include filename="common/header.htm"/}
+	<!-- 科室导航 end -->
+	<!--单独banner 开始-->	
+	   <div class="banner M-1200">
+           <div class="lt">
+	           <div class="notice">
+	           <p><a href="/tsdt/2572.html"><span><strong>【下期预告】</strong>康贝夏令营</span><br/>我是“小小医生”体验之旅火......</a></p>
+	           <p><a href="/tsdt/2571.html"><span><strong>【上期回顾】</strong>欢乐谷麦鲁小城</span><br/>谷麦鲁小城，职业体验之旅，感......</a></p>
+	           </div>
+	           <div class="sign">
+	          	<script type="text/javascript" src="http://guahao.cdkid.cn/public/js/date/jedate/jedate.js"></script>
+                <form id="gh_form" method="post" target="aa">
+		           <input type="text"  name="gh_name" id='name' placeholder="小朋友姓名">
+		           <input type="tel" name="gh_tel" id='tel' placeholder="联系电话">
+		           <input type="submit" id="gh_submit" value="点击报名">
+                   <iframe name="aa" id="aa" frameborder="0" width="0" height="0"></iframe> <script type="text/javascript"> var ref=""; if(document.referrer.length>0){ref=document.referrer }try{if(ref.length==0&&opener.location.href.length>0){ref=opener.location.href } }catch(e){ref=window.location.href } document.getElementById("gh_fromurl").value=ref;</script>
+   
+		           <input type="hidden" id="gh_fromurl" name="gh_fromurl" value="">
+	           </form>
+	           <script type="text/javascript" charset="UTF-8" src="http://guahao.cdkid.cn/data/cache/5a525569db67786bd559820c9cb9a85d.js"></script>
+	           </div>
+	        </div>
+           <div id="xly" class="ban">
+				<div class="hd">
+					<ul><li></li></ul>
+				</div>
+				<div class="bd" style="width: 940px;">
+					<ul>
+						<li><a href="/swt" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/zt/xly/banner.jpg" title="夏令营" alt="夏令营"/></a></li> 
+					</ul>
+				</div>
+				<a class="prev" href="javascript:void(0)"></a>
+		        <a class="next" href="javascript:void(0)"></a>
+			</div>
+			<script type="text/javascript">
+			    jQuery("#xly").slide({mainCell:".bd ul",effect:"left",autoPlay:false,easing:"easeInQuint",delayTime:1000});
+			</script>	
+	   </div>
+
+
+     <div id="xly2" class="xly2 M-1200">
+	       <div class="Cont3" id="Cont_3">
+		        <div class="ScrCont">
+		          <div id="List1_3">
+		            <!-- 图片列表 begin -->
+		            <div class="box3"> <a href="/tsdt/2571.html" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/zt/xly/xly_01.jpg" title="第一期" alt="第一期"/></a> </div> 
+		            <div class="box3"> <a href="/tsdt/2569.html" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/zt/xly/xly_02.jpg" title="第二期" alt="第二期"/></a> </div> 
+		            <div class="box3"> <a href="/tsdt/2540.html" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/zt/xly/xly_03.jpg" title="第三期" alt="第三期"/></a> </div> 
+		            <div class="box3"> <a href="/tsdt/2572.html" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/zt/xly/xly_04.jpg" title="第四期" alt="第四期"/></a> </div>
+		 
+		            <!-- 图片列表 end -->
+		          </div>
+		          <div id="List2_3"></div>
+		        </div>
+	      </div>
+	      <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/rollpic.js"></script>
+	</div>
+	<div class="content M-1200">
+         <div class="title">康贝夏令营活动介绍<a href="/tsdt/2572.html">></a></div>
+         <div class="lt">
+             <img src="{dede:global.cfg_templets_skin/}/images/zt/xly/xly_05.jpg"/>
+             <div class="txt" style="">
+                {dede:arclist idlist='2571' infolen='120' titlelen='45'}
+	             <h4 title="[field:fulltitle/]">[field:title/]</h4>
+	             <p>[field:infos/]……<a href="[field:arcurl/]">[详细]</a></p>
+	             {/dede:arclist}
+             </div>
+         </div>
+         <div class="rt">
+            <ul>
+                <li>
+                    <div class="lt"><img src="{dede:global.cfg_templets_skin/}/images/zt/xly/xly_06.jpg"/></div>
+                    <div class="rt">
+                         {dede:arclist idlist='2572' infolen='300'}
+                          <h4><a href="[field:arcurl/]">[field:fulltitle/]</a></h4>
+                          <p class="con">[field:infos/]……<a href="[field:arcurl/]">[详细]</a></p>
+                          <p class="bot"><span>适合对象：4-8岁亲子家庭</span><span>活动地址：深圳伊藤洋华堂双楠店</span></p>
+                          {/dede:arclist}
+                    </div>
+                </li>
+                <li>
+                    <div class="lt"><img src="{dede:global.cfg_templets_skin/}/images/zt/xly/xly_07.jpg"/></div>
+                    <div class="rt">
+                          {dede:arclist idlist='2569' infolen='300'}
+                          <h4><a href="[field:arcurl/]">[field:fulltitle/]</a></h4>
+                          <p class="con">[field:infos/]……<a href="[field:arcurl/]">[详细]</a></p>
+                          <p class="bot"><span>适合对象：4-8岁亲子家庭</span><span>活动地址：深圳康贝儿童医院</span></p>
+                          {/dede:arclist}
+                    </div>
+                </li>
+                <li>
+                    <div class="lt"><img src="{dede:global.cfg_templets_skin/}/images/zt/xly/xly_08.jpg"/></div>
+                    <div class="rt">
+                        {dede:arclist idlist='2540' infolen='300'}
+                          <h4><a href="[field:arcurl/]">[field:fulltitle/]</a></h4>
+                          <p class="con">[field:infos/]……<a href="[field:arcurl/]">[详细]</a></p>
+                          <p class="bot"><span>适合对象：4-8岁亲子家庭</span><span>活动地址：深圳欢乐谷</span></p>
+                          {/dede:arclist}
+                    </div>
+                </li>
+            </ul>
+         </div>
+	</div>
+	<!--正文 结束-->
+	{dede:include filename="common/footer.htm"/}
+	<style>
+        .footer-g3-div1 {float: unset; height: unset;} 
+    </style>
+</body>
+</html>

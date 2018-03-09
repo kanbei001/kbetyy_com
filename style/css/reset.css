@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#BDBridgeIconWrap,
+#BDBridgeInviteWrap,
+#BDBridgeMess,
+.bds-credit-pop,
+#qiao-wrap,
+#LXB_CONTAINER,
+.lxb-container {
+    display: none !important;
+}
+
+html {
+    zoom:expression(function(ele) {
+        ele.style.zoom="1";
+        document.execCommand("BackgroundImageCache", false, true);
+    }
+    (this));
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.no {
+    display: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 14px/1.6;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 微软雅黑;
+}
+
+i,
+em {
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+marquee {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+ color: #000
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    text-align: inherit;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+fieldset,
+img {
+    border: none;
+}
+
+img {
+    vertical-align: middle;
+	
+}
+
+.cl {
+    clear: both;
+}

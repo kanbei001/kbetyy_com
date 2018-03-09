@@ -1,0 +1,2 @@
+INSERT INTO `dede_search_keywords` VALUES('1','搜索更dfs多疾病','搜索更dfs多疾病 搜索 疾病','1','0','1505722856','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','搜索fdvb更多疾病','搜索fdvb更多疾病 fdvb 搜索 更多 疾病','1','0','1505723751','0','0');

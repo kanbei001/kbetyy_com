@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>点击搜索按钮弹出搜索框js特效代码</title>
+		<meta name="description" content="点击搜索按钮弹出搜索框js特效代码，自适应手机移动端。" /> 
+		<meta name="keywords" content="点击,搜索按钮,弹出搜索框,js特效,特效代码" />
+		<meta name="author" content="js代码" />
+		<meta name="Copyright" content="js代码" />
+		<link rel="stylesheet" type="text/css" href="http://www.jsdaima.com/Upload/201703/1490247592/default.css" />
+		<link rel="stylesheet" type="text/css" href="http://www.jsdaima.com/Upload/201703/1490247592/component.css" />
+		<script src="http://www.jsdaima.com/Upload/201703/1490247592/modernizr.custom.js"></script>
+		<script type="text/javascript">
+function stops(){
+   return false;
+}
+document.oncontextmenu=stops;
+</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="main clearfix">
+				<div class="column">
+					<div id="sb-search" class="sb-search">
+						<form>
+							<input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="http://www.jsdaima.com/Upload/201703/1490247592/classie.js"></script>
+		<script src="http://www.jsdaima.com/Upload/201703/1490247592/uisearch.js"></script>
+		<script>
+			new UISearch( document.getElementById( 'sb-search' ) );
+		</script>
+	</body>
+</html> 

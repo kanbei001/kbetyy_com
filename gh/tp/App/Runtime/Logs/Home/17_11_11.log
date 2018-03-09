@@ -1,0 +1,15 @@
+[ 2017-11-11T11:10:04+08:00 ] 119.123.127.158 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `registration` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: sex /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Controller/IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined index: age /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Controller/IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: cnmwda /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Controller/IndexController.class.php 第 30 行.
+SQL: INSERT INTO `registration` (`name`,`sex`,`age`,`tel`,`tel_hiden`,`ks`,`content`,`whereform`,`date`,`status`) VALUES ('123',NULL,NULL,'12312312310','123****2310','小儿神经科','13223',NULL,'2017-12-31','0') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `registration` ORDER BY id desc LIMIT 20   [ RunTime:0.0004s ]
+

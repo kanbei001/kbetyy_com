@@ -1,0 +1,1 @@
+<a href="[field:typelink/]">更多病症→</a>

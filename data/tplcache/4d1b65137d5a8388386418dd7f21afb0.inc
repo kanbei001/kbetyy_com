@@ -1,0 +1,1 @@
+<li><em></em><img src='[field:picname/]'></li>

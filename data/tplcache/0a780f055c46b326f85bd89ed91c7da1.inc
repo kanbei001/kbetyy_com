@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]">[field:title/]</a><span><img src="{dede:global.cfg_templets_skin/}/images/hotgif.gif"></span></li>

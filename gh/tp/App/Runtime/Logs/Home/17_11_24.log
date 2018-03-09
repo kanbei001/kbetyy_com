@@ -1,0 +1,360 @@
+[ 2017-11-24T11:59:06+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:07+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:07+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:07+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:09+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:10+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:10+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:10+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:10+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:10+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:11+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:11+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:11+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:12+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:12+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:12+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:12+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:12+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:13+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:13+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:13+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:13+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:14+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:14+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:14+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:14+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:15+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:15+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:15+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:15+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:15+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:16+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:16+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:16+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:16+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+
+[ 2017-11-24T11:59:17+08:00 ] 119.123.126.54 /gh/tp/Home/Index/commont
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kbetyy_com/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'kb123kb123'@'localhost' (using password: YES)
+

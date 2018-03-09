@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{dede:global.cfg_webname/}</title>
+	<meta name="description" content="{dede:global.cfg_description/}" />
+	<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+	<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+	<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/index.css">
+	<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-2.0.0.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+    
+</head>
+<style>
+</style>
+<body>
+	{dede:include filename="common/header.htm"/}
+	{dede:include filename="index_banner.htm"/}	
+	<div class="container">
+		<!--健康热点-->	
+		<div class="clear"></div>
+		<div class="health-hotspots">
+			<div class="recomment-keywords">
+				<div class="title">健康热点<img src="{dede:global.cfg_templets_skin/}/images/hot_ico.jpg" /></div>
+				<div class="hot-info">
+				  {dede:channelartlist typeid="16,18,24,25,21"}
+				  <a href="{dede:field.typeurl/}" class="hot1">{dede:field.typename/}</a>
+				  {/dede:channelartlist}
+				</div>
+			</div>
+			<div class="keywords-search">
+				<form method="post" action="/plus/search.php" target="_blank">
+					<input type="text" name="q" placeholder="搜索你想了解的疾病" ><input type="image" src="{dede:global.cfg_templets_skin/}/images/search_btn.png"/>
+				</form>
+			</div>
+		</div>
+				
+		<div class="clear"></div>
+		<!--首页顶部-->
+		<div class="container-blcok">
+			<!--名医视频-->
+			<div class="recomment-video">
+				<div class="vidio-info" id="JVideo">
+					<img src="{dede:global.cfg_templets_skin/}/images/2-1FP1143P1a9.jpg" width="260" height="300"/>
+				</div>
+			</div>
+			<!--康贝动态 媒体报道-->
+			<div class="tsdt-mtbd">
+				<div class="recomment-article clear">
+					{dede:arclist flag="p" limit="0,1" typeid="81" infolen='180' titlelen="45"}
+					    <div class="picname"><a href="[field:arcurl/]"><img src="[field:picname/]" width="207" height="138"/></a></div>
+					    <div class="info">
+					    	<a href="[field:arcurl/]" class='title'>[field:title/]</a> 
+					         <p>[field:infos/]...<a href="[field:arcurl/]">[详细]</a></p>
+					    </div>
+					{/dede:arclist}
+				</div>
+				
+				<div class="article-list">
+					<ul class="slide-btn">
+						<li class="on">康贝动态</li>
+						<li>媒体报道</li>
+					</ul>
+					<div class="slide-info">
+						<!--康贝动态-->
+						<ul class="tsdt">
+							<a href="/tsdt" class="more">+MORE</a>
+							{dede:arclist row="3" limit="0,3" typeid="15" titlelen="70" orderby='pubdate'}
+							<li><a href="[field:arcurl/]">[field:title/]</a> <span>[field:pubdate function='strftime("%m-%d",@me)'/]</span></li>
+							{/dede:arclist}
+						</ul>
+						<!--媒体报道-->
+						<ul class="mtbd" style="display:none;">
+							<a href="/mtbd" class="more">+MORE</a>
+							{dede:arclist row="3" limit="0,3" typeid="16" titlelen="80" orderby='pubdate'}
+							<li><a href="[field:arcurl/]">[field:title/]</a> <span>[field:pubdate function='strftime("%m-%d",@me)'/]</span></li>
+							{/dede:arclist}
+						</ul>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript"> 
+			jQuery(".article-list").slide({titCell:".slide-btn li",mainCell:".slide-info",trigger:"click"});
+			</script>
+			<!--康贝动态 媒体报道切换 end -->
+		
+			<div class="fd_r angel-server-index">
+				<div class="server-tit"><h3>康贝服务</h3></div>
+				<div class="info">
+					{dede:include filename="common/public_tsfw.htm"/}
+				</div>
+			</div>
+		</div>			
+		<!--小banner -->
+		<div class="clear"></div>
+	
+		<!--名医库 -->
+		<div class="experts-title"><h3>康贝名医库</h3> <a href="/myk">+MORE</a></div>
+	
+		<!--名医切换-->
+		<div class="hopital-experts">
+		  <div class="expert-list">
+				<div class="tempWrap" style="overflow:hidden; position:relative; width:1200px"><ul class="slide-item" style="width: 6000px; left: 0px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+					<li class="item" style="float: left; width: 1200px;">
+						<div class="picname"><img src="{dede:global.cfg_templets_skin/}/images/kbys01.jpg"></div>
+						<div class="expert-info">
+							<h2 class="name">付师亭 <span>主任医师</span></h2>
+							<div class="shzw">
+								<div class="zw-info"><p>教授（特邀专家）</p> <p>国务院政府特殊津贴专家</p> <p>从医经验50年</p></div>
+								<div class="zxyy"><a href="javascript:onKST();">在线咨询</a> <a onclick="show_order()">预约挂号</a></div>
+							</div>
+							
+							<h4 class="intro-tit">专家简介：</h4>
+							<p class="intro-info">◆亚洲太平洋地区小儿神经联合会终身会员 ◆中华医学会全国小儿神经学组委员、顾问 ◆华西医科大学兼职教授……<a href="javascript:onKST();">[详细]</a></p>
+							<p class="sc">擅长：儿科各类疾病、小儿神经系统疾病</p>
+							
+						</div>
+					</li>
+					<li class="item" style="float: left; width: 1200px;">
+						<div class="picname"><img src="{dede:global.cfg_templets_skin/}/images/kbys02.jpg"></div>
+						<div class="expert-info">
+							<h2 class="name">刘军生 <span>院长</span></h2>
+							<div class="shzw">
+								<div class="zw-info"><p>从医经验近40年</p></div>
+								<div class="zxyy"><a href="javascript:onKST();">在线咨询</a> <a onclick="show_order()">预约挂号</a></div>
+							</div>
+							
+							<h4 class="intro-tit">专家简介：</h4>
+							<p class="intro-info"> 从医近四十年，积累了丰富的临床经验，熟练掌握神经科常见病、多发病的诊治，对小儿神经性疾病诊疗有独到之处。<a href="javascript:onKST();">[详细]</a></p>
+							<p class="sc">儿科各类疾病、小儿呼吸系统疾病、小儿肾脏疾病。...</p>
+							
+						</div>
+					</li>
+					<li class="item" style="float: left; width: 1200px;">
+						<div class="picname"><img src="{dede:global.cfg_templets_skin/}/images/kbys03.jpg"></div>
+						<div class="expert-info">
+							<h2 class="name">罗春华 <span>主任医师</span></h2>
+							<div class="shzw">
+								<div class="zw-info"><p>教授（特邀专家）</p> <p>从医经验60年</p></div>
+								<div class="zxyy"><a href="javascript:onKST();">在线咨询</a> <a onclick="show_order()">预约挂号</a></div>
+							</div>
+							
+							<h4 class="intro-tit">专家简介：</h4>
+							<p class="intro-info">◆国务院政府特殊津贴专家 ◆四川大学华西第二医院儿科专家 ◆四川省医疗卫生终身成就奖……<a href="javascript:onKST();">[详细]</a></p>
+							<p class="sc">擅长：儿科学、儿童血液肿瘤、免疫、小儿呼吸</p>
+							
+						</div>
+					</li>
+					<li class="item" style="float: left; width: 1200px;">
+						<div class="picname"><img src="{dede:global.cfg_templets_skin/}/images/kbys04.jpg"></div>
+						<div class="expert-info">
+							<h2 class="name">刘震 <span>主任医师</span></h2>
+							<div class="shzw">
+								<div class="zw-info"><p>教授（特邀专家）</p> <p>从医经验50年</p> </div>
+								<div class="zxyy"><a href="javascript:onKST();">在线咨询</a> <a onclick="show_order()">预约挂号</a></div>
+							</div>
+							
+							<h4 class="intro-tit">专家简介：</h4>
+							<p class="intro-info">◆国务院政府特殊津贴专家 ◆四川大学华西第二医院儿科专家 ◆成都市儿科专委会主任委员……<a href="javascript:onKST();">[详细]</a></p>
+							<p class="sc">擅长：儿科学、呼吸、肾脏</p>
+							
+						</div>
+					</li>
+					<li class="item" style="float: left; width: 1200px;">
+						<div class="picname"><img src="{dede:global.cfg_templets_skin/}/images/kbys05.jpg"></div>
+						<div class="expert-info">
+							<h2 class="name">肖侠明 <span>主任医师</span></h2>
+							<div class="shzw">
+								<div class="zw-info"><p>教授（特邀专家）</p> <p>从医经验50年</p></div>
+								<div class="zxyy"><a href="javascript:onKST();">在线咨询</a> <a onclick="show_order()">预约挂号</a></div>
+							</div>
+							
+							<h4 class="intro-tit">专家简介：</h4>
+							<p class="intro-info">◆国务院政府特殊津贴专家 ◆国家级学科带头人 ◆原四川大学华西第二医院儿科专家、教授……<a href="javascript:onKST();">[详细]</a></p>
+							<p class="sc">擅长：儿科各类疾病、多动症、抽动症、自闭症、智力低下、学习困难等</p>
+							
+						</div>
+					</li>
+					
+				</ul></div>
+			</div>
+			<!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+		</div>
+
+		<script type="text/javascript">
+		jQuery(".hopital-experts").slide({mainCell:".expert-list ul",effect:"left",autoPlay:true});
+		</script>
+		<!--名医切换 end -->
+
+		<div class="clear"></div>
+
+		<!--科研教学-->	
+		<div class="clear"></div>
+		<div class="scientific-teaching">
+			<ul>
+			  {dede:channelartlist typeid="39,44,47,49"}
+				<li class="teaching-item">
+					<div class="item-block">
+						<h4 class="title">{dede:field.typename/}<a href="{dede:field.typeurl/}">+MORE</a></h4>
+						{dede:arclist limit="0,1" flag="p"}
+						<p class="item-pic"><a href="[field:arcurl/]"><img src="[field:litpic/]"/></a></p>
+						{/dede:arclist}
+						<div class="item-info">
+							{dede:arclist limit="0,2" titlelen="100"}
+							<p><a href="[field:arcurl/]">[field:title/]</a></p>
+							{/dede:arclist}
+						</div>
+						
+					</div>
+				</li>
+				{/dede:channelartlist}
+			</ul>
+		</div>
+		<!--科研教学一排 end -->
+	<div class="clear"></div>
+	<div class="hospital-details">
+	  	<div class="title">深圳康贝儿童医院  专注儿童健康 建树儿科典范</div>
+	  	<div class='line'><img src="{dede:global.cfg_templets_skin/}/images/tbg.png"></div>
+		<div class="details-info">
+			<!--设备环境切换-->
+			<div class="slide-item">
+				<div class="slide-btn">
+					<ul><li><p></p>专家团队</li><li><p></p>诊疗技术</li><li><p></p>星级环境</li><li><p></p>公益活动</li></ul>
+				</div>
+				<div class="item-info">
+					
+					<div class="item-zjtd">
+				        <p class="zjtd-intro">医院技术力量雄厚，海纳了全国儿科领域的肖侠明、刘震、付师亭、罗春华、党京会、周慧贤、覃琛等多名专家任学科带头人。医院始终把科研创新、人才培养、专科建设作为提升医院核心竞争力的有力手段，通过积极完善人才梯队建设，强化制度管理，致力于打造一支技术过硬、作风优良的医学人才队伍。</p>
+						<a href="" class="zjtd-pic"><img src="{dede:global.cfg_templets_skin/}/images/doc.jpg"/><span class="tit">深圳康贝儿童医院专家团体照</span></a>
+					</div>  
+					
+					<div class="item-zljs">
+					    <p class="zljs-intro">深圳康贝儿童医院配备有一流的诊疗设备，如核磁共振成像仪、注意力测试仪、全自动化学发光测定仪、数字脑地形图仪、全自动生化分析仪、微量元素分析仪、儿童智商测试仪、数字脑电地形图系统等，高、尖、精的诊疗设备为治疗提供了保障。</p>
+					    <div class="zljs-info">
+						<a href="/zjts/djsb/2501.html"><img src="{dede:global.cfg_templets_skin/}/images/2-1FF1140540A1-lp.png"><span>超声骨密度骨龄测定仪</span></a>
+<a href="/zjts/djsb/2500.html"><img src="{dede:global.cfg_templets_skin/}/images/2-1FP9105Ac35.jpg"><span>全自动生化分析仪</span></a>
+<a href="/zjts/djsb/2499.html"><img src="{dede:global.cfg_templets_skin/}/images/2-1FP9105HVU.jpg"><span>彩色多普勒超声诊断仪</span></a>
+<a href="/zjts/djsb/2497.html"><img src="{dede:global.cfg_templets_skin/}/images/2-1FP9144649E3.jpg"><span>牙科数字全景仪</span></a>
+<a href="/zjts/djsb/2496.html"><img src="{dede:global.cfg_templets_skin/}/images/2-1FF1134122127-lp.jpg"><span>全数字视频脑电图仪</span></a>
+
+						</div>
+					</div>
+					<div class="item-xjhj">
+				        <p class="xjhj-intro">医院环境优美，设施先进齐全，以“儿童乐园”式布局，突出功能区分，不同科室采用不同的卡通设计，针对儿童思维打造标识科室，配以符合儿童心理特征和身心特点的标识和设施设备，让患儿在玩乐中接受治疗，实现“医、康、养”一体模式，让儿童快乐就诊。</p>
+						<div class="xjhj-info">
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H5.jpg"/><span>二楼候诊区</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H7.jpg"/><span>输液大厅</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H12.jpg"/><span>手术室</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H9.jpg"/><span>儿童病房</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H13.jpg"/><span>中医馆</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H16.jpg"/><span>治疗室</span></a>
+						</div>
+					</div>
+					
+					<div class="item-gyhd">
+					    <p class="gyhd-intro">在这里，没有煽情的口号，没有伪善的承诺，更没有夸张的报道。一切，以行动说话。院内设立了爱心门诊、特困诊疗援助，在社区开展康贝健康大讲堂、康贝医疗公益行和医学沙龙等活动，为儿童健康提供全方位的公益支持，助力于深圳市政府倡导的儿童友好型城市建设工作。</p>
+					    <div class="gyhd-info">
+					    	<a href="http://www.cdkid.cn/tsgy/1370.html"><img src="{dede:global.cfg_templets_skin/}/images/gyhd1.jpg"/>
+					    	<span>“系上蓝丝带，让爱一起飞”救助自闭症</span></a>
+							<a href="http://www.cdkid.cn/tsgy/2298.html"><img src="{dede:global.cfg_templets_skin/}/images/gyhd2.jpg"/>
+							<span>美亚蒙特梭利幼儿园-公益体验</span></a>
+							<a href="http://www.cdkid.cn/tsdt/1359.html"><img src="{dede:global.cfg_templets_skin/}/images/gyhd3.jpg"/>
+							<span>媒体体验日</span></a>
+							<a href="javascript:onKST();/"><img src="{dede:global.cfg_templets_skin/}/images/gyhd4.jpg"/><span>参加儿博会</span></a>
+							<a href="http://www.cdkid.cn/tsdt/1403.html"><img src="{dede:global.cfg_templets_skin/}/images/gyhd5.jpg"/>
+							<span>危重患者现场应急救护知识培训</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2626.html"><img src="{dede:global.cfg_templets_skin/}/images/gyhd6.jpg"/>
+							<span>深圳康复论坛暨脑瘫康复进展培训会</span></a>
+					    </div>
+						
+					</div>
+				</div>
+				<script type="text/javascript"> 
+				jQuery(".slide-item").slide({titCell:".slide-btn li",mainCell:".item-info",trigger:"click"});
+				</script>
+			</div>
+			<div class="hopital-introduction">
+	            <div class="intro-img"><img src="{dede:global.cfg_templets_skin/}/images/yy.jpg"/></div>
+	            <p class="introduction-info">深圳康贝儿童医院是在国家卫计委等职能部门大力倡导下，经深圳市卫生行政管理部门批准的集医疗、科研、特教、康复、保健为一体的综合性儿童医院。医院地处深圳市武侯区人民南路......<a href="/zjts/">[详细]</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- 切换环境背景 end -->
+
+	<!--底部 科室导航 -->	
+	<div class="clear"></div>
+	<!--<div class="navbar-map">
+		<ul>
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks01.jpg"/>小儿呼吸科</h3>
+<dl>
+					<dt></dt>
+					
+					<dd><a href="javascript:onKST();">上呼吸道感染</a></dd>
+					
+					<dd><a href="javascript:onKST();">反复呼吸道感染</a></dd>
+					
+					<dd><a href="javascript:onKST();">小儿发烧</a></dd>
+					
+					<dd><a href="javascript:onKST();">支气管扩张</a></dd>
+					
+				</dl>
+				<p><a href="javascript:onKST();">更多病症→</a></p>
+			</li>	
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks02.jpg"/>小儿消化科</h3>
+<dl>
+					<dt></dt>
+					
+					<dd><a href="javascript:onKST();">胃食管反流</a></dd>
+					
+					<dd><a href="javascript:onKST();">牛奶蛋白过敏</a></dd>
+					
+					<dd><a href="javascript:onKST();">消化不良</a></dd>
+					
+					<dd><a href="javascript:onKST();">周期性呕吐综合症</a></dd>
+					
+				</dl>
+				<p><a href="javascript:onKST();">更多病症→</a></p>
+			</li>
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks03.jpg"/>小二神经内科</h3>
+				<dl>
+					<dt></dt>
+					{dede:channel type="son" row="4" typeid="13"}
+					<dd><a href="[field:typelink /]">[field:typename/]</a></dd>
+					{/dede:channel}
+				</dl>
+				<p>{dede:type typeid="13"}<a href="[field:typelink/]">更多病症→</a>{/dede:type}</p>
+			</li>
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks04.jpg"/>小儿内分泌科</h3>
+				<dl>
+					<dt></dt>
+					{dede:channel type="son" row="4" typeid="14"}
+					<dd><a href="[field:typelink /]">[field:typename/]</a></dd>
+					{/dede:channel}
+				</dl>
+				<p>{dede:type typeid="14"}<a href="[field:typelink/]">更多病症→</a>{/dede:type}</p>
+			</li>
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks05.jpg"/>儿童口腔</h3>
+				<dl>
+					<dt></dt>
+					{dede:type typeid="726"}<dd><a href="[field:typelink /]">[field:typename/]</a></dd>{/dede:type}
+					{dede:type typeid="728"}<dd><a href="[field:typelink /]">[field:typename/]</a></dd>{/dede:type}
+					{dede:type typeid="729"}<dd><a href="[field:typelink /]">[field:typename/]</a></dd>{/dede:type}
+					{dede:type typeid="727"}<dd><a href="[field:typelink /]">[field:typename/]</a></dd>{/dede:type}
+				</dl>
+				<p>{dede:type typeid="26"}<a href="[field:typelink/]">更多病症→</a>{/dede:type}</p>
+			</li>
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks13.jpg"/>发育行为科</h3>
+				<dl>
+					<dt></dt>
+					{dede:type typeid="734"}<dd><a href="[field:typelink /]">[field:typename/]</a></dd>{/dede:type}
+					{dede:type typeid="731"}<dd><a href="[field:typelink /]">[field:typename/]</a></dd>{/dede:type}
+					{dede:type typeid="736"}<dd><a href="[field:typelink /]">[field:typename/]</a></dd>{/dede:type}
+					{dede:type typeid="737"}<dd><a href="[field:typelink /]">[field:typename/]</a></dd>{/dede:type}
+				</dl>
+				<p>{dede:type typeid="26"}<a href="[field:typelink/]">更多病症→</a>{/dede:type}</p>
+			</li>
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks07.jpg"/>耳鼻喉科</h3>
+				<dl>
+					<dt></dt>
+					{dede:channel type="son" row="4" typeid="25"}
+					<dd><a href="[field:typelink /]">[field:typename/]</a></dd>
+					{/dede:channel}
+				</dl>
+				<p>{dede:type typeid="25"}<a href="[field:typelink/]">更多病症→</a>{/dede:type}</p>
+			</li>
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks08.jpg"/>儿童眼科</h3>
+				<dl>
+					<dt></dt>
+					{dede:channel type="son" row="4" typeid="705"}
+					<dd><a href="[field:typelink /]">[field:typename/]</a></dd>
+					{/dede:channel}
+				</dl>
+				<p>{dede:type typeid="705"}<a href="[field:typelink/]">更多病症→</a>{/dede:type}</p>
+			</li>
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks09.jpg"/>儿童皮肤科</h3>
+				<dl>
+					<dt></dt>
+					{dede:channel type="son" row="4" typeid="28"}
+					<dd><a href="[field:typelink /]">[field:typename/]</a></dd>
+					{/dede:channel}
+				</dl>
+				<p>{dede:type typeid="28"}<a href="[field:typelink/]">更多病症→</a>{/dede:type}</p>
+			</li>
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks10.jpg"/>小儿外科</h3>
+				<dl>
+					<dt></dt>
+					{dede:channel type="son" row="4" typeid="27"}
+					<dd><a href="[field:typelink /]">[field:typename/]</a></dd>
+					{/dede:channel}
+				</dl>
+				<p>{dede:type typeid="27"}<a href="[field:typelink/]">更多病症→</a>{/dede:type}</p>
+			</li>
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks11.jpg"/>新生儿科</h3>
+				<dl>
+					<dt></dt>
+					{dede:channel type="son" row="4" typeid="31"}
+					<dd><a href="[field:typelink /]">[field:typename/]</a></dd>
+					{/dede:channel}
+				</dl>
+				<p>{dede:type typeid="31"}<a href="[field:typelink/]">更多病症→</a>{/dede:type}</p>
+			</li>
+			
+			<li>
+				<h3><img src="{dede:global.cfg_templets_skin/}/images/ks12.jpg"/>小儿中医科</h3>
+				<dl>
+					<dt></dt>
+					{dede:channel type="son" row="4" typeid="32"}
+					<dd><a href="[field:typelink /]">[field:typename/]</a></dd>
+					{/dede:channel}
+				</dl>
+				<p>{dede:type typeid="32"}<a href="[field:typelink/]">更多病症→</a>{/dede:type}</p>
+			</li>
+		</ul>
+	</div>-->
+	
+	
+	
+	
+	
+	<!--<div class="else-project">
+		<ul class="project-info">
+			<li><a href="javascript:onKST();" target="_blank"><i></i><p>在线咨询</p></a></li>
+			<li><a onclick="show_order()" target="_blank"><i></i><p>免费预约</p></a></li>
+			<li><a href="#zzsj" target="_blank"><i></i><p>医生排班</p></a></li>
+			<li><a href="/tszt/vipzt/" target="_blank"><i></i><p>会员中心</p></a></li>
+			<li><a href="javascript:onKST();" target="_blank"><i></i><p>健康问答</p></a></li>
+			<li><a href="https://weidian.com/?userid=1215842409&wfr=c&ifr=shopdetail" target="_blank"><i></i><p>官方商城</p></a></li>
+			<li><a href="/lxwm/" target="_blank"><i></i><p>来院路线</p></a></li>
+			<li><a href="javascript:onKST();" target="_blank"><i></i><p>活动优惠</p></a></li>
+		</ul>
+	</div>-->
+	</div>
+	<!--底部 科室导航 end  -->		
+	{dede:include filename="common/footer.htm"/}
+	</body>
+</html>

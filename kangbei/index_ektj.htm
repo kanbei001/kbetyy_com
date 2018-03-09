@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/index_ektj.css">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+</head>
+<body>
+    {dede:include filename="common/header.htm"/}
+    {dede:include filename="common/public_banner.htm"/}
+    <div class="container">
+    	<div class="top clear">
+    		<div class="left ctbox">
+    			<ul class="hd">
+    				<li class="on"></li>
+    				<li></li>
+    				<li></li>
+    			</ul>
+    			<div class="slide-focus">
+    				<span><img src="{dede:global.cfg_templets_skin/}/images/ektj/tj_focus_01.jpg" alt="" title=""></span>
+    				<span><img src="{dede:global.cfg_templets_skin/}/images/ektj/tj_focus_01.jpg" alt="" title=""></span>
+    				<span><img src="{dede:global.cfg_templets_skin/}/images/ektj/tj_focus_01.jpg" alt="" title=""></span>
+    			</div>
+    		</div>
+            <script>
+                jQuery(".left").slide({titCell:".hd li",mainCell:".slide-focus",effect:"left",trigger:"mouseover",autoPlay:true});
+            </script>
+    		<div class="middle ctbox">
+    			<h3 class="head"><b>儿科体检</b><a href="/ektj">+MORE</a></h3>
+    			<div class="new-article">
+                    <span class="new-tip">最新文章</span>
+                    <div class="atcinfo">
+                        {dede:arclist titlelen="80" infolen="180" typeid="770" row="1" flag="c"}
+                        <h3>[field:title/]</h3>
+                        <p>[field:infos/].....<a href="[field:arcurl/]" title="[field:title/]">[阅读全文]</a></p>
+                        {/dede:arclist}
+                    </div>
+                </div>
+                <ul class="atclist">
+                    {dede:arclist row="4" typeid="770" noflag="c" limit="0,4" titlelen="70" orderby='pubdate'}
+                    <li><a href="[field:arcurl/]" title="[field:title/]" class="title clear">· [field:title/]</a><span class="pubdate">[field:pubdate function='strftime("%m-%d",@me)'/]</span></li>
+                    {/dede:arclist}
+                </ul>
+    		</div>
+    		<div class="right ctbox">
+				<div class="tsfw_tit"><h3>康贝服务</h3><span class="en">SERVICE</span></div>
+				<div class="tsfw_xm">
+					<ul class="clear">
+						<li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/fw1.png"> <span class="title">电话咨询</span></a></li>
+						<li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/fw2.png"> <span class="title">健康问答</span></a></li>
+						<li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/fw3.png"> <span class="title">会员服务</span></a></li>
+						<li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/fw4.png"> <span class="title">夜门诊</span></a></li>
+						<li><a href="/swt"><img src="{dede:global.cfg_templets_skin/}/images/fw5.png"> <span class="title">出诊信息</span></a></li>
+						<li><a href="/lxwm"><img src="{dede:global.cfg_templets_skin/}/images/fw6.png"> <span class="title">就诊指南</span></a></li>
+					</ul>	
+					<div class="time_mz clear">
+						<div class="time_mz_bg"><p>门诊热线：<b>028-85056688</b></p></div>
+					</div>
+				</div>
+    		</div>
+    	</div>
+    	<!--儿科体检套餐-->
+    	<div class="ct-title">
+    		<span class="title">儿科体检套餐</span>
+    	</div>
+    	<div class="tj-taocan">
+    		<div class="tc-box">
+    			<div class="shade">
+    				<div class="tc-info">
+		    			<h3><span class="span1">婴儿体检</span><span class="span2">A套餐</span></h3>
+		    			<p class="age">适合年龄段：（1个月-1岁）</p>
+		    			<div class="price"><span class="span1">优惠价 ¥</span><span class="span2">258</span></div>
+		    			<p class="tj-xm">体检项目：儿心量表、口腔检查、听力测定……<a href="">[查看全部]</a></p>
+		    		</div>
+		    		<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/tjtc_img_01.jpg" alt=""></span>
+	    			{dede:arclist idlist='2684'}<a href="[field:arcurl/]" class="href"></a>{/dede:arclist}
+    			</div>
+    		</div>
+    		<div class="tc-box">
+	    		<div class="shade">
+	    			<div class="tc-info">
+		    			<h3><span class="span1">幼儿体检</span><span class="span2">B套餐</span></h3>
+		    			<p class="age">适合年龄段：（1岁-3岁）</p>
+		    			<div class="price"><span class="span1">优惠价 ¥</span><span class="span2">758</span></div>
+		    			<p class="tj-xm">体检项目：儿心量表、口腔检查、听力测定……<a href="">[查看全部]</a></p>
+		    		</div>
+		    		<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/tjtc_img_02.jpg" alt=""></span>
+	    			{dede:arclist idlist='2685'}<a href="[field:arcurl/]" class="href"></a>{/dede:arclist}
+    			</div>
+    		</div>
+    		<div class="tc-box">
+	    		<div class="shade">
+	    			<div class="tc-info">
+		    			<h3><span class="span1">儿童体检</span><span class="span2">C套餐</span></h3>
+		    			<p class="age">适合年龄段：（3—6岁）</p>
+		    			<div class="price"><span class="span1">优惠价 ¥</span><span class="span2">828</span></div>
+		    			<p class="tj-xm">体检项目：儿心量表、口腔检查、听力测定……<a href="">[查看全部]</a></p>
+		    		</div>
+		    		<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/tjtc_img_03.jpg" alt=""></span>
+	    			{dede:arclist idlist='2687'}<a href="[field:arcurl/]" class="href"></a>{/dede:arclist}
+    			</div>
+    		</div>
+    		<div class="tc-box">
+	    		<div class="shade">
+	    			<div class="tc-info">
+		    			<h3><span class="span1">儿童体检</span><span class="span2">D套餐</span></h3>
+		    			<p class="age">适合年龄段：（6—12岁）</p>
+		    			<div class="price"><span class="span1">优惠价 ¥</span><span class="span2">1200</span></div>
+		    			<p class="tj-xm">体检项目：微量元素、智力测试、听力测定……<a href="">[查看全部]</a></p>
+		    		</div>
+		    		<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/tjtc_img_04.jpg" alt=""></span>
+	    			{dede:arclist idlist='2688'}<a href="[field:arcurl/]" class="href"></a>{/dede:arclist}
+    			</div>
+    		</div>
+    		<div class="tc-box">
+    			<div class="shade">
+	    			<div class="tc-info">
+		    			<h3><span class="span1">青春期体检</span><span class="span2">E套餐</span></h3>
+		    			<p class="age">适合年龄段：（12—18岁）</p>
+		    			<div class="price"><span class="span1">优惠价 ¥</span><span class="span2">1088</span></div>
+		    			<p class="tj-xm">体检项目：肾功能检查、心电图检查……<a href="">[查看全部]</a></p>
+		    		</div>
+		    		<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/tjtc_img_05.jpg" alt=""></span>
+	    			{dede:arclist idlist='2691'}<a href="[field:arcurl/]" class="href"></a>{/dede:arclist}
+    			</div>
+    		</div>
+    		<div class="tc-box">
+	    		<!-- <div class="shade">
+	    			<div class="tc-info">
+		    			<h3><span class="span1">儿童入托体检</span><span class="span2"></span></h3>
+		    			<p class="age"></p>
+		    			<div class="price"><span class="span1">优惠价 ¥</span><span class="span2">228</span></div>
+		    			<p class="tj-xm">体检项目：专科体格检查、耳鼻喉检查……<a href="">[查看全部]</a></p>
+		    		</div>
+		    		<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/tjtc_img_06.jpg" alt=""></span>
+	    			{dede:arclist idlist='2692'}<a href="[field:arcurl/]" class="href"></a>{/dede:arclist}
+	    		</div> -->
+    		</div>
+    	</div>
+    	<!--儿科体检流程-->
+    	<div class="ct-title">
+    		<span class="title">儿科体检流程</span>
+    	</div>
+    	<div class="tjstep">
+    		<div class="step-info">
+    			<div class="left">
+    				<span class="span1">step</span><span class="span2">01</span>
+    			</div>
+    			<div class="right">
+    				<h3>预约挂号</h3>
+    				<p>网络预约或官方微店拍下套餐</p>
+    			</div>
+    		</div>
+    		<span class="step-jt"></span>
+    		<div class="step-info">
+    			<div class="left">
+    				<span class="span1">step</span><span class="span2">01</span>
+    			</div>
+    			<div class="right">
+    				<h3>领取体检单</h3>
+    				<p>导医核实预约情况客户填写体检单基本信息</p>
+    			</div>
+    		</div>
+    		<span class="step-jt"></span>
+    		<div class="step-info">
+    			<div class="left">
+    				<span class="span1">step</span><span class="span2">01</span>
+    			</div>
+    			<div class="right">
+    				<h3>按套餐进行</h3><h3>项目检查</h3>
+    				<p>儿保医师做本科室相关检查，然后儿保医助带领客户到其他相关科室检查</p>
+    			</div>
+    		</div>
+    		<span class="step-jt"></span>
+    		<div class="step-info">
+    			<div class="left">
+    				<span class="span1">step</span><span class="span2">01</span>
+    			</div>
+    			<div class="right">
+    				<h3>汇总体检报告</h3>
+    				<p>所有体检结果报告汇总至儿保科，并由儿保科医师对该次体检总结，签名</p>
+    			</div>
+    		</div>
+    		<span class="step-jt"></span>
+    		<div class="step-info">
+    			<div class="left">
+    				<span class="span1">step</span><span class="span2">01</span>
+    			</div>
+    			<div class="right">
+    				<h3>领取体检报告</h3>
+    				<p>将体检结果（体检表、各项检查结果原始报告单）邮寄给客户，或电话联系客户自行领取</p>
+    			</div>
+    		</div>
+    	</div>
+    	<!--推荐专家-->
+    	<div class="expert clear">
+    		<span class="title"></span>
+    		<div class="expert-info">
+    			<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/expert_01.jpg" alt=""></span>
+    			<div class="info">
+    				<b>医生简介：</b>
+    				<p> 从事儿科及儿保工作40余年，曾在三甲妇幼保健院工作对儿童常见病、多发病的诊治具有丰富的临床工作经验和专业水平，在小儿呼吸系统、消化系统疾病治疗以及儿童保健方面有独到见解……<a href="">[专家更多介绍]</a></p>
+    				<b>诊疗擅长：</b>
+    				<p>儿童生长发育迟缓、佝偻病、营养不良、贫血的预防及诊治、儿童心理咨询，儿童各阶段生长发育全面评估和指导0-7岁儿童系统监测等。</p>
+    				<div class="zx">
+    					<a href="/swt">我要咨询</a>
+    					<a href="/swt">直接预约</a>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="yuyueform">
+    			<h3>体检预约入口</h3>
+    			<div class="yuyue">
+    				<div class="input-group"><input type="text" name="gh_name" id="" placeholder="孩子姓名"></div>
+    				<div class="input-group"><input type="text" name="gh_tel" id="" placeholder="联系电话"></div>
+    				<div class="input-group"><input type="text" name="gh_age" id="" placeholder="孩子年龄"></div>
+    				<div class="input-group">
+    					<select name="gh_des">
+                            <option value="请选择体检项目">请选择体检项目</option>
+                            <option value="A套餐：婴儿体检">A套餐：婴儿体检</option>
+                            <option value="B套餐：幼儿体检">B套餐：幼儿体检</option>
+                            <option value="C套餐：儿童体检">C套餐：儿童体检</option>
+                            <option value="D套餐：儿童体检">D套餐：儿童体检</option>
+                            <option value="E套餐：青春期体检">E套餐：青春期体检</option>
+    					</select>
+    				</div>
+                    <input type="hidden" id="gh_fromurl" name="gh_fromurl" value="">
+    			</div>
+    			<span class="submit" id="gh_submit">提交预约</span>
+    		</div>
+    	</div>
+        <iframe name="aa" id="aa" frameborder="0" width="0" height="0"></iframe> <script type="text/javascript"> var ref=""; if(document.referrer.length>0){ref=document.referrer }try{if(ref.length==0&&opener.location.href.length>0){ref=opener.location.href } }catch(e){ref=window.location.href } document.getElementById("gh_fromurl").value=ref;</script>
+        <script type="text/javascript" charset="UTF-8" src="http://guahao.cdkid.cn/data/cache/6875b69bcc27340402980854874e14cd.js"></script>
+    	<!--体检优势-->
+    	<div class="ct-title">
+    		<span class="title">我院体检优势</span>
+    	</div>
+    	<div class="ys-info">
+    		<div class="info">
+    			<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/ys_01.png" alt=""></span>
+    			<div class="intro">
+    				<h3>1、强大专家团队</h3>
+    				<p>拥有一支临床经验丰富的体检专家和医护团队，是家长们安心、放心的保障。</p>
+    			</div>
+    		</div>
+    		<div class="info">
+    			<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/ys_02.png" alt=""></span>
+    			<div class="intro">
+    				<h3>2、体检项目齐全</h3>
+    				<p>拥有市区齐全的儿童体检项目以及高端的诊疗设备，科学化、个性化的体检套餐，可提供0-18岁青少年所有的体检项目。</p>
+    			</div>
+    		</div>
+    		<div class="info">
+    			<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/ys_03.png" alt=""></span>
+    			<div class="intro">
+    				<h3>3、就医环境优美</h3>
+    				<p>医院环境温馨、舒适、无院感，童话般的就医环境，充分缓解儿童紧张心理。</p>
+    			</div>
+    		</div>
+    		<div class="info">
+    			<span class="img"><img src="{dede:global.cfg_templets_skin/}/images/ektj/ys_04.png" alt=""></span>
+    			<div class="intro">
+    				<h3>4、建立个人档案</h3>
+    				<p>医院为每一位体检孩子建立个人健康档案，定期对孩子健康状况进行评估和总结。</p>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="sb-title">我院高端设备<span class="line"></span></div>
+    	<div class="sb-info clear">
+    		<div class="info">
+    			<img src="{dede:global.cfg_templets_skin/}/images/ektj/sb_01.jpg" alt=""/>
+    			<div class="sb-attr">
+    				<h3 class="title">3.0核磁共振</h3>
+    				<span class="small-title"><img src="{dede:global.cfg_templets_skin/}/images/ektj/sb_e_01.jpg" alt=""></span>
+    				<p>安全无辐射</p>
+					<p>扫描速度更快</p>
+					<a class="span1">成像<br/>极佳</a>
+					<a class="span2">速度<br/>更快</a>
+					<a class="span3">安全<br/>无创伤</a>
+    			</div>
+    		</div>
+    		<div class="info">
+    			<img src="{dede:global.cfg_templets_skin/}/images/ektj/sb_02.jpg" alt=""/>
+    			<div class="sb-attr">
+    				<h3 class="title">牙片全景机</h3>
+    				<span class="small-title"><img src="{dede:global.cfg_templets_skin/}/images/ektj/sb_e_02.jpg" alt=""></span>
+    				<p>卓越的图像质量</p>
+					<p>检查速度快</p>
+					<a class="span1">成像<br/>迅速</a>
+					<a class="span2">精确<br/>控制</a>
+					<a class="span3">检查<br/>速度快</a>
+    			</div>
+    		</div>
+    		<div class="info">
+    			<img src="{dede:global.cfg_templets_skin/}/images/ektj/sb_03.jpg" alt=""/>
+    			<div class="sb-attr">
+    				<h3 class="title">DR·数字影像系统</h3>
+    				<span class="small-title"><img src="{dede:global.cfg_templets_skin/}/images/ektj/sb_e_03.jpg" alt=""></span>
+    				<p>图片分辨率高</p>
+					<p>放射利用率高</p>
+					<a class="span1">成像<br/>速度快</a>
+					<a class="span2">超低<br/>辐射量</a>
+					<a class="span3">检测<br/>速度快</a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    {dede:include filename="common/footer.htm"/}
+</body>
+</html>

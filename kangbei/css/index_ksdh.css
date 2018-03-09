@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-14 16:33:12
+ * @templets ksdh.htm(科室导航)
+ */
+.ksdh-container{width:1200px;margin:30px auto;}
+/*科室导航 @ 导航详情*/
+.K{ width: 100%; height: auto; overflow: hidden; margin: 50px auto 0 auto;}
+.K-title{ width: 100%; height: 62px; text-align: center; margin: 0 auto;}
+.K-title .K-title-h1{ width: 100%; font-size: 30px; color: #575757; height: 32px; line-height: 32px;}
+.K-title span{color:#b2b2b2; font-size: 16px; height: 30px; line-height: 30px; text-transform: uppercase;}
+.k-M{ width: 100%; height: auto; float: left; overflow: hidden;}
+.k-M li{ width: 47.91%; float: left; height: 178px; overflow: hidden; margin-top: 28px;}
+.k-M li.k-M-ri,.k-ZMbd li.k-M-ri{float: right;}
+.k-Mico{width: 24.5%; height:178px; background: #59c2f4; float: left;}
+.k-Mico em{ width: 60px; height: 60px; display: block; margin: 36px 40.5px 5px 40.5px; float: left; background: url(../images/ico2.png) no-repeat;}
+.k-Mico em.em6{ background-position: 0 0;}
+.k-Mico em.em7{ background-position: -65px 0;}
+.k-Mico em.em8{ background-position: -125px 0;}
+.k-Mico em.em9{ background-position: -181px 0;}
+.k-Mico em.em10{ background-position: -231px 0;}
+.k-Mico em.em11{ background-position: -289px 0;}
+.k-Mico em.em12{ background-position: -352px 0;}
+.k-Mico em.em13{ background-position: -421px 0;}
+.k-Mico em.em14{ background-position: -482px 0;}
+.k-Mico em.em15{ background-position: -542px 0;}
+.k-Mico em.em16{ background-position: -602px 0;}
+.k-Mico em.em17{ background-position: 0 -68px;}
+.k-Mico em.em18{ background-position: -60px -70px;}
+.k-Mico em.em19{ background-position: -125px -70px;}
+.k-Mico a{ width: 100%; text-align: center; color: #fff; display: block; font-size: 18px;}
+.k-Min{ width: 75.5%; float: right; height: 178px; background: #efefef;}
+.k-Min p{ padding: 20px; width: 90.8%; height:138px; color: #6e6e6e; line-height: 32px;text-align：justify;}
+.k-Min p a,.k-Min:hover p a{color: #6e6e6e; font-size: 15px;text-align：justify;}
+.k-Min p a:hover,.k-Min:hover p a:hover{color: #049CE5;}
+.k-Min:hover{background: #fff; border: 1px solid #59c2f4; width: 75.15%; float: right; height: 176px;}
+.k-Min:hover p{ padding: 19px; width: 90.5%; height:138px; color: #6e6e6e; line-height: 32px;}
+
+/*科室导航 @ 广告横幅*/
+.k-g{ width: 100%; height: 150px; float: left; margin: 26px auto 26px auto; overflow: hidden;}
+/*科室导航 @ 模块标题*/
+.part-title{width: 100%; height: 40px; border-bottom: 1px solid #ececec; line-height: 40px;}
+.part-title .title-info{ float: left; font-size: 24px; color: #444343;}
+.part-title .title-info span{color:#cccccc;text-transform: uppercase; padding-left: 10px;}
+/*科室导航 @ 推荐专家*/
+.expert-container{ width: 100%; height: auto; overflow: hidden;margin-bottom:30px;}
+.expert-slide{ width: 100%; height: auto; overflow: hidden;}
+.expert-lists{ width: 100%; height:317px;margin-top: 30px;}
+.expert-lists li{ width: 577px; height: 317px; float: left; margin: 0 11px;}
+.expert-lists li a.picname{display:block;width:297px;float: left;overflow: hidden;}
+.expert-lists li a img{ display:block;width: 297px; height:317px;}
+.expert-info{width:260px;float: right;}
+.expert-name{margin-bottom: 15px;font-size: 18px;color: #666666;}
+.expert-name h5{display:inline-block;font-size: 24px;color:#fd8113;padding-right: 10px;}
+.expert-sc{padding:10px 0px;color:#7b7b7b;}
+.expert-sc h6{padding:5px 0px;font-size: 16px;}
+.expert-sc p{padding-top: 6px; font-size: 15px;line-height: 24px;}
+.expert-intro{padding:20px 0px;color:#7b7b7b;}
+.expert-intro h6{padding:5px 0px;font-size: 16px;}
+.expert-intro p{padding-top: 6px; font-size: 15px;line-height: 24px;}
+.expert-intro p a{color:#7b7b7b;}
+.expert-guahao{width:100%;height:auto;text-align: center;}
+.expert-guahao a{display: inline-block;padding:10px 30px;color:#049CE5;font-size:14px;border:1px solid #049CE5;border-radius: 44px;}
+.slide-btn ul{margin:20px 0px;text-align: center}
+.slide-btn ul li{ display:inline-block;width: 42px; height: 3px;overflow: hidden; background: #c2c2c2; margin: 0 4px;color:#c2c2c2;}
+.slide-btn ul li.on{background:#049CE5;color:#049CE5;}
+
+/*科室导航 @ 热文推荐*/
+.k-Z-list{width: 100%; height: 200px; float: left; margin-top: 24px;}
+.k-Z-list1{ width: 577px; height: 158px; float: left;}
+.k-Z-list2{float: right;}
+.k-Z-list1 img{ width: 190px; height: 158px; float:left; overflow: hidden;}
+.k-Z-list1-div{ width: 368px; height: 158px; float: right; overflow: hidden;}
+.k-Z-list1-div p{ width: 100%; height: 24px; line-height: 24px; margin-top: 14px;}
+.k-Z-list1-div p img{ width: 9px; height: 15px; float: left; margin: 4.5px 10px; 4.5px 0;}
+.k-Z-list1-div p a{width: 260px; float: left; height: 24px; display: block; font-size: 15px; color: #7a7a7a; overflow: hidden; line-height: 24px;}
+.k-Z-list1-div p a:hover{color: #049CE5;}
+.k-Z-list1-div p span{color: #c9c9c9;}

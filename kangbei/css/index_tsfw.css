@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('public_navbar.css');
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 15:36:28
+ * @position:  特色服务
+ */
+.tsfw-container{width:1200px;margin: 20px auto;}
+.expert-nav{display:none;}
+.yygk-nav{display:none;}
+
+/*特色服务 @ 文章列表*/
+.H-DIV{ width: 1200px; height: auto; float: left; margin: 0 auto; overflow: hidden;}
+.H-DIV li{ width: 100%; height: 156px; margin: 29px auto 0 auto; border-bottom: 1px dashed #dadbdb; padding-bottom: 29px;}
+.H-DIV li img{ width: 242px; height: 156px; overflow: hidden; float: left;}
+.H-DIV-li{ width: 662px; height: 156px; overflow: hidden; padding-left: 30px;}
+.H-DIV-li strong{ width: 100%; height: 40px; line-height: 40px; float: left; font-size: 20px; color: #5a5a5a;}
+.H-DIV-li strong b{font-weight:100}
+.H-DIV-li strong a{ color:#5a5a5a; }
+.H-DIV-li p{ width: 100%; height: 96; overflow: hidden; float: left; text-indent: 2em; font-size: 15px; color: #828282; line-height: 32px; padding-top: 12px;}
+.H-DIV-li p a{color: #f08a57;}
+
+/*特色服务 @ 医保农合--*/
+.H-DIVN li{ width: 932px; height: 218px; float: left; margin-top: 26px;}
+.H-DIVN li img{ width: 222px; height: 218px; float: left; overflow: hidden;}
+.H-DIVN-li{ width: 610px; height: 142px; float: left; background: #efefef; padding: 40px 50px 36px 50px; overflow: hidden;}
+.H-DIVN-li strong{ width: 100%; float: left; font-size: 22px; color: #515151; height: 24px; line-height: 24px;}
+.H-DIVN-li p{ width: 100%; height: 94px; overflow: hidden; float: left; margin-top: 24px; font-size: 16px; color: #6e6e6e; line-height: 34px;}
+
+/*特色服务 @ 护理天地*/
+.hltd-container{width:1200px;margin:30px auto;}
+.HL{width: 1200px; height: auto; overflow: hidden;}
+.HL1{ width: 100%; height: auto; text-align: center;}
+.HL1 strong{ width: 100%; height: 40px; color: #007cc3; font-size: 28px; line-height:40px;}
+.HL1 p{color: #afafaf; text-transform: uppercase; font-size: 14px;}
+.HL2{ width: 100%; height: auto; text-align: center; line-height: 28px; color: #838383; padding-top:30px;}
+.HL3{ width:100%; height: 390px; position: relative; margin-top: 50px;}
+.HL3 ul li{ width: 48%; height: 150px; overflow: hidden; border-radius: 75px; float: left; margin-top: 28px;}
+.HL3 ul li.HL3-l{background: #d4effc; float: left;}
+.HL3 ul li.HL3-d{background: #fff3e4; float: right;}
+.HL3-posi{ width: 369px; height: 368px; border-radius: 50%; position:absolute; left: 417px; overflow: hidden; border: 10px solid #fff;}
+.HL3-posi img{ width: 366px; height: 366px; border: 2px solid #fff;}
+.HL3-posi span{display:block;width:129px;height:89px;padding:140px 120px;line-height:45px;position:absolute;top:0px;left:1px;background: rgba(0,0,0,0.3);color:#fff;text-align: center;font-size:30px;}
+.HL3-w1{ width: 344px; float: left; height: 127px; overflow: hidden; padding-top: 12px;padding-left:47px ;}
+.HL3-w1 strong{font-size: 20px; color: #007CC3;}
+.HL3-w1 p{color: #838383; font-size: 14px; float: left; margin-top: 8px; line-height: 24px;}
+.HL3-w2{ width: 344px; float: right; height: 127px; overflow: hidden; padding-top: 12px;padding-right:47px ;}
+.HL3-w2 strong{font-size: 20px; color: #007CC3;}
+.HL3-w2 p{color: #838383; font-size: 14px; float: left; margin-top: 8px; line-height: 24px;}
+.HL3 ul li.HL3-col1{background: #fff3e4;}
+.HL3 ul li.HL3-col2{background: #d4effc;}
+.HL3-d .HL3-w2 strong,.HL3-col1 .HL3-w1 strong{color: #f1a334;}
+.HL3-col2 .HL3-w2 strong{ color: #007cc2;}
+
+.HL4{ width: 100%; margin: 40px auto 60px auto; overflow: hidden;}
+.HL4-l{float: left; width: 560px;}
+.HL4-title{ width: 100%; height: 40px; border-bottom: 2px solid #e8e8e8; line-height: 40px;}
+.HL4-title strong{ width: 100px; float: left; border-bottom: 2px solid #007cc3; font-size: 24px; color: #007cc3; float: left;}
+.HL4-title a{color: #c8c8c8; font-size: 16px; width: 60px; float: right;}
+.HL4-l1{ width: 560px; height: 156px; float: left; margin-top: 26px;}
+.HL4-l1 img{ width: 242px; height: 156px; float: left; overflow:hidden ;}
+.HL4-l1-title{ width:290px; float: right; height: 156px; overflow: hidden;}
+.HL4-l1-title strong{ width: 100%; height: 60px; line-height: 30px; font-size: 20px; overflow: hidden;}
+.HL4-l1-title strong a{color:#5a5a5a}
+.HL4-l1-title p{width:100%; height: 80px; line-height: 28px; font-size: 15px; color: #828282; float: left; margin-top: 15px;}
+.HL4-l1-title p a{color: #f08a57;}
+.HL4-hl-l2{ width: 560px; height: auto; overflow: hidden; margin-top: 10px; float: left;}
+.HL4-hl-l2 li{ width: 100%; height: 52px; line-height: 52px; border-bottom: 1px dashed #dadada;}
+.HL4-hl-l2 li img{ width: 9px; height: 15px; float: left; margin: 18.5px 5px 18.5px 0;}
+.HL4-hl-l2 li a{color: #6e6d6c; font-size: 15px; float: left;}
+.HL4-hl-l2 li a:hover{color: #049CE5;}
+.HL4-hl-l2 li span{color: #bfbfbf; width: 90px; float: right;}
+.HL4-r{float: right; width: 560px;}
+
+.angel-doctor{width:1200px;margin:30px auto;}
+.angel-doctor .title{ width: 100%; height: 30px; line-height: 30px; overflow: hidden; color: #5e5e5e;}
+.angel-doctor .title p{ float: left; width: 90%; font-size: 24px;}
+.angel-doctor .title a{ float: right; font-size: 16px; color: #b8b8b8; display: block; width: 63px;}
+.angel-doctor .doctor-list{ width: 100%; height: auto; overflow: hidden; position: relative;}
+.angel-doctor .M-k3bd{ width: 100%; height: 437px;float: left;}
+.angel-doctor .M-k3bd ul{height:437px;}
+.angel-doctor .M-k3bd li{ width: 100%; height: 437px; float:left; margin-top: 15px;}
+.angel-doctor .M-k3bd li img{ width: 426px; height: 437px; float: left;}
+.angel-doctor .M-k3bd1{float: right; width: 548px; height: 374px; padding: 30px 155px 36px 70px; background: #f3f1f1;}
+.angel-doctor .M-k3bd1-title{width: 548px; height: 70px;float: left; overflow: hidden;}
+.angel-doctor .M-k3bd1-title strong{font-size: 45px; color: #ef6b13; float: left;}
+.angel-doctor .M-k3bd1-title span{ font-size: 24px; color: #4a4a4a; float: left; padding: 24px 0 0 20px;}
+.angel-doctor .M-k3bd1-k{ width: 100%; height: 110px; float: left;position:relative}
+.angel-doctor .M-k3bd1-k1{float: left; width: 100%; font-size: 16px; color: #616161; line-height: 30px; overflow: hidden;}
+.angel-doctor .M-k3bd1-k2{height: auto; overflow: hidden;position:absolute;top:0px;right:-30px;}
+.angel-doctor .M-k3bd1-k2 a{padding:10px 15px; border: 1px solid #ef6b13; background: #f3f1f1; color: #ef6b13;display: block; border-radius: 10px;}
+.angel-doctor .M-k3bd1-k2 a.abg{background: #ef6b13; color: #fff; margin-bottom: 10px;}
+.angel-doctor .M-k3bd1-k3{ width: 100%; height: auto; border-bottom: 1px solid #d3d4d4; overflow: hidden;}
+.angel-doctor .M-k3bd1-k3 h4{ width: 100%; height: 30px; line-height: 30px; font-size: 20px; float: left; color: #494949;}
+.angel-doctor .M-k3bd1-k3 p{width: 100%; line-height: 28px; height: 56px; color: #717171; font-size: 15px; float: left;}
+.angel-doctor .M-k3bd1-k3 p a{color: #ff0000;}
+.angel-doctor .M-k3bd1-k3 h5{font-size: 18px; color: #ef6b13; height: 20px; line-height: 20px; float: left; margin: 20px auto; overflow: hidden;}
+.angel-doctor .M-k3bd1-k4{ width: 100%; height: 26px; line-height: 26px; font-size: 24px; color: #4a4a4a; float: left; margin-top: 20px;}
+.angel-doctor .M-k3hd{ width: 100%; height: 90px; position: absolute; top: 200px; left: 0; z-index: 1;}
+.angel-doctor .doctor-list .hd ul{display: none;}
+.angel-doctor .doctor-list .hd .prev,.doctor-list .hd .next{ display:block;  width:49px; height:90px; float:right; margin-right:5px; margin-top:10px;  overflow:hidden; cursor:pointer; background:url(../images/slider-arrow1.png) 0 0 no-repeat;}
+.angel-doctor .doctor-list .hd .next{ background-position:0 0; position: absolute; right: 34px;}
+.angel-doctor .doctor-list .hd .prev{background-position: -116px 0; position: absolute; left: 34px;}
+
+

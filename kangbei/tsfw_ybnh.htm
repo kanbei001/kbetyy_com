@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field name='keywords'/}" />
+		<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/index_tsfw.css">
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+	</head>
+	<body>
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	
+	<!--正文 开始-->
+	<div class="tsfw-container clear">
+	{dede:include filename="common/public_navbar.htm"/}
+
+	
+	<!--右侧内容 开始-->
+	<div class="M-932">
+		<div class="M-932-title">
+			<div class="M-932-title-lf">{dede:field.typename/}</div>
+			<div class="M-932-title-ri">
+				<img src="{dede:global.cfg_templets_skin/}/images/home_ico.png">
+				<p>您所在的位置：{dede:field name='position'/}</p>
+			</div>
+		</div>
+		<div class="H-DIVN">
+			<ul>
+				<li>
+					<img src="{dede:global.cfg_templets_skin/}/images/S16.jpg" />
+					<div class="H-DIVN-li">
+						<strong>保险直付服务</strong>
+						<p>
+							在深圳康贝儿童医院，我们认为现代化的优质医疗服务应当为每个人打开方便之门，包括没有医疗保险的患者在内。我们的费用结构十分简单，杜绝了人们对于医疗服务定价问题的猜测。</p>
+					</div>
+				</li>
+				<li>
+					<img src="{dede:global.cfg_templets_skin/}/images/S17.jpg" />
+					<div class="H-DIVN-li">
+						<strong>医疗保险建议</strong>
+						<p>
+							对于每一名深圳康贝儿童医院的患者而言，拥有一份与我们有直接结算关系的医疗保险计划会使您倍感便利。现在，康贝会和更多的保险公司合作，所有这些保险机构提供的保险计划不尽相同。</p>
+					</div>
+				</li>
+				<li>
+					<img src="{dede:global.cfg_templets_skin/}/images/S18.jpg" />
+					<div class="H-DIVN-li">
+						<strong>需提供的材料</strong>
+						<p>
+							有效的身份证明、现金、保险相关证明</p>
+					</div>
+				</li>
+				<li>
+					<img src="{dede:global.cfg_templets_skin/}/images/S19.jpg" />
+					<div class="H-DIVN-li">
+						<strong>团体保险</strong>
+						<p>
+							接受大部分主流保险公司提供的医疗保险计划，我们的保险公司一直在不断的更新，如果您有任何疑问，可以进行电话咨询。</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+
+	</div>
+	<!--右侧内容 结束-->
+	</div>
+	{dede:include filename="common/footer.htm"/}
+	<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/style.js" ></script>
+	<!--正文 结束-->
+	</body>
+</html>

@@ -1,0 +1,69 @@
+﻿*{ margin: 0; padding: 0;}
+html{ }
+body{ font-family: "微软雅黑"; font-size: 14px;}
+ul li{ list-style: none;}
+.fd_l{ float: left;}
+.fd_r{ float: right;}
+a{ text-decoration: none;}
+a:hover{ text-decoration: underline;}
+.clear{ clear: both;}
+h1,h2,h3,h4,h5,h6{ font-weight: normal;}
+
+
+.ks_nav_w ul li {line-height: 50px; } 
+/***************** vip css *******************/
+.mysp_w{ width: 1200px; height: 245px; margin: 36px auto 0 auto;}
+.w500{ width: 457px; height: auto; margin-left: 15px;margin-top: -10px;}
+.w500 .head{font-size: 20px;line-height: 40px;color: #333333;border-bottom: 1px solid #dddddd;padding-bottom: 10px;}
+.w500 .head a{font-size: 14px;color: #999999;float: right;}
+.dt_tu1{display: inline-block;margin-top: 18px;padding-bottom: 10px;border-bottom: 1px dashed #dddddd;}
+.dt_tu1>div{float: left;}
+.dt_tu1 .dt1{width: 70px;height: 80px;background: #19a4e7;margin-right: 20px;}
+.dt_tu1 .dt1 p{color: #fff;font-size: 20px;line-height: 30px;margin: 0 auto;width: 40px;text-align: center;}
+.dt_tu1 .dt1 .line{border-bottom: 1px solid #fff;margin-top: 10px;}
+.dt_tu1 .dt2{width: 365px;}
+.dt_tu1 .dt2 a.title{color: #333; display: inline-block; font-size: 16px;line-height: 30px; font-weight: bold;}
+.dt_tu1 .dt2 p,.dt_tu1 .dt2 p a{line-height: 28px;color: #666666; text-indent: 2em;}
+.dt_list ul li a{color: #333333; margin-left: 5px;}
+.dt_list ul li>span:nth-child(2){ font-size: 14px; color: #c1c1c1; float: right;}
+.dt_list ul li{ height: 26px; line-height: 26px;}
+.dt_list ul li:nth-child(1){ margin-top: 10px;}
+	
+/***************** 康贝动态切换 css end  *******************/
+
+.wd292{ width: 292px; height: auto;border: 1px solid #dedede;}
+.tsfw_tit{border-top:1px solid #19a4e7;padding-top: 10px;text-align: center;}
+.tsfw_tit h3{ font-size: 20px; color: #797979;}
+.tsfw_tit h3 small{font-size:14px;}
+.tsfw_bg1{width: 292px; padding-top: 17px;}
+.tsfw_bg1 ul li{ float: left; margin-right: 34px; margin-bottom: 14px;color: #888888; }
+.tsfw_bg1 ul li a{ text-align: center; color: #888888; font-size: 14px;}
+.tsfw_bg1 ul{ width: 94%;  margin-left: 25px; position: relative; overflow: hidden; }
+
+
+.viplist{width: 1200px; margin: 20px auto 0 auto;}  
+.viplist .title { color: #333333; font-size: 20px; line-height: 28px; }
+.viplist table{border: 1px solid #dddddd;border-collapse:collapse;border-spacing:0;margin-top: 5px;} 
+.viplist table tr{border-bottom: 1px solid #dddddd;}
+.viplist table tr th{border-right: 1px solid #dddddd;height: 53px;background: #f5f5f5;font-size: 16px;font-weight: normal;text-align: center;}
+.viplist table  tbody tr td{border-right: 1px solid #dddddd;padding: 20px;line-height: 28px;}
+.viplist table  tbody tr td.note p{margin-top: 35px;}
+.viplist table  tbody tr td.note p:first-child{margin-top: -20px;}
+.viplist table tbody tr td .p { float: left; font-size: 16px; line-height: 20px; margin-right: 20px; margin-top: 40px; text-align: center; width: 27px; }  
+.viplist table tbody tr td .s { display: inline-block; letter-spacing: 1px; margin-bottom: 5px; transform: rotate(90deg); transform:rotate(90deg); -ms-transform:rotate(90deg); -moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); -o-transform:rotate(90deg); }  
+.viplist table tbody tr td img { border-radius: 15px; box-shadow: 0 5px 5px #888888; }
+
+
+.badimg { margin: 30px auto; position: relative; width: 1200px; }
+.badimg .lt { left: 25px; position: absolute; top: 25px; }  
+.badimg .lt .tt { color: #fff; font-size: 24px; padding-bottom: 25px; }  
+.badimg .lt a { background: #fff none repeat scroll 0 0; border-radius: 5px; color: #049ce5; margin: 41px 10px; padding: 7px 25px; }  
+.badimg .rt { position: absolute; right: 28px; top: 30px; }  
+.badimg .rt .tt { color: #fff; font-size: 18px; padding-bottom: 15px; }
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-14 14:12:44
+ * @templte weidian.htm
+ */
+/*微店 @ 优惠套餐*/
+.M-1200,.k-1200 {height: auto; margin: 0 auto; overflow: hidden;margin-top: 30px; width: 1200px;} 
+.M-k1lf{width: 240px;height: 140px;background:#0eaefb;color: #fff;text-align: center;float: left;}
+.M-k1lf1{font-size: 22px;padding-top: 10px;}
+.M-k1lf2{line-height: 30px;font-size: 14px;}
+.M-k1lf3 {color: #fff;line-height: 32px; margin: 5px 0 8px; } 
+.M-k1lf3 span{width: 32px;height: 32px;background: #000;display: inline-block;margin:0 5px; font-size: 17px; }
+.M-k1lf4 a{color: #fff;}
+.M-k1cen{width: 960px;background: #f9f8f8;float: right;}
+
+.picScroll-left{ overflow:hidden; position:relative;  } 
+.picScroll-left .hd{display: none;}
+.picScroll-left .hd .prev, .picScroll-left .hd .next {background: #bbbaba url("../images/weidian/lr.png") no-repeat scroll -13px 5px; cursor: pointer; height: 50px; left: 0; position: absolute; top: 40px; width: 20px; z-index: 100; -webkit-opacity: 0.5; -moz-opacity: 0.5; -khtml-opacity: 0.5; opacity: .5; filter:alpha(opacity=50); } 
+.picScroll-left .hd .next {background-position: -66px 5px; left: 940px; top: 40px; } 
+.picScroll-left .bd{ padding:0 10px;   } 
+.picScroll-left .bd ul{ overflow:hidden; zoom:1; } 
+.picScroll-left .bd ul li {height: 140px; overflow: hidden; position: relative; text-align: center; width: 235px;float: left; } 
+.picScroll-left .bd ul li .title {color: #333333; line-height: 20px; margin-left: 15px; margin-top: 15px; text-align: left; width: 73px; } 
+.picScroll-left .bd ul li .hot {background: #ff5400; color: #fff; height: 42px; position: absolute; right: 10px; top: 0; width: 42px; } 
+.picScroll-left .bd ul li .price {color: #ff5400; font-size: 16px; left: 15px; position: absolute; text-align: left; top: 85px; } 
+.picScroll-left .bd ul li .price yj{color: #999999; font-size: 13px; text-decoration: line-through;} 
+.picScroll-left .bd ul li .pic {position: absolute; right: 5px; top: 55px; } 
+.picScroll-left .bd ul li .line {background: #dddddd; height: 105px; position: absolute; right: 0; top: 17px; width: 1px; }
+
+
+
+.M-k2LF {border-left: 2px solid #00a1ef; margin-top: 15px; text-indent: 15px; } 
+.M-k2LF p{font-size: 22px;line-height: 24px;color: #00a1ef;}
+.sc .bd{ padding:0;margin-top: 20px;} 
+.sc .bd ul li {height: 300px; overflow: hidden; position: relative; text-align: center; width: 278px;border: 1px solid #e5e3e3;margin-right: 26.9px;} 
+.sc .bd ul li div{text-indent: 10px;text-align: left;}
+.sc .bd ul li .tit {color: #000; line-height: 26px; }
+.sc .bd ul li .yy {color: #a3a3a3; font-size: 13px; line-height: 26px;text-indent: 15px; } 
+.sc .bd ul li .pri {color:#ff5400;font-size: 20px;margin-top: 5px;}
+.sc .bd ul li .pri yj{color: #a3a3a3; font-size: 16px;margin-left:10px; text-decoration: line-through;} 
+.sc .bd ul li .pri span {color: #666666; float: right; font-size: 14px; line-height: 30px;margin-right:15px; }
+.sc .bd ul li .pic1 {text-indent: 0;} 
+.sc .bd ul li .pic1 img{width: 100%;height: 200px;}
+.sc .hd{display: none;}
+.sc .hd .prev {background-position: -13px 5px; left: 1; top: 130px; } 
+.sc .hd .next {background-position: -66px 5px; left: 1180px; top: 130px; } 
+.scroll5{margin-bottom: 30px;}

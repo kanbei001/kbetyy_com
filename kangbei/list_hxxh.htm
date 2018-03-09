@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/list_hxxh.css">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+</head>
+<body onclick="getData.hxxhGetExpert({dede:field.typeid/})">
+	{dede:include filename="common/header.htm"/}
+    {dede:include filename="common/public_banner.htm"/}
+	<div class="main">
+		<div class="xehx-fs">
+	    	<div class="focus-img">
+	    		<ul class="btn">
+	    			<li class="on"></li>
+	    			<li></li>
+	    		</ul>
+	    		<div class="slide">
+		    		<a href=""><img src="{dede:global.cfg_templets_skin/}/images/xehx_focus_01.jpg" alt=""></a>
+		    		<a href=""><img src="{dede:global.cfg_templets_skin/}/images/xehx_focus_02.jpg" alt=""></a>
+	    		</div>
+	    	</div>
+	    	<script>
+                jQuery(".focus-img").slide({titCell:".btn li",mainCell:".slide",effect:"left",trigger:"mouseover",autoPlay:true});
+            </script>
+	    	<div class="recomment-article">
+	    		{dede:arclist row="3" limit="0,3"  flag="c" titlelen='80' orderby='click'}
+	    		<div class="item">
+	    			<h3>[field:title/]<span class="pubdate">[field:pubdate function='strftime("%m-%d",@me)'/]</span></h3>
+	    			<p>[field:description function="cn_substr(@me,120)"/]... <a href="[field:arcurl/]">[查看全文]</a></p>
+	    		</div>
+	    		{/dede:arclist}
+	    		
+	    		<div class="tag">
+	    			<b>标签:</b>
+	    			{dede:tag sort='new' row="3" getall='0'}
+					<a href='[field:link/]'>[field:tag /]</a>
+					{/dede:tag}
+	    		</div>
+	    	</div>
+	    	<div class="doctor">
+	    		<span class="doc-picname"><img src="{dede:global.cfg_templets_skin/}/images/xehx_doctor.jpg" /></span>
+	    		<div class="doc-info">
+	    			<h3 class="doc-name"><b>刘震</b><span>首席专家</span></h3>
+	    			<p class="doc-begood">擅长：儿科各类疾病、小儿呼吸,小儿呼吸系统疾病... <a href="/swt">[详情]</a></p>
+	    			<a href="" class="zxgh">咨询挂号</a>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="hx-title">
+    		<span class="title">宝宝{dede:field.typename/}的那些事</span>
+    	</div>
+	    <div class="article-part clear">
+	    	<div class="atc-info">
+	    		<div class="head">
+	    			<span>{dede:field.typename/}怎么治疗</span>
+	    			<!-- <a href="">+more</a> -->
+	    		</div>
+	    		<div class="list clear">
+	    			{dede:arclist row="1" flag="y" limit="0,1" titlelen="80" orderby="click"}
+	    			<span class="picname"><img src="[field:picname/]" alt="[field:title/]"></span>
+	    			{/dede:arclist}
+	    			<ul>
+	    				{dede:arclist row="5" flag="y" limit="1,5" titlelen="80" orderby="click"}
+	    				<li><a href="[field:arcurl/]">· [field:title/]</a><span>[field:pubdate function="strftime('%m-%d',@me)"/]</span></li>
+	    				{/dede:arclist}
+	    			</ul>
+	    		</div>
+	    	</div>
+	    	<div class="atc-info">
+	    		<div class="head">
+	    			<span>{dede:field.typename/}症状危害</span>
+	    			<!-- <a href="">+more</a> -->
+	    		</div>
+	    		<div class="list clear">
+	    			{dede:arclist row="1" flag="x" limit="0,1" titlelen="80" orderby="click"}
+	    			<span class="picname"><img src="[field:picname/]" alt="[field:title/]"></span>
+	    			{/dede:arclist}
+	    			<ul>
+	    				{dede:arclist row="5" flag="x" limit="1,5" titlelen="80" orderby="click"}
+	    				<li><a href="[field:arcurl/]">· [field:title/]</a><span>[field:pubdate function="strftime('%m-%d',@me)"/]</span></li>
+	    				{/dede:arclist}
+	    			</ul>
+	    		</div>
+	    	</div>
+	    	<div class="atc-info">
+	    		<div class="head">
+	    			<span>{dede:field.typename/}处理方式</span>
+	    			<!-- <a href="">+more</a> -->
+	    		</div>
+	    		<div class="list clear">
+	    			{dede:arclist row="1" flag="cl" limit="0,1" titlelen="80" orderby="click"}
+	    			<span class="picname"><img src="[field:picname/]" alt="[field:title/]"></span>
+	    			{/dede:arclist}
+	    			<ul>
+	    				{dede:arclist row="5" flag="cl" limit="1,5" titlelen="80" orderby="click"}
+	    				<li><a href="[field:arcurl/]">· [field:title/]</a><span>[field:pubdate function="strftime('%m-%d',@me)"/]</span></li>
+	    				{/dede:arclist}
+	    			</ul>
+	    		</div>
+	    	</div>
+	    	<div class="atc-info">
+	    		<div class="head">
+	    			<span>预防护理 饮食健康</span>
+	    			<!-- <a href="">+more</a> -->
+	    		</div>
+	    		<div class="list clear">
+	    			{dede:arclist row="1" flag="yf" limit="0,1" titlelen="80" orderby="click"}
+	    			<span class="picname"><img src="[field:picname/]" alt="[field:title/]"></span>
+	    			{/dede:arclist}
+	    			<ul>
+	    				{dede:arclist row="5" flag="yf" limit="1,5" titlelen="80" orderby="click"}
+	    				<li><a href="[field:arcurl/]">· [field:title/]</a><span>[field:pubdate function="strftime('%m-%d',@me)"/]</span></li>
+	    				{/dede:arclist}
+	    			</ul>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="hx-title">
+    		<span class="title">推荐其它专家</span>
+    	</div>
+    	<div class="re-expert">
+    		<div class="bd expert-box">
+    			<ul class="slide-box">
+	    			
+	    		</ul>
+    		</div>
+    		<div class="hd">
+	    		<ul>
+	    		</ul>
+    		</div>
+    		
+    	</div>
+        <div class="hx-title">
+    		<span class="title">康贝儿科服务优势</span>
+    	</div>
+        <div class="H-DIVH1">
+			<div class="H-DIVH2-min">
+				<ul class="clear">
+					<li>
+						<div class="H-DIVH2-min-em"><em class="em21"></em></div>
+						<div class="H-DIVH2-min-tt">
+							<strong>顶尖诊疗设备</strong>
+							<tt>国际化专业医疗设备，精准诊治疾病</tt>
+						</div>
+					</li>
+					<li>
+						<div class="H-DIVH2-min-em"><em class="em22"></em></div>
+						<div class="H-DIVH2-min-tt">
+							<strong>经验丰富团队</strong>
+							<tt>高素质的专家团队，让医疗质量和安全更有保障</tt>
+						</div>
+					</li>
+					<li>
+						<div class="H-DIVH2-min-em"><em class="em23"></em></div>
+						<div class="H-DIVH2-min-tt">
+							<strong>多学科诊疗模式</strong>
+							<tt>医-康-养，生物治疗、康复训练、心理治疗同步</tt>
+						</div>
+					</li>
+					<li>
+						<div class="H-DIVH2-min-em"><em class="em24"></em></div>
+						<div class="H-DIVH2-min-tt">
+							<strong>儿童乐园式环境</strong>
+							<tt>让患儿在玩乐中接受治疗，实现寓教于医、快乐就诊</tt>
+						</div>
+					</li>
+					<li>
+						<div class="H-DIVH2-min-em"><em class="em25"></em></div>
+						<div class="H-DIVH2-min-tt">
+							<strong>贴心的诊疗服务</strong>
+							<tt>国际JCI服务标准，为孩子提供全方位专业化的诊疗服务</tt>
+						</div>
+					</li>
+					<li>
+						<div class="H-DIVH2-min-em"><em class="em26"></em></div>
+						<div class="H-DIVH2-min-tt">
+							<strong>科室设置齐全</strong>
+							<tt>满足患者多元化就诊需求，从预约到出院一站式完成</tt>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	{dede:include filename="common/footer.htm"/}
+</body>
+</html>

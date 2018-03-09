@@ -1,0 +1,870 @@
+[ 2017-11-21T08:33:08+08:00 ] 119.123.126.154 /gh/tp/article-add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:Article-add
+
+[ 2017-11-21T08:35:27+08:00 ] 119.123.126.154 /gh/tp/article-add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+ERR: 无法加载模块:Article-add
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/lib/Hui-iconfont/1.0.8/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__CONTROLLER__/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:00+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:01+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:01+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:01+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/__PUBLIC__/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:03+08:00 ] 119.123.127.8 /gh/tp/article-add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+ERR: 无法加载模块:Article-add
+
+[ 2017-11-21T08:42:10+08:00 ] 101.226.65.102 /gh/tp/App/Home/View/__CONTROLLER__/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:10+08:00 ] 61.151.218.119 /gh/tp/App/Home/View/__CONTROLLER__/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:11+08:00 ] 101.226.65.102 /gh/tp/App/Home/View/__PUBLIC__/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:11+08:00 ] 101.226.65.102 /gh/tp/App/Home/View/__PUBLIC__/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:12+08:00 ] 101.226.65.102 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:13+08:00 ] 101.226.65.102 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:14+08:00 ] 101.226.65.102 /gh/tp/App/Home/View/__PUBLIC__/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/lib/Hui-iconfont/1.0.8/iconfont.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__CONTROLLER__/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/lib/layer/2.4/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:42:16+08:00 ] 101.226.225.86 /gh/tp/App/Home/View/__PUBLIC__/lib/jquery.contextmenu/jquery.contextmenu.r2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:44:35+08:00 ] 101.226.66.174 /gh/tp/App/Home/View/__CONTROLLER__/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:21+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:21+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:21+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:21+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:21+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:21+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:22+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:22+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:22+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:22+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:22+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:22+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:22+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:22+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:24+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:25+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:25+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:25+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:25+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:25+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:25+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:26+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:27+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:27+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:29+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:34+08:00 ] 61.129.6.70 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:34+08:00 ] 61.129.6.70 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:38+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:38+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:38+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:38+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:39+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:39+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:39+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui/css/H-ui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:39+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui.admin/css/H-ui.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:39+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui.admin/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:39+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui.admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:39+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:41+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:41+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:52:41+08:00 ] 101.226.102.97 /gh/tp/App/Home/View/test/static/h-ui.admin/js/H-ui.admin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:53+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:54+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:55+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:55+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:56+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:56+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:56+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:56+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:57+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:57+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:57+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:53:58+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-scoreoperation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:54:04+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:54:05+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-scoreoperation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:54:09+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:56:06+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:56:06+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/member-scoreoperation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:56:18+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/undefined.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:56:19+08:00 ] 119.123.126.154 /gh/tp/App/Home/View/test/undefined.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:56:28+08:00 ] 101.226.65.102 /gh/tp/App/Home/View/test/undefined.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:56:31+08:00 ] 101.226.66.192 /gh/tp/App/Home/View/test/undefined.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T08:56:46+08:00 ] 61.151.207.252 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T09:20:03+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T09:22:42+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+ERR: 无法加载模块:App
+
+[ 2017-11-21T09:22:44+08:00 ] 119.123.127.8 /gh/tp/App/Home/View/test/member-level.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:App
+

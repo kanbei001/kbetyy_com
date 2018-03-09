@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 11:16:24
+ * @position 404.htm [首页]
+ */
+
+/*page404 @ 404part*/
+.page-404{width:100%;height:auto;margin-bottom:20px;overflow: hidden;background: url(../images/banner_404.jpg) no-repeat center center;}
+.page-404 .info{width:1200px;height:480px;margin:auto;position: relative;}
+.page-404 .info a{display:inline-block;padding:10px 30px;color:#fff;position: absolute;bottom:100px;border-radius:5px;}
+.page-404 .info a.index{left:425px;background:#e74e04;}
+.page-404 .info a.ksdh{left:646px;background:#049ce5;}
+/*page404 @ 科研教学*/
+.scientific-teaching{ width: 1200px; height: auto; margin: 15px auto;} 
+.scientific-teaching ul { width: 100%; height:313px;} 
+.scientific-teaching ul li.teaching-item{ width: 284px; height: 313px; float: left; margin-right: 20px;position: relative;} 
+.scientific-teaching ul li:last-child{margin-right:0px;}
+.scientific-teaching .item-block{ margin: 0 auto; background-color: #f2f1f1 ; width: 247px; height: 300px; padding: 13px 18px 0 18px; position:absolute; top: 0; left: 0; transition: all .2s linear; -moz-transition: all .2s linear; -webkit-transition: all .2s linear; -ms-transition: all .2s linear;} 
+.scientific-teaching .item-block h4.title{ font-weight: normal; font-size: 20px; color: #797979; height: 40px; line-height: 40px;} 
+.scientific-teaching .item-block h4.title a{ font-size: 16px; color: #a8a8a8; float: right;} 
+.scientific-teaching .item-pic img{ width: 247px; height: 166px; margin-top: 10px;}
+.scientific-teaching .item-pic a{ color: #7a7979; font-size: 14px; overflow: hidden;} 
+.scientific-teaching .item-info p{ height: 28px; line-height: 28px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;} 
+.scientific-teaching .item-info{ margin-top: 8px;} 
+.scientific-teaching .item-block:hover{transform: translateY(-4%); -moz-transform: translateY(-4%); -webkit-transform: translateY(-4%); -ms-transform: translateY(-4%); z-index: 8; }
+
+
+/*page404 @ 医院详情（专家团队，医院环境，诊疗技术，公益活动切换）*/
+.hospital-details{ background: #fff; width: 100%; height: 600px; margin-top: 40px;}
+.hospital-details .title{width: 1200px;margin:0 auto;font-size: 24px;font-weight: bold;text-align: center;color: #333333;}
+.hospital-details .title{padding-top:30px;}
+.hospital-details .line{width:1200px;margin:10px auto;}
+.hospital-details .details-info{ width: 1200px;height:450px;overflow: hidden; margin: 30px auto;}
+.hospital-details .slide-item{ width:896px; height: 450px;float: left;}
+.hospital-details .slide-btn{ height:450px; line-height:50px;  position:relative; float:left; width: 110px}
+.hospital-details .slide-btn ul{  position:absolute; height:50px;   }
+.hospital-details .slide-btn ul li{cursor:pointer;  color: #000; width: 110px; height: 112px; line-height: 40px; text-align: center; font-size: 16px;background: #f2f1f1;margin-bottom: 2px}
+.hospital-details .slide-btn ul li p{width: 68px; height: 65px;background:url(../images/ico9.png) no-repeat;margin:0 auto;}
+.hospital-details .slide-btn ul li:nth-child(1) p{background-position: -11px 7px;}
+.hospital-details .slide-btn ul li:nth-child(2) p{background-position: -78px 7px;}
+.hospital-details .slide-btn ul li:nth-child(3) p{background-position: -134px 7px;}
+.hospital-details .slide-btn ul li:nth-child(4) p{background-position: -196px 7px;}
+.hospital-details .slide-btn ul li:nth-child(1).on p{background-position: -11px -53px;}
+.hospital-details .slide-btn ul li:nth-child(2).on p{background-position: -78px -53px;}
+.hospital-details .slide-btn ul li:nth-child(3).on p{background-position: -134px -53px;}
+.hospital-details .slide-btn ul li:nth-child(4).on p{background-position: -196px -53px;}
+.hospital-details .slide-btn ul li.on,.sheb_hjqh .hd ul li.on p{ background-color:#68c9f9; color: #fff;}
+.hospital-details .item-info{width:746px;float: right;}
+
+/*page404 @ 专家团队*/
+.hospital-details .item-zjtd{ position: relative;}
+.hospital-details .item-zjtd p.zjtd-intro{text-indent: 2em;font-size: 14px;line-height: 30px;margin-bottom: 15px;}
+.hospital-details .item-zjtd a.zjtd-pic{display:block;width:745px;height:325px;margin-top:33px;overflow:hidden;position: relative;}
+.hospital-details .item-zjtd a.zjtd-pic img{width: 100%;height: 100%;}
+.hospital-details .item-zjtd a.zjtd-pic span {display:block;width: 100%;background: rgba(0,0,0,0.5);color: #fff;height: 40px;line-height: 40px;position: absolute;left: 0;bottom: 0;text-align: center;}
+
+/*page404 @ 诊疗技术*/
+.hospital-details .item-zljs{ position: relative;}
+.hospital-details .zljs-intro{text-indent: 2em;font-size: 14px;line-height: 30px;margin-bottom: 15px;}
+.hospital-details .zljs-info{width:100%;height:330px;margin-top: 28px;}
+.hospital-details .zljs-info a{display:block;width:245px;height:163px;float:left;position: relative;}
+.hospital-details .zljs-info a:nth-child(4){margin-top: 5px;}
+.hospital-details .zljs-info a:nth-child(5){margin-top: 5px;}
+.hospital-details .zljs-info a:nth-child(6){margin-top: 5px;}
+.hospital-details .zljs-info a:nth-child(1){border-right:5px solid #fff;}
+.hospital-details .zljs-info a:nth-child(2){border-right:5px solid #fff;}
+.hospital-details .zljs-info a:nth-child(4){border-right:5px solid #fff;}
+.hospital-details .zljs-info a:nth-child(5){border-right:5px solid #fff;}
+.hospital-details .zljs-info a img{width:245px;height:163px;}
+.hospital-details .zljs-info a span{display: block;width:245px;height:30px;line-height:30px;overflow:hidden;background: rgba(1,1,1,0.5);text-align:center;color:#fff;position: absolute;bottom:0px;left:0px;}
+
+/*page404 @ 星际环境*/
+.hospital-details .item-xjhj{ position: relative;}
+.hospital-details .xjhj-intro{text-indent: 2em;font-size: 14px;line-height: 30px;margin-bottom: 15px;}
+.hospital-details .xjhj-info{width:100%;height:330px;margin-top: 28px;}
+.hospital-details .xjhj-info a{display:block;width:245px;height:163px;float:left;position: relative;}
+.hospital-details .xjhj-info a:nth-child(4){margin-top: 5px;}
+.hospital-details .xjhj-info a:nth-child(5){margin-top: 5px;}
+.hospital-details .xjhj-info a:nth-child(6){margin-top: 5px;}
+.hospital-details .xjhj-info a:nth-child(1){border-right:5px solid #fff;}
+.hospital-details .xjhj-info a:nth-child(2){border-right:5px solid #fff;}
+.hospital-details .xjhj-info a:nth-child(4){border-right:5px solid #fff;}
+.hospital-details .xjhj-info a:nth-child(5){border-right:5px solid #fff;}
+.hospital-details .xjhj-info a img{width:245px;height:163px;}
+.hospital-details .xjhj-info a span{display: block;width:245px;height:30px;line-height:30px;overflow:hidden;background: rgba(1,1,1,0.5);text-align:center;color:#fff;position: absolute;bottom:0px;left:0px;}
+
+/*page404 @ 公益活动*/
+.hospital-details .item-gyhd{ position: relative;}
+.hospital-details .gyhd-intro{text-indent: 2em;font-size: 14px;line-height: 30px;margin-bottom: 15px;}
+.hospital-details .gyhd-info{width:100%;height:330px;margin-top: 28px;}
+.hospital-details .gyhd-info a{display:block;width:245px;height:163px;float:left;position: relative;}
+.hospital-details .gyhd-info a:nth-child(4){margin-top: 5px;}
+.hospital-details .gyhd-info a:nth-child(5){margin-top: 5px;}
+.hospital-details .gyhd-info a:nth-child(6){margin-top: 5px;}
+.hospital-details .gyhd-info a:nth-child(1){border-right:5px solid #fff;}
+.hospital-details .gyhd-info a:nth-child(2){border-right:5px solid #fff;}
+.hospital-details .gyhd-info a:nth-child(4){border-right:5px solid #fff;}
+.hospital-details .gyhd-info a:nth-child(5){border-right:5px solid #fff;}
+.hospital-details .gyhd-info a img{width:245px;height:163px;}
+.hospital-details .gyhd-info a span{display: block;width:245px;height:30px;line-height:30px;overflow:hidden;background: rgba(1,1,1,0.5);text-align:center;color:#fff;position: absolute;bottom:0px;left:0px;}
+
+/*page404 @ 医院介绍*/
+.hospital-details .hopital-introduction{width: 288px;float: right;}
+.hospital-details .introduction-pic{width: 283px}
+.hospital-details .introduction-pic img{}
+.hospital-details .introduction-info{line-height: 28px;color: #666666; padding: 10px 10px 17px 20px;background:#f2f1f1;}
+.hospital-details .introduction-info a{color:#0684c2;}

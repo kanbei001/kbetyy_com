@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import url('common_right.css');
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 11:16:24
+ * @templet list_article.htm
+ */
+.arclist-container{width:1200px;margin:20px auto;}
+.list-container{width: 844px;height:auto;float: left;}
+.article-lists{width:100%;height:156px;margin-bottom:30px;padding-bottom:20px;border-bottom:1px dashed #eee;}
+.article-lists img{width:242px;height:156px;float: left;}
+.article-info{width:570px;float: right;}
+.article-info a.title{display: block;font-size: 18px;font-weight: bold;color:##5a5a5a;padding-bottom: 20px;}
+.article-info p{width: 100%;height:118px;overflow: hidden;text-indent: 2em;font-size: 15px;color: #828282;line-height: 30px;}
+.article-info p a{color:#f08a57}

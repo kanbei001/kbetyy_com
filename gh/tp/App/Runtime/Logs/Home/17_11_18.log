@@ -1,0 +1,235 @@
+[ 2017-11-18T00:54:30+08:00 ] 58.60.33.128 /gh/tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-11-18T00:54:30+08:00 ] 58.60.33.128 /gh/tp/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-11-18T00:54:35+08:00 ] 58.60.33.128 /gh/tp/index.php/Home/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2017-11-18T00:54:45+08:00 ] 58.60.33.128 /gh/tp/index.php/Home/Login/checkAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `tp_admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0241s ]
+
+[ 2017-11-18T00:55:00+08:00 ] 58.60.33.128 /gh/tp/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2017-11-18T00:55:05+08:00 ] 58.60.33.128 /gh/tp/index.php/Home/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-11-18T00:55:20+08:00 ] 58.60.33.128 /gh/tp/index.php/Home/article/ready
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `registration` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `registration` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `registration` WHERE ( status=0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: dp /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/4d80545e26918265634a656d76a447f2.php 第 38 行.
+NOTIC: [8] Undefined variable: D /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/4d80545e26918265634a656d76a447f2.php 第 38 行.
+NOTIC: [8] Undefined variable: D /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/4d80545e26918265634a656d76a447f2.php 第 41 行.
+NOTIC: [8] Undefined variable: dp /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/4d80545e26918265634a656d76a447f2.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2017-11-18T00:55:21+08:00 ] 58.60.33.128 /gh/tp/index.php/Home/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `registration` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `registration` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `registration` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: dp /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/2eb12dd69fc0fd52c7fb088e28501fa2.php 第 38 行.
+NOTIC: [8] Undefined variable: D /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/2eb12dd69fc0fd52c7fb088e28501fa2.php 第 38 行.
+NOTIC: [8] Undefined variable: D /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/2eb12dd69fc0fd52c7fb088e28501fa2.php 第 41 行.
+NOTIC: [8] Undefined variable: dp /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/2eb12dd69fc0fd52c7fb088e28501fa2.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-11-18T00:55:23+08:00 ] 58.60.33.128 /gh/tp/index.php/Home/article/recycle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `registration` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `registration` WHERE `status` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `registration` WHERE ( status=2 ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: dp /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/188b7333404c508eb7fd0f1c727f1ba5.php 第 38 行.
+NOTIC: [8] Undefined variable: D /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/188b7333404c508eb7fd0f1c727f1ba5.php 第 38 行.
+NOTIC: [8] Undefined variable: D /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/188b7333404c508eb7fd0f1c727f1ba5.php 第 41 行.
+NOTIC: [8] Undefined variable: dp /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/188b7333404c508eb7fd0f1c727f1ba5.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-11-18T00:55:24+08:00 ] 58.60.33.128 /gh/tp/index.php/Home/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `registration` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `registration` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `registration` WHERE ( status=1 ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: dp /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/2eb12dd69fc0fd52c7fb088e28501fa2.php 第 38 行.
+NOTIC: [8] Undefined variable: D /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/2eb12dd69fc0fd52c7fb088e28501fa2.php 第 38 行.
+NOTIC: [8] Undefined variable: D /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/2eb12dd69fc0fd52c7fb088e28501fa2.php 第 41 行.
+NOTIC: [8] Undefined variable: dp /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/2eb12dd69fc0fd52c7fb088e28501fa2.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-11-18T00:55:25+08:00 ] 58.60.33.128 /gh/tp/index.php/Home/article/ready/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant __CONTROLLER__ - assumed '__CONTROLLER__' /www/web/kb_whwjr_vip/public_html/gh/tp/App/Home/Conf/config.php 第 14 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `registration` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `registration` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `registration` WHERE ( status=0 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: dp /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/4d80545e26918265634a656d76a447f2.php 第 38 行.
+NOTIC: [8] Undefined variable: D /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/4d80545e26918265634a656d76a447f2.php 第 38 行.
+NOTIC: [8] Undefined variable: D /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/4d80545e26918265634a656d76a447f2.php 第 41 行.
+NOTIC: [8] Undefined variable: dp /www/web/kb_whwjr_vip/public_html/gh/tp/App/Runtime/Cache/Home/4d80545e26918265634a656d76a447f2.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+

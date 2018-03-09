@@ -1,0 +1,1 @@
+<p><img src="[field:global.cfg_templets_skin/]/images/j7.jpg"><a href="[field:arcurl/]">[field:title/]</a><span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></p>

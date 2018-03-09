@@ -1,0 +1,1 @@
+<a href="[field:typeurl/]">[field:typename/]</a> <!--其它科室-->

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>深圳康贝儿童医院-搜索结果页</title>
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/search.css">
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+	</head>
+	<body onclick="getData.publicExpertInfos(2);">
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	<!--正文 开始-->
+	<div class="search-container clear">
+	<!--文章左侧 开始-->	
+	    <div class="search-list">
+			{dede:list pagesize='8' titlelen="80"}
+    		<div class="item">
+				<img src="[field:picname/]">
+				<div class="info">
+					<strong><a href="[field:arcurl/]">[field:title/]</a></strong>
+					<p>[field:description/]...<a href="[field:arcurl/]">[详细]</a></p>
+				</div>
+			</div>
+			{/dede:list}
+	    	<!--分页位置 开始-->
+			<div class="searchPage">{dede:pagelist listitem="pageno" listsize='4'/}</div>
+	    </div>
+	{dede:include filename="common/list_right.htm"/}
+	</div>
+	{dede:include filename="common/footer.htm"/}
+	<!--疾病右侧 结束-->
+	</body>
+</html>

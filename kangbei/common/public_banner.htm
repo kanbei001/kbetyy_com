@@ -1,0 +1,26 @@
+<!-- banner -->
+<div id="sy_banner_qhcode" class="sy_banner_qhcode">
+	<a class="prev" href="javascript:void(0)"></a>
+	<a class="next" href="javascript:void(0)"></a>		
+	<div class="hd">
+	    <ul>
+	       {dede:type way="banner"}<li></li>{/dede:type}
+	    </ul>
+	</div>
+<div class="bd">
+		<div class="tempWrap" style="overflow:hidden; position:relative; width:1920px"><ul style="width: 1920px; left: 0px; position: relative; overflow: hidden; padding: 0px; margin: 0px;"> 
+		    <li style="float: left; width: 1920px;"><a target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/banner02.jpg" alt="医生团队"></a></li>
+		</ul></div>
+	</div>
+</div>
+<script type="text/javascript">
+    var html = $('#sy_banner_qhcode .bd').html();  
+   	if(html.length<30){ 
+        $('#sy_banner_qhcode .bd ul').html('<li><a href="/myk/" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/banner02.jpg" alt="医生团队"></a></li>');
+	}
+	jQuery(".sy_banner_qhcode").slide({mainCell:".bd ul",effect:"left",autoPlay:true,easing:"easeInQuint",delayTime:1000});
+	
+</script>
+
+
+

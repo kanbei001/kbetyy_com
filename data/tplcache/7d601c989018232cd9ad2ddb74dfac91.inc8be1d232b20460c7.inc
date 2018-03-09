@@ -1,0 +1,7 @@
+<?php
+$z[0]=Array("description","",3,53);
+$z[0][4]['function']="cn_substr(@me,200)";
+$z[1]=Array("arcurl","",65,80);
+$z[2]=Array("typeurl","",102,118);
+
+?>

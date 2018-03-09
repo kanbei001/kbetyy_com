@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field name='keywords'/}" />
+		<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/list_article.css">
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+	</head>
+	<body onload="getData.publicExpertInfos({dede:field.typeid/})">
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	<!--正文 开始-->
+<div class="web-position"> <img src="{dede:global.cfg_templets_skin/}/images/home_ico.png">
+  <p>您所在的位置：{dede:field.position/}</p>
+</div>
+	<div class="arclist-container clear">
+	<!--文章左侧 开始-->	
+	    <div class="list-container">
+			{dede:list pagesize='8'}
+    		<div class="article-lists">
+				<img src="[field:picname/]">
+				<div class="article-info">
+					<a class="title" href="[field:arcurl/]">[field:title/]</a>
+					<p>[field:description function="cn_substr(@me,290)"/]...<a href="[field:arcurl/]">[详细]</a></p>
+				</div>
+			</div>
+			{/dede:list}
+	    	<!--分页位置 开始-->
+			<div class="pagelist">{dede:pagelist listitem="index,end,pre,next,pageno" listsize='4'/}</div>
+		<!--分页位置 结束-->
+	    </div>
+	    <!--文章左侧结束-->
+	    <!--疾病右侧 开始-->
+	{dede:include filename="common/list_right.htm"/}
+	</div>
+	{dede:include filename="common/footer.htm"/}
+	<!--疾病右侧 结束-->
+	</body>
+</html>

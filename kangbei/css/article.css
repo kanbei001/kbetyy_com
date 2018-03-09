@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 16:53:07
+ * @position article.htm
+ */
+ @import url('common_right.css');
+ .article-container{width:1200px;margin:20px auto;}
+/*--文章页面 开始--*/
+.J-lf{ width: 844px; height: auto; float: left;}
+.J-lf-title img{ float: left; margin: 13px 10px 13px 0;}
+.J-lf-title p,.J-lf-title p a{font-size: 14px; color: #9f9f9f; height: 40px; line-height: 40px;}
+.J-lf-title p a:hover{color: #049CE5;}
+.W{ width: 100%; height: auto; overflow: hidden;}
+.W1{ width: 100%; height: auto; margin-top:40px; overflow: hidden;}
+.W1 h1{ width: 100%; text-align: center; height: 42px; line-height: 42px; font-size: 22px; color: #3b3b3b;}
+.W1 .atcAttrInfo{padding:10px 0px; text-align: center;}
+.W1 .atcAttrInfo span{display:inline-block; padding:0px 20px;height:20px;line-height: 20px;color:#5a5a5a;}
+.W2{ width: 100%; font-size:15px; color:#7b7979; line-height:32px;}
+.W2 p{line-height: 32px;margin:20px 0px;}
+.W3{ width: 100%; float: left; height: 60px; overflow: hidden; margin:10px auto 30px auto;}
+.W3 p{ height: 30px; line-height: 30px; float: left; width: 100%; color: #676767;}
+.W3 p a{color: #676767;}
+.W3 p a:hover{color: #049CE5;}
+
+/*推荐文章*/
+.rela-article{ width: 100%; margin-top: 30px;margin-bottom: 30px;}
+.rela-article-title{width:100%;margin-bottom:30px;height:30px;border-bottom:3px solid #e8e8e8;position: relative;}
+.rela-article-title strong{display: inline-block;font-size:20px;height:30px;line-height:30px;color:#007cc3;border-bottom: 3px solid #007cc3;position: absolute;top:0px;left:0px;}
+.recomment{width:100%;height:156px;overflow: hidden;}
+.recomment img{width:242px;height:156px;float: left;}
+.recomment-info{width:570px;float: right;}
+.recomment-info a{display: inline-block;padding-bottom: 10px;font-size:20px;color:#5a5a5a;}
+.recomment-info p{width: 100%;height: auto;line-height: 28px;font-size: 15px;color: #828282;margin-top: 15px;}
+.recomment-info p a{color:#f08a57;font-size: 15px;}
+
+.rela-article-list{width:100%;margin-top: 10px;}
+.rela-article-list ul{width:400px;}
+.rela-article-list ul:nth-child(1){float: left;}
+.rela-article-list ul:nth-child(2){float: right;}
+.rela-article-list ul li{width:100%;height:30px;line-height: 30px;}
+.rela-article-list ul li img{vertical-align: middle;}

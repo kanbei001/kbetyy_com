@@ -1,0 +1,5 @@
+<li>	   
+                    <a href="[field:arcurl/]" target="_blank"><img src="[field:picname/]" alt="">
+                        <i><img src="{dede:global.cfg_templets_skin/}/images/shipinbf.png" alt="播放"></i></a>
+                    <a href="[field:arcurl/]" target="_blank">[field:description function="cn_substr(@me,90)"/]...<span>[详细]</span></a>
+             </li>

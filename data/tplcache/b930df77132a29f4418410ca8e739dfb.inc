@@ -1,0 +1,1 @@
+<a href="{dede:type typeid="50"}[field:typeurl/]" class="a1">[field:typename/]</a>

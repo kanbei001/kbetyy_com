@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field name='keywords'/}" />
+		<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/index_xcmz.css">
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+	</head>
+	<body onload="getData.departExpertInfo({dede:field.typeid/})">
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	
+	<!--正文 开始-->
+	<div class="xcmz-container">
+	    <!--科室 当前位置-->
+	    <div class="web-position">
+	    	<img src="{dede:global.cfg_templets_skin/}/images/home_ico.png">
+	    	<p>您所在的位置：{dede:field name='position'/}</p>
+	    </div>
+	    <!--科室 第一部分-->
+	    <div class="section-top">
+			<div class="section-intro">
+				<div class="section-name">{dede:field.typename/}</div>
+				{dede:arclist row="1"  flag="kj" titlelen='80'}
+				<img src="[field:picname/]" title="[field:title/]">
+				<div class="section-info">[field:description function="cn_substr(@me,140)"/] . . . <a href="[field:arcurl/]">[科室详情]</a></div>
+				{/dede:arclist}
+			</div>
+			<div class="M-k1cen">
+		        <div class="M-k1cen1">健康热点 <span><a href='/swt/'>+MORE</a></span></div>
+		        <div class="M-k1cen2">
+		            {dede:arclist row="1" limit="0,1"  flag="j" titlelen='80' orderby='click'}
+		            <div class="M-k1cen2-div">
+		                <strong>[field:title/]</strong>
+		                <p>[field:description function="cn_substr(@me,240)"/]...<a href="[field:arcurl/]">[详细]</a></p>
+		            </div>
+		            {/dede:arclist}
+		        </div>
+		        <div class="M-k1cen3">
+		            <div class="M-k1cen3-div">
+		                <ul>
+		                    {dede:arclist  row="3" limit="1,3"  flag="j" titlelen='80' orderby='click'}
+		                    <li>
+		                        <a href="[field:arcurl/]">[field:title/] <span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span></a>
+		                    </li>
+		                    {/dede:arclist}
+		                </ul>
+		            </div>
+		            
+		        </div>
+			</div>
+    		<!--哮喘自测 开始-->
+		    <div class="X1">
+		    	<a href=""><img src="{dede:global.cfg_templets_skin/}/images/x1.jpg"></a>
+		    	<div class="X1-div">
+		    		<div class="X1-div-tt">
+		    			<img src="{dede:global.cfg_templets_skin/}/images/x2.jpg">
+		    			<p>儿童哮喘控制测试C-ACT</p>
+		    		</div>
+		    		<div class="X1-div-btn">
+		    			<ul>
+		    				<li class="X1-div-btn-a1 l_d4_btn1">让孩子回答这4个问题 GO ></li>
+		    				<li class="X1-div-btn-a2 l_d4_btn2">请家长回答这3个问题 GO ></li>
+		    			</ul>
+		    		</div>
+		    		<script>
+					    $('.l_d4_btn1').on('click', function(){layer.open({type: 1,title: false,closeBtn: 0,area: ['700px', '857px'],shadeClose:true,content: $('.zccg1')});});
+					    $('.l_d4_btn2').on('click', function(){layer.open({type: 1,title: false,closeBtn: 0,area: ['700px', '600px'],shadeClose:true,content: $('.zccg2')});});
+				    </script>
+		    	</div>
+		    </div>
+	    <!--哮喘自测 结束-->
+	    </div>
+	    <!--第二部分 开始-->
+	    <div class="xcmz-project">
+	       	<div class="X2">
+	       		<p>
+	       			<strong>常见疾病</strong>
+	       		    <span>Common diseases</span>
+	       		</p>
+	       	</div>
+	       	<div class="X2-UL">
+	       		<ul>
+	       			<li><a class="X2-UL-li1" href="/xc_etxc">儿童哮喘</a></li>
+	       			<li><a class="X2-UL-li2" href="/xc_yyecx">婴幼儿喘息</a></li>
+	       			<li><a class="X2-UL-li3" href="/xc_zqgy">哮喘性支气管炎</a></li>
+	       			<li><a class="X2-UL-li4" href="/xc_hxdgr">反复呼吸道感染</a></li>
+	       			<li><a class="X2-UL-li5" href="/xc_mxks">慢性咳嗽</a></li>
+	       			<li><a class="X2-UL-li6" href="/zx_gmxby">过敏性鼻炎</a></li>
+	       			<li><a class="X2-UL-li7" href="/xc_zqgfy">支气管肺炎</a></li>
+	       			<li><a class="X2-UL-li8" href="/xc_cxzt">哮喘持续状态</a></li>
+	       			<li><a class="X2-UL-li9" href="/xc_bsxzqgy">闭塞性毛细支气管炎</a></li>
+	       			<li><a class="X2-UL-li10" href="/xc_xtfd">腺样体肥大</a></li>
+	       			<li><a class="X2-UL-li11" href="/xc_gmx">过敏性哮喘</a></li>
+	       			<li class="X2-ul-li"><a class="X2-UL-li12" href="/xc_hxsj">呼吸衰竭</a></li>
+	       			<li class="X2-ul-li"><a class="X2-UL-li13" href="/xc_tmzl">脱敏治疗</a></li>
+	       		</ul>
+	       	</div>
+	       	<div class="X2-img"><a href=""><img src="{dede:global.cfg_templets_skin/}/images/x3.jpg"></a></div>
+	    </div>
+	    <!--第二部分 结束-->
+	    <!--第三部分 开始-->
+	   	{dede:include filename="common/channer_expert.htm"/}
+	    <!--第三部分 结束-->
+	    <!--治疗方法 开始-->
+	    <div class="M-1200">
+	    	<div class="X3-TITLE">
+	    		<p>
+	    			<strong>小儿哮喘治疗方法</strong>
+	    		    <span>Treatment of asthma in children</span>
+	    		</p>
+	    	</div>
+	    	<div class="X3-div">
+	    		<ul>
+	    			<li class="X3-div1">
+	    				<strong>01</strong>
+	    				<p>GINA诊疗规范成功控制儿童哮喘</p>
+	    				<span>规范一体化诊疗流程，1对1专家诊断服务，跟踪随访</span>
+	    			</li>
+	    			<li class="X3-div2">
+	    				<strong>02</strong>
+	    				<p>脱敏治疗儿童哮喘</p>
+	    				<span>过敏性鼻炎，过敏性哮喘，过敏性皮炎等过敏性疾病使用脱敏治</span>
+	    			</li>
+	    			<li class="X3-div3">
+	    				<strong>03</strong>
+	    				<p>吸入疗法治疗儿童哮喘</p>
+	    				<span>药物直接作用于呼吸道和肺部，疗效直接，全身副作用低</span>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    </div>
+	    <!--治疗方法 结束-->
+	    <!--优势 开始-->
+	    <div class="M-1200">
+	    	<div class="X3-TITLE">
+	    		<p>
+	    			<strong>康贝规范治疗 为哮喘患儿保驾护航</strong>
+	    		    <span class="X3-span">Angel standardized treatment for children with asthma escort</span>
+	    		</p>
+	    	</div>
+	    	<div class="X4">
+	    		<ul>
+	    			<li class="X4-div1">
+	    				<div class="X4-li1">优势一</div>
+	    				<div class="X4-li2">
+	    					<img src="{dede:global.cfg_templets_skin/}/images/x4.jpg">
+	    					<p>技术先进，功能齐全的肺功能仪，可开展多项肺功能检测，对呼吸系统各项功能状况进行系统性评估</p>
+	    				</div>
+	    			</li>
+	    			<li class="X4-div2">
+	    				<div class="X4-li1">优势二</div>
+	    				<div class="X4-li2">
+	    					<img src="{dede:global.cfg_templets_skin/}/images/x5.jpg">
+	    					<p>极大地提高呼吸系统的检查和诊断技术；进口过敏原检测仪，可对临床各种过敏性疾病进行过敏原检测，不仅能快速检测各种常见过敏原，还能对患者紫塞的任何物品进行检查</p>
+	    				</div>
+	    			</li>
+	    			<li class="X4-div3">
+	    				<div class="X4-li1">优势三</div>
+	    				<div class="X4-li2">
+	    					<img src="{dede:global.cfg_templets_skin/}/images/x6.jpg">
+	    					<p>十五分钟即可判断患儿是否患有过敏性疾病，检测过程总无痛苦，可对气流受限、可变性和可逆性作出直接评估，帮助诊断哮喘，了解病情严重程度和评价治疗效果</p>
+	    				</div>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    </div>	
+	    <!--优势 结束-->
+	    <!--第四部分 开始-->
+	    {dede:include filename="common/channer_arclist.htm"/}
+	    <!--第四部分 结束-->
+	    {dede:include filename="common/footer.htm"/}
+	    <!--弹窗部分1 开始-->
+	    <div class="zccg1">
+	    	<div class="zccg1-min">
+	    		<div class="zccg1-min-title">让孩子回答这4个问题</div>
+	    		<div class="zccg1-min1">
+	    			<ul>
+	    				<li>
+	    					<strong>1、今天你的哮喘怎么样？</strong>
+	    					<p>A很差（0分） B差（1分） C好（2分） D很好（3分）</p>
+	    				</li>
+	    				<li>
+	    					<strong>2、你会因为哮喘而咳嗽吗？</strong>
+	    					<p>A一直都会（0分） B大部分时间会（1分） C有时候会（2分）  <br />D从来不会（3分）</p>
+	    				</li>
+	    				<li>
+	    					<strong>3、当你在跑步、锻炼的时候，哮喘是个大问题吗？</strong>
+	    					<p>A这是一个大问题，我不能做我想做的事情（0分）  <br />B这是一个问题，我很烦恼（1分）<br />C这是一个小问题，我能忍受（2分）  <br />D没有问题</p>
+	    				</li>
+	    				<li>
+	    					<strong>4、你会因为哮喘而半夜醒来吗？</strong>
+	    					<p>A会，所有时间都会（0分）    <br />B会，大部分时间会（1分）<br />C会，有时候会（2分）    <br />D从来不会（3分）</p>
+	    				</li>
+	    			</ul>
+	    			<p class="zccg1_close layui-layer-close">记下得分查看测试结果 ></p>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--弹窗部分1 结束-->
+	    <!--弹窗部分2 开始-->
+	    <div class="zccg2">
+	    	<div class="zccg1-min">
+	    		<div class="zccg1-min-title">请家长回答这3个问题</div>
+	    		<div class="zccg1-min1">
+	    			<ul>
+	    				<li>
+	    					<strong>1、过去的一个月里，您的还有有多少天有白天哮喘的情况？</strong>
+	    					<p>A没有（5分）  B 1-3天（4分） C 4-10天（3分） D 11-18天（2分）E 19-24天（1分）  F每天（0分）</p>
+	    				</li>
+	    				<li>
+	    					<strong>2、过去的一个月里，您的孩子有多少天因为哮喘而在白天发出喘息声？</strong>
+	    					<p>A没有（5分）  B 1-3天（4分） C 4-10天（3分） D 11-18天（2分）E 19-24天（1分）  F每天（0分）</p>
+	    				</li>
+	    				<li>
+	    					<strong>3、过去的一个月里，您的孩子有多少天因为哮喘而在夜里醒来？</strong>
+	    					<p>A没有（5分）    B 1-3天（4分）   C 4-10天（3分） <br />D 11-18天（2分）  E 19-24天（1分）    F每天（0分）</p>
+	    				</li>
+	    			</ul>
+	    			<p class="zccg1_close layui-layer-close">记下得分查看测试结果 ></p>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--弹窗部分2 结束-->
+
+	</div>
+	</body>
+</html>

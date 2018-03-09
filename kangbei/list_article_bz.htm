@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field name='keywords'/}" />
+		<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/list_bz.css">
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+	</head>
+	<body onload="getData.publicExpertInfos({dede:field.typeid/});getData.bzatcInfo(1)">
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	
+	<!--正文 开始-->
+	<div class="main-content">
+	<!--疾病左侧 开始-->	
+	    <div class="J-left">
+	    	<div class="J-position">
+	    		<div class="typename" id="typeid" data="{dede:field.id/}">{dede:field.typename/}</div>
+	    		<div class="info">
+				    <img src="{dede:global.cfg_templets_skin/}/images/home_ico.png">
+				    <p>您所在的位置：{dede:field name='position'/}</p>
+				</div>    
+			</div>
+			<div class="J-intro">
+				{dede:arclist row="1" limit="0,1"  flag="bj" titlelen='80' orderby='click'}
+				<img src="[field:picname/]" title="[field:title/]">
+				{/dede:arclist}
+				<div class="info">
+					<strong>{dede:field.typename/}简介</strong>
+					{dede:arclist row="1" limit="0,1"  flag="bj" titlelen='80' orderby='click'}
+					<p>[field:description function="cn_substr(@me,290)"/]...<a href="[field:arcurl/]">[详情]</a></p>
+					<ul class="attr">
+						<li><img src="{dede:global.cfg_templets_skin/}/images/j4.jpg"><span>[field:click/]</span></li>
+						<li><img src="{dede:global.cfg_templets_skin/}/images/j5.jpg"><span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span></li>
+					</ul>
+					{/dede:arclist}
+				</div>
+			</div>
+			<!--疾病百科-->
+			<div class="J-flag">
+				<div class="head">
+					<div class="title">疾病百科阅读 <span>HEALTH ENCYCLOPEDIA READING</span></div>
+					<div class="hr"></div>
+				</div>
+				<div class="flag-content">
+					<div class="flag-btn">
+						<ul>
+							<li class="on">
+								<em class="em1"></em>
+								<p>症状</p>
+							</li>
+							<li class="">
+								<em class="em2"></em>
+								<p>病因</p>
+							</li>
+							<li class="">
+								<em class="em3"></em>
+								<p>危害</p>
+							</li>
+							<li class="">
+								<em class="em4"></em>
+								<p>治疗</p>
+							</li>
+							<li class="">
+								<em class="em5"></em>
+								<p>其他</p>
+							</li>
+						</ul>
+					</div>
+					<div class="flag-item">
+						<ul style="display: block;">
+							<div class="item-left">
+								{dede:arclist row="1" limit="0,1"  flag="d" titlelen='80' orderby='click'}
+								<div class="title">
+									<a href="[field:arcurl/]"><img src="{dede:global.cfg_templets_skin/}/images/j6.jpg"><strong>[field:title/]</strong></a>
+								</div>
+								<div class="description">[field:description function="cn_substr(@me,190)"/]...<a href="[field:arcurl/]">[全文]</a></div>
+								{/dede:arclist}
+								<div class="list">
+									{dede:arclist row="2" limit="1,3" flag="d" titlelen='80' orderby='click'}
+									<div class="list-item">
+										<a href="[field:arcurl/]">· [field:title/]</a><span>[field:pubdate function='strftime("%m-%d",@me)'/]</span>
+									</div>
+									{/dede:arclist}
+								</div>
+							</div>
+							<div class="item-right">
+								{dede:arclist row="2" limit="3,2" flag="d,p" titlelen='80' orderby='click'}
+								<a href="[field:arcurl/]"><img src="[field:picname/]" title="[field:title/]"></a>
+								{/dede:arclist}
+							</div>
+						</ul>
+						<ul style="display: none;">
+							<div class="item-left">
+								{dede:arclist row="1" limit="0,1"  flag="n" titlelen='80' orderby='click'}
+								<div class="title">
+									<a href="[field:arcurl/]"><img src="{dede:global.cfg_templets_skin/}/images/j6.jpg"><strong>[field:title/]</strong></a>
+								</div>
+								<div class="description">[field:description function="cn_substr(@me,190)"/]...<a href="[field:arcurl/]">[全文]</a></div>
+								{/dede:arclist}
+								<div class="list">
+									{dede:arclist row="2" limit="1,3" flag="n" titlelen='80' orderby='click'}
+									<div class="list-item">
+										<a href="[field:arcurl/]">· [field:title/]</a><span>[field:pubdate function='strftime("%m-%d",@me)'/]</span>
+									</div>
+									{/dede:arclist}
+								</div>
+							</div>
+							<div class="item-right">
+								{dede:arclist row="2" limit="3,2" flag="n,p" titlelen='80' orderby='click'}
+								<a href="[field:arcurl/]"><img src="[field:picname/]" title="[field:title/]"></a>
+								{/dede:arclist}
+							</div>
+						</ul>
+						<ul style="display: none;">
+							<div class="item-left">
+								{dede:arclist row="1" limit="0,1"  flag="x" titlelen='80' orderby='click'}
+								<div class="title">
+									<a href="[field:arcurl/]"><img src="{dede:global.cfg_templets_skin/}/images/j6.jpg"><strong>[field:title/]</strong></a>
+								</div>
+								<div class="description">[field:description function="cn_substr(@me,190)"/]...<a href="[field:arcurl/]">[全文]</a></div>
+								{/dede:arclist}
+								<div class="list">
+									{dede:arclist row="2" limit="1,3" flag="x" titlelen='80' orderby='click'}
+									<div class="list-item">
+										<a href="[field:arcurl/]">· [field:title/]</a><span>[field:pubdate function='strftime("%m-%d",@me)'/]</span>
+									</div>
+									{/dede:arclist}
+								</div>
+							</div>
+							<div class="item-right">
+								{dede:arclist row="2" limit="3,2" flag="x,p" titlelen='80' orderby='click'}
+								<a href="[field:arcurl/]"><img src="[field:picname/]" title="[field:title/]"></a>
+								{/dede:arclist}
+							</div>
+						</ul>
+						<ul style="display: none;">
+							<div class="item-left">
+								{dede:arclist row="1" limit="0,1"  flag="y" titlelen='80' orderby='click'}
+								<div class="title">
+									<a href="[field:arcurl/]"><img src="{dede:global.cfg_templets_skin/}/images/j6.jpg"><strong>[field:title/]</strong></a>
+								</div>
+								<div class="description">[field:description function="cn_substr(@me,190)"/]...<a href="[field:arcurl/]">[全文]</a></div>
+								{/dede:arclist}
+								<div class="list">
+									{dede:arclist row="2" limit="1,3" flag="y" titlelen='80' orderby='click'}
+									<div class="list-item">
+										<a href="[field:arcurl/]">· [field:title/]</a><span>[field:pubdate function='strftime("%m-%d",@me)'/]</span>
+									</div>
+									{/dede:arclist}
+								</div>
+							</div>
+							<div class="item-right">
+								{dede:arclist row="2" limit="3,2" flag="y,p" titlelen='80' orderby='click'}
+								<a href="[field:arcurl/]"><img src="[field:picname/]" title="[field:title/]"></a>
+								{/dede:arclist}
+							</div>
+						</ul>
+						<ul style="display: none;">
+							<div class="item-left">
+								{dede:arclist row="1" limit="0,1"  noflag="d,n,x,y,kj,bj" titlelen='80' orderby='click'}
+								<div class="title">
+									<a href="[field:arcurl/]"><img src="{dede:global.cfg_templets_skin/}/images/j6.jpg"><strong>[field:title/]</strong></a>
+								</div>
+								<div class="description">[field:description function="cn_substr(@me,190)"/]...<a href="[field:arcurl/]">[全文]</a></div>
+								{/dede:arclist}
+								<div class="list">
+									{dede:arclist row="2" limit="1,3" noflag="d,n,x,y,kj,bj" titlelen='80' orderby='click'}
+									<div class="list-item">
+										<a href="[field:arcurl/]">· [field:title/]</a><span>[field:pubdate function='strftime("%m-%d",@me)'/]</span>
+									</div>
+									{/dede:arclist}
+								</div>
+							</div>
+							<div class="item-right">
+								{dede:arclist row="2" limit="3,2" noflag="d,n,x,y,kj,bj" titlelen='80' orderby='click'}
+								<a href="[field:arcurl/]"><img src="[field:picname/]" title="[field:title/]"></a>
+								{/dede:arclist}
+							</div>
+							
+						</ul>
+					</div>
+				</div>
+				<script>
+					jQuery(".flag-content").slide({titCell:".flag-btn ul li",mainCell:".flag-item",trigger:"click"});
+				</script>
+			</div>
+			<!--左侧列表 开始-->
+			{dede:include filename="common/list_dede.htm"/}	
+			<!--左侧列表 结束-->
+	    </div>
+	<!--疾病左侧 结束-->
+		{dede:include filename="common/list_right.htm"/}	
+	</div>
+	<!--正文 结束-->	
+	{dede:include filename="common/footer.htm"/}
+	</body>
+</html>

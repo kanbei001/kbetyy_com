@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 15:36:28
+ * 
+ */
+@import url('common_right.css');
+.J-left{ width: 844px; height: auto; float: left;}
+
+/*疾病页面 @ 当前位置*/
+.J-position{ width: 100%; height: 40px; float: left; border-bottom: 1px solid #dcdcdc; font-size: 24px; color: #049CE5;}
+.J-position .typename{ float: left; height: 39px; border-bottom: 2px solid #049CE5;}
+.J-position .info{ float: right; height: 44px; line-height: 44px; font-size: 14px; color: #9f9f9f;}
+.J-position .info p{float: right;}
+.J-position .info img{width: 17px; height: 14px; float: left; margin: 15px 4px 15px auto;}
+.J-position .info p a{color: #9f9f9f;}
+.J-position .info p a:hover,.J-lf4-title1 strong a:hover{color: #049ce5;}
+
+/*疾病页面 @ 疾病介绍*/
+.J-intro{ width: 100%; height: 183px; margin-top: 26px; float: left; overflow: hidden;}
+.J-intro img{ width: 295px; height: 183px; float: left;  overflow: hidden;}
+.J-intro .info{ width: 517px; float: right;}
+.J-intro .info strong{font-weight: normal; color: #4f4f4f; font-size: 26px; width: 100%;}
+.J-intro .info p{font-size: 15px; color: #6f6f6f; line-height: 34px; margin-top: 10px; height: 102px; overflow: hidden;}
+.J-intro .info p a{color: #fea529;}
+.J-intro .attr{ width: 100%; height: auto; overflow:hidden;}
+.J-intro .attr li{ float: left; margin-right: 18px; height: 20px; line-height: 20px; margin-top: 20px;}
+.J-intro .attr li img{ width: 18px; height: 13px; float: left; margin: 2px auto; margin-right: 4px;}
+.J-intro .attr li span{color: #a7a6a6;}
+
+/*疾病页面 @ 疾病百科*/
+.J-flag{margin-top: 40px; width: 100%; float: left; height: auto; overflow: hidden;}
+.J-flag .head{ width: 100%; height: 24px; float: left; line-height: 24px;}
+.J-flag .head .title{float: left; font-size: 24px; color: #636363;}
+.J-flag .head .title span{color: #d8d8d8;}
+.J-flag .head .hr{ width: 290px; height: 1px; border-bottom: 1px solid #ebe9e9; float: right; padding-top:11px;}
+.J-flag .flag-content{ width: 100%; height: auto; float: left; overflow: hidden;}
+.J-flag .flag-btn{ width: 164px; height: 282px; float: left; margin-top: 25px;}
+.J-flag .flag-btn ul{ width: 100%;}
+.J-flag .flag-btn ul li{ width: 100%; height: 56px; line-height: 56px; margin-bottom: 1px; background: #e9e6e6;}
+.J-flag .flag-btn ul li .em1{ width: 30px; height: 30px; float: left; background: url(../images/ico1.png) no-repeat; background-position: -31px 0; margin: 13px 5px 13px 35px;}
+.J-flag .flag-btn ul li .em2{ width: 30px; height: 30px; float: left; background: url(../images/ico1.png) no-repeat; background-position: 0 -58px; margin: 13px 5px 13px 35px;}
+.J-flag .flag-btn ul li .em3{ width: 30px; height: 30px; float: left; background: url(../images/ico1.png) no-repeat; background-position: 0 -115px; margin: 13px 5px 13px 35px;}
+.J-flag .flag-btn ul li .em4{ width: 30px; height: 30px; float: left; background: url(../images/ico1.png) no-repeat; background-position: 0 -173px; margin: 13px 5px 13px 35px;}
+.J-flag .flag-btn ul li .em5{ width: 30px; height: 30px; float: left; background: url(../images/ico1.png) no-repeat; background-position: 0 -231px; margin: 13px 5px 13px 35px;}
+.J-flag .flag-btn ul li p{font-size: 24px;}
+.J-flag .flag-btn ul li.on{background: #5ec8fb;}
+.J-flag .flag-btn ul li.on .em1{background-position: 0 0;}
+.J-flag .flag-btn ul li.on .em2{background-position: -31px -58px;}
+.J-flag .flag-btn ul li.on .em3{background-position: -31px -115px;}
+.J-flag .flag-btn ul li.on .em4{background-position: -31px -173px;}
+.J-flag .flag-btn ul li.on .em5{background-position: -31px -231px;}
+.J-flag .flag-btn ul li.on p{ color: #fff;}
+.J-flag .flag-item{ width: 673px; height: 282px; border: 1px solid #dedbdb; float: right; margin-top: 25px;}
+.J-flag .flag-item ul{ width: 610px; height: 240px; padding: 26px 30px 18px 30px; overflow: hidden; float: left;}
+.J-flag .flag-item .item-left{ width: 366px; height: auto; overflow: hidden; float: left;}
+.J-flag .flag-item .title{ width: 100%; height: 24px; line-height: 24px; float: left; font-size: 18px; color: #5a5a5a; overflow: hidden;}
+.J-flag .flag-item .title a{color:#5a5a5a}
+.J-flag .flag-item .title img{ width: 27px; height: 16px; float: left; margin: 3px 4px 3px 0;}
+.J-flag .flag-item .description{font-size: 14px; color: #929191; text-indent: 2em; float: left; margin: 15px auto; line-height: 28px;}
+.J-flag .flag-item .description a{color: #f2991d;}
+.J-flag .flag-item .list{ width: 100%; height: auto; overflow: hidden; border-top: 1px dashed #c9c9c9; padding-top: 12px;}
+.J-flag .flag-item .list-item{ width: 100%; height: 32px; float: left; line-height: 32px;}
+.J-flag .flag-item .list-item a{width: 80%; float: left; color: #828282;}
+.J-flag .flag-item .list-item a:hover{color: #049CE5;}
+.J-flag .flag-item .list-item span{ width: 20%; float: right; color: #b8b6b6;}
+.J-flag .item-right{ width: 194px; height: auto; float: right;}
+.J-flag .item-right a{ width: 100%; height: 115px; float: left; margin-bottom: 9px;overflow: hidden;}
+.J-flag .item-right a img{width:100%;}
+
+/*疾病列表*/
+.J-elselists{ width: 100%; height: auto; overflow: hidden; margin: 0 auto;}
+.J-elselists li.item{ width: 100%;height:110px; margin: 28px auto 0 auto; border-bottom: 1px solid #e3e3e3;padding-bottom: 28px;}
+.J-elselists li.item .attr{ width: 100%; height: 30px; float: left; overflow: hidden;}
+.J-elselists li.item .attr .title{ width: 80%; float: left; height: 30px;}
+.J-elselists li.item .attr img{float: left; width: 9px; height: 15px; margin: 7px 5px 8px 0;}
+.J-elselists li.item .attr strong{font-size: 18px; color: #4b4b4b; height: 30px; line-height: 30px;}
+.J-elselists li.item .attr strong a{color: #4b4b4b;}
+.J-elselists li.item .attr .time{float: right; width: 13%;}
+.J-elselists li.item .attr .time img{ width: 18px; height: 13px; float: left; margin: 8px 5px 9px 0;}
+.J-elselists li.item .attr .time span{ height: 30px; line-height: 30px; color: #a7a6a6;}
+.J-elselists li.item .description{font-size: 14px; color: #8c8c8c; line-height: 30px; margin-top: 15px; float: left; height: 60px; width: 100%; overflow: hidden;}
+.J-elselists li.item .description a{color:#049CE5;}
+.J-elselists li.item .description a:hover{color:red;}
+
+/*疾病列表 @ 分页*/
+.pagelist span{ display:inline-block; padding:10px 15px; background:#eee; color:#111; margin:20px 5px; cursor:pointer; } 
+.pagelist span.curobj{ background:#049ce5; color:#fff; } 
+

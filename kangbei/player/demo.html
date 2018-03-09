@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5-Video-Player</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="video.css">
+</head>
+<body style="background: #db4646">
+    <span class="bofang" src="http://v.cdkid.cn/video/0801_3.mp4">播放</span>
+    <script src="jquery.2.0.1-min.js"></script>
+    <script src="jquery.vedio.js"></script>
+    <script>
+        $('.bofang').click(function(){
+            var videoUrl = $(this).attr('src');
+            $(this).JVideo({
+                playProgressColor:'#db4646',
+                background:'#111',
+                width:900,
+                source:videoUrl
+            });
+        })
+    </script>
+</body>
+</html>

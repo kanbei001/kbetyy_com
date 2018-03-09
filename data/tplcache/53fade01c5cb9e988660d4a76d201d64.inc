@@ -1,0 +1,1 @@
+<a href="{dede:field.typeurl/}" class="hot1">{dede:field.typename/}</a>

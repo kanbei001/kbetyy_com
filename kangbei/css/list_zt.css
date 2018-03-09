@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 11:16:24
+ * @templet list_zt.htm
+ */
+
+.jkzt-container{ width: 1200px; height: auto; overflow: hidden; margin: 0 auto 60px auto;}
+
+.jkzt{width:1200px;margin:auto; height: auto; overflow: hidden; margin: 10px auto;}
+.jkzt-title{ width: 100%; float: left; height: 60px; line-height: 60px; overflow: hidden;}
+.jkzt-title strong{ width: 120px; float: left;font-size: 24px; color: #049ce5;}
+.jkzt-title a{float: right; color: #b3b3b3; font-size: 18px; width: 70px; float: right;}
+.jkzt ul{ width: 100%; height: auto; overflow: hidden; float: left;}
+.jkzt ul li{ width: 361px; height: auto; float: left; margin-right: 58px;cursor: pointer;}
+.jkzt ul li:nth-child(3n),.H-DIVH li:nth-child(3n),.H-DIVS li:nth-child(3n){float:right;margin-right:0;}
+.jkzt-pic{ width: 361px; height: auto; float: left; overflow: hidden;}
+.jkzt-pic img{ width: 361px; height: 238px; float: left; transition: all 1s ease 0s; overflow: hidden;}
+.jkzt-pic:hover img{transform:scale(1.15, 1.15);}
+.jkzt p.info{ width:361px; height: 70px; text-align: center; line-height: 50px; float: left; font-size: 15px; color: #757575;}

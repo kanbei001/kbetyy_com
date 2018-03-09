@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{dede:field.typename/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:field name='keywords'/}" />
+		<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/list_kq.css">
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+	</head>
+	<body>
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+	
+	<!--正文 开始-->
+	<div class="list-kq-container clear">
+	<!--疾病左侧 开始-->	
+	    <div class="J-lf">
+	    	<div class="J-lf-title">
+	    		<div class="J-lf-title1" id="typeid" data="{dede:field.id/}">{dede:field.typename/}</div>
+	    		<div class="J-lf-title2">
+				    <img src="{dede:global.cfg_templets_skin/}/images/home_ico.png">
+				    <p>您所在的位置：{dede:field name='position'/}</p>
+				</div>    
+			</div>
+			<div class="J-lf1">
+				{dede:arclist row="1" limit="0,1"  flag="bj" titlelen='80' orderby='click'}
+				<img src="[field:picname/]" title="[field:title/]">
+				{/dede:arclist}
+				<div class="J-lf1-div">
+					<strong>{dede:field.typename/}简介</strong>
+					{dede:arclist row="1" limit="0,1"  flag="bj" titlelen='80' orderby='click'}
+					<p>[field:description function="cn_substr(@me,290)"/]...<a href="[field:arcurl/]">[详情]</a></p>
+					<div class="J-lf1-div-p">
+						<ul>
+							<li><img src="{dede:global.cfg_templets_skin/}/images/j4.jpg"><span>[field:click/]</span></li>
+							<li><img src="{dede:global.cfg_templets_skin/}/images/j5.jpg"><span>[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</span></li>
+						</ul>
+					</div>
+					{/dede:arclist}
+				</div>
+				
+			</div>
+			<!--推荐阅读-->
+			<div class="J-lf3">
+				<div class="J-lf3-title">
+					<div class="J-lf3-title1">相关推荐阅读 <span>HEALTH ENCYCLOPEDIA READING</span></div>
+					<div class="J-lf3-hr"></div>
+				</div>
+				<div class="J-lf3-M">
+					<ul>
+						{dede:arclist row="3" flag="c,p"}
+						<li>
+							<a href="[field:arcurl/]"><img src="[field:picname/]"></a>
+							<a href="[field:arcurl/]">[field:title/]</a>
+						</li>
+						{/dede:arclist}
+					</ul>
+				</div>
+			</div>
+			<!--左侧列表 开始-->
+			<div class="J-elselists">
+				<ul>
+		           {dede:list pagesize='5' infolen="275" orderby='id' orderway='ASC'}
+		            <li class="item">
+		            	<div class="attr">
+		            		<div class="title">
+		            			<img src="{dede:global.cfg_templets_skin/}/images/j7.jpg">
+		            			<strong><a href="[field:arcurl/]">[field:fulltitle/]</a></strong>
+		            		</div>
+		            		<div class="time">
+		            			<img src="{dede:global.cfg_templets_skin/}/images/j5.jpg"><span>[field:pubdate function="MyDate('m-d',@me)"/]</span>
+		            		</div>
+		            	</div>
+		            	<div class="description">[field:infos/]...<a href="[field:arcurl/]">[详情]</a>
+		            		
+		            	</div>
+		            </li>
+		            {/dede:list}
+                </ul>
+                <ul class="pagelist">
+                     {dede:pagelist listitem="index,end,pre,next,pageno" listsize="1"/}                    
+                </ul>
+            </div>
+			<!--左侧列表 结束-->
+	    </div>
+	<!--疾病左侧 结束-->	
+
+	<!--疾病右侧 开始-->
+	{dede:include filename="common/list_right.htm"/}	
+	</div>
+	<!--正文 结束-->	
+	{dede:include filename="common/footer.htm"/}
+	
+	</body>
+</html>

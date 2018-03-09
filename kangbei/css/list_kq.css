@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('common_right.css');
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 11:16:24
+ * @position list_kq.htm
+ */
+ .list-kq-container{width:1200px;margin:20px auto;}
+
+/*口腔疾病 @ 当前位置*/
+.J-lf{ width: 844px; height: auto; float: left;}
+.J-lf-title{ width: 100%; height: 40px; float: left; border-bottom: 1px solid #dcdcdc; font-size: 24px; color: #049CE5;}
+.J-lf-title1{ float: left; height: 39px; border-bottom: 2px solid #049CE5;}
+.J-lf-title2{ float: right; height: 44px; line-height: 44px; font-size: 14px; color: #9f9f9f;}
+.J-lf-title2 p{float: right;}
+.J-lf-title2 img{width: 17px; height: 14px; float: left; margin: 15px 4px 15px auto;}
+.J-lf-title2 p a{color: #9f9f9f;}
+.J-lf-title2 p a:hover,.J-lf4-title1 strong a:hover{color: #049ce5;}
+/*口腔疾病 @ 疾病介绍*/
+.J-lf1{ width: 100%; height: 183px; margin-top: 26px; float: left; overflow: hidden;}
+.J-lf1 img{ width: 295px; height: 183px; float: left;  overflow: hidden;}
+.J-lf1-div{ width: 517px; float: right;}
+.J-lf1-div strong{font-weight: normal; color: #4f4f4f; font-size: 26px; width: 100%;}
+.J-lf1-div p{font-size: 15px; color: #6f6f6f; line-height: 34px; margin-top: 10px; height: 102px; overflow: hidden;}
+.J-lf1-div p a{color: #fea529;}
+.J-lf1-div-p{ width: 100%; height: auto; overflow:hidden;}
+.J-lf1-div-p li{ float: left; margin-right: 18px; height: 20px; line-height: 20px; margin-top: 20px;}
+.J-lf1-div-p li img{ width: 18px; height: 13px; float: left; margin: 2px auto; margin-right: 4px;}
+.J-lf1-div-p li span{color: #a7a6a6;}
+
+/*口腔疾病 @ 推荐阅读*/
+.J-lf3{margin-top: 40px; width: 100%; float: left; height: auto; overflow: hidden;}
+.J-lf3-title{ width: 100%; height: 24px; float: left; line-height: 24px;}
+.J-lf3-title1{float: left; font-size: 24px; color: #636363;}
+.J-lf3-title1 span{color: #d8d8d8;}
+.J-lf3-M{ width: 100%; height: auto; overflow: hidden; margin: 24px auto 0 auto; float: left;}
+.J-lf3-M li{ width: 263px; height: 208px; float: left; overflow: hidden; text-align: center;}
+.J-lf3-M li:nth-child(2){margin: 0 3%;}
+.J-lf3-M li img{ width: 100%; height: 164px; overflow: hidden; float: left;}
+.J-lf3-M li a{color: #636363; height: 44px; line-height: 44px;}
+.J-lf3-M li a:hover{color:#049CE5;}
+
+/*口腔疾病 @ 列表*/
+.J-elselists{ width: 100%; height: auto; overflow: hidden; margin: 0 auto;}
+.J-elselists ul{margin-bottom:30px;}
+.J-elselists li.item{ width: 100%;height:110px;  margin: 28px auto 0 auto; border-bottom: 1px solid #e3e3e3;padding-bottom: 28px;}
+.J-elselists li.item .attr{ width: 100%; height: 30px; float: left; overflow: hidden;}
+.J-elselists li.item .attr .title{ width: 80%; float: left; height: 30px;}
+.J-elselists li.item .attr img{float: left; width: 9px; height: 15px; margin: 7px 5px 8px 0;}
+.J-elselists li.item .attr strong{font-size: 18px; color: #4b4b4b; height: 30px; line-height: 30px;}
+.J-elselists li.item .attr strong a{color: #4b4b4b;}
+.J-elselists li.item .attr .time{float: right; width: 13%;}
+.J-elselists li.item .attr .time img{ width: 18px; height: 13px; float: left; margin: 8px 5px 9px 0;}
+.J-elselists li.item .attr .time span{ height: 30px; line-height: 30px; color: #a7a6a6;}
+.J-elselists li.item .description{font-size: 14px; color: #8c8c8c; line-height: 30px; margin-top: 15px; float: left; height: 60px; width: 100%; overflow: hidden;}
+.J-elselists li.item .description a{color:#049CE5;}
+.J-elselists li.item .description a:hover{color:red;}

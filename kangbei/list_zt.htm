@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>{dede:field.title/} - {dede:global.cfg_webname/}</title>
+		<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+		<meta name="description" content="{dede:global.cfg_description/}" />
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+		<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/list_zt.css">
+		<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery1.42.min.js" ></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+	    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+	</head>
+	<body>
+	{dede:include filename="common/header.htm"/}
+	<!--单独banner 开始-->	
+	{dede:include filename="common/public_banner.htm"/}
+	<!--单独banner 结束-->	
+    <!--科室 当前位置-->
+    <div class="web-position">
+    	<img src="{dede:global.cfg_templets_skin/}/images/home_ico.png">
+    	<p>您所在的位置：{dede:field name="position"/}</p>
+    </div>	
+    <!--健康专题 开始-->
+    <div class="jkzt-container" id="jkzt-recomment">
+    	<div class="jkzt">
+    		<div class="jkzt-title">
+    			<strong>视频专题</strong>
+    			<a href="/mysp">+MORE</a>
+    		</div>
+    		<ul>
+				{dede:arclist row="6" typeid="756"  orderby='senddate' titlelen='50' addfields="videourl" channelid="15"}
+    			<li class="video" id="JVideo" onclick="Jvideo('JVideo')" data_title="[field:title/]" data_url="[field:videourl/]" data_img="[field:picname/]">
+    				<div class="jkzt-pic"><img src="[field:picname/]"></div>
+    				<p class="info">[field:title/]</p>
+    			</li>
+    			{/dede:arclist}
+    		</ul>
+    	</div>
+    	<div class="jkzt">
+    		<div class="jkzt-title">
+    			<strong>特色专题</strong>
+    			<a href="/tszt">+MORE</a>
+    		</div>
+    		<ul>
+    			{dede:arclist row="6" typeid="800"  orderby='senddate' titlelen='50' addfields="videourl" channelid="15"}
+    			<li>
+    				<div class="jkzt-pic"><a href="[field:videourl/]" target="_blank"><img src="[field:picname/]"></a></div>
+    				<p class="info"><a href="[field:videourl/]" target="_blank">[field:title/]</a></p>
+    			</li>
+    			{/dede:arclist}
+    		</ul>
+    	</div>
+    </div>
+    <div class="jkzt-container jkzt" id="jkzt-list">
+		<div class="jkzt-title">
+			<strong>{dede:field.typename/}</strong>
+		</div>
+		<ul>
+			{dede:list pagesize='9'  orderby='senddate' titlelen='50'}
+			<li class="video" data_title="[field:title/]" data_url="[field:videourl/]" data_img="[field:picname/]">
+				<div class="jkzt-pic"><img src="[field:picname/]"></div>
+				<p class="info">[field:title/]</p>
+			</li>
+			{/dede:list}
+		</ul>
+		<div class="pagelist">{dede:pagelist listitem="pre,next,pageno" listsize="3"/}</div>
+	</div>
+	{dede:field.id runphp="yes"}
+	    if(@me==799){ 
+	       @me="<style>#jkzt-recomment{display: block !important;}#jkzt-list{display: none !important;}</style>";
+	    }else{
+	       @me="<style>#jkzt-recomment{display: none;}#jkzt-list{display: block !important;}</style>";
+	    }
+    {/dede:field.id}   
+	{dede:include filename="common/footer.htm"/}
+	
+	</body>
+</html>

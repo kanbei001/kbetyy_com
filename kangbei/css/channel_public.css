@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-08-14 15:38:02
+ * @templets channel.htm xcmz.htm
+ */
+
+/*Channer @ 科室介绍*/
+.section-top{width:1200px;margin:auto;height:300px;margin-bottom:30px;}
+.section-intro{ float: left; width: 332px; height: 300px;overflow: hidden;}
+.section-name{ width: 100%; height: 30px;border-left: 2px solid #049CE5; padding-left: 10px; line-height: 30px; font-size: 24px; color: #414141;}
+.section-intro img{ width: 100%; height: 183px; float: left; overflow: hidden; margin: 15px auto;}
+.section-info{width: 100%; height: 80px; line-height: 28px; font-size: 15px; color: #888888; float: left; text-indent: 2em;}
+.section-info a{color: #e88f14;}
+
+/*Channel @健康热点*/
+.M-k1cen{ width: 485px; height: 300px; float: left; margin:0px 43px;overflow: hidden;}
+.M-k1cen1{ width: 100%; height: 30px; color: #5e5e5e; font-size: 23px; line-height: 30px;border-bottom: 1px solid #dcdcdc;padding-bottom: 13px;}
+.M-k1cen1 span{text-transform: uppercase; font-size: 15px;float:right;margin-top: 8px;}
+.M-k1cen1 span a{color: #acacac;}
+.M-k1cen2{ width: 100%; height: auto; float: left;}
+.M-k1cen2 img{ width: 157px; height: 106px; float: left; overflow: hidden;}
+.M-k1cen2-div{ height: auto; float: right;padding-bottom: 20px;border-bottom: 1px dashed #d2d2d2; }
+.M-k1cen2-div strong{height: 30px; line-height: 30px; font-size: 18px;color: #5e5e5e;}
+.M-k1cen2-div strong a{color: #049CE5;}
+.M-k1cen2-div p{ height: 80px; width: 100%; overflow: hidden; font-size: 15px; color: #666666; line-height: 28px; margin-top: 12px; text-indent: 2em;}
+.M-k1cen2-div p a{color: #ef6b13;}
+.M-k1cen2-div p a:hover,.M-k1cen3-div li a:hover{color: #19a2e6;}
+.M-k1cen3-div li a strong{font-weight: normal;}
+.M-k1cen3{ width: 100%; height: auto; overflow: hidden;float: left;}
+.M-k1cen3-div{ width: 100%; line-height: 39px; overflow: hidden;}
+.M-k1cen3-div li{ overflow: hidden;border-bottom: 1px dashed #d2d2d2;line-height: 40px; }
+.M-k1cen3-div li.k-Z-list2{float: right;}
+.M-k1cen3-div li a{color: #7a7878; font-size: 15px;}
+.M-k1cen3-div li a span{float:right}
+
+/*Channel @ 康贝服务*/
+.angel-server-channel{float: right; width: 294px; height: 297px; background: #fff; border: 1px solid #dcdcdc;border-top: 2px solid #70caf7;}
+.angel-server-channel .server-tit{ width: 100%; text-align: center; height: 40px; line-height: 40px; font-size: 24px; color: #5e5e5e;}
+.angel-server-channel .server-tit span{text-transform: uppercase; color: #acacac;}
+.angel-server-channel .info{width:90%;padding:20px 5%;}
+/*公共科室 @ 诊疗项目*/
+.zlxm{width: 100%;  margin: 0 auto; background: url(../images/j17.jpg) no-repeat top center; overflow: hidden;}
+.zlxm-info{ margin-top: 33px;}
+.zlxm-title p { color: #019eeb; font-size: 24px; font-weight: bold; margin: 0 auto; width: 97px; } 
+.zlxm-project{overflow: hidden; width: 1200px;margin:20px auto;} 
+.zlxm-project li { float: left; height: 40px; margin: 0 9px 30px 9px; } 
+.zlxm-project li a { background: #fff; border-radius: 4px; color: #636363; display: block; font-size: 16px; height: 40px; line-height: 40px; min-width: 88px; padding: 0 10px; text-align: center;}
+.zlxm-project li a:hover{ background: #19a2e6; color: #fff;}
+
+/*频道@医生*/
+.angel-doctor{width:1200px;margin:30px auto;}
+.angel-doctor .title{ width: 100%; height: 30px; line-height: 30px; overflow: hidden; color: #5e5e5e;}
+.angel-doctor .title p{ float: left; width: 90%; font-size: 24px;}
+.angel-doctor .title a{ float: right; font-size: 16px; color: #b8b8b8; display: block; width: 63px;}
+.angel-doctor .doctor-list{ width: 100%; height: auto; overflow: hidden; position: relative;}
+.angel-doctor .M-k3bd{ width: 100%; height: 437px;float: left;}
+.angel-doctor .M-k3bd ul{height:437px;}
+.angel-doctor .M-k3bd li{ width: 100%; height: 437px; float:left; margin-top: 15px;}
+.angel-doctor .M-k3bd li img{ width: 426px; height: 437px; float: left;}
+.angel-doctor .M-k3bd1{float: right; width: 548px; height: 374px; padding: 30px 155px 36px 70px; background: #f3f1f1;}
+.angel-doctor .M-k3bd1-title{width: 548px; height: 70px;float: left; overflow: hidden;}
+.angel-doctor .M-k3bd1-title strong{font-size: 45px; color: #ef6b13; float: left;}
+.angel-doctor .M-k3bd1-title span{ font-size: 24px; color: #4a4a4a; float: left; padding: 24px 0 0 20px;}
+.angel-doctor .M-k3bd1-k{ width: 100%; height: 110px; float: left;position:relative}
+.angel-doctor .M-k3bd1-k1{float: left; width: 100%; font-size: 16px; color: #616161; line-height: 30px; overflow: hidden;}
+.angel-doctor .M-k3bd1-k2{height: auto; overflow: hidden;position:absolute;top:0px;right:-30px;}
+.angel-doctor .M-k3bd1-k2 a{padding:10px 15px; border: 1px solid #ef6b13; background: #f3f1f1; color: #ef6b13;display: block; border-radius: 10px;}
+.angel-doctor .M-k3bd1-k2 a.abg{background: #ef6b13; color: #fff; margin-bottom: 10px;}
+.angel-doctor .M-k3bd1-k3{ width: 100%; height: auto; border-bottom: 1px solid #d3d4d4; overflow: hidden;}
+.angel-doctor .M-k3bd1-k3 h4{ width: 100%; height: 30px; line-height: 30px; font-size: 20px; float: left; color: #494949;}
+.angel-doctor .M-k3bd1-k3 p{width: 100%; line-height: 28px; height: 56px; color: #717171; font-size: 15px; float: left;}
+.angel-doctor .M-k3bd1-k3 p a{color: #ff0000;}
+.angel-doctor .M-k3bd1-k3 h5{font-size: 18px; color: #ef6b13; height: 20px; line-height: 20px; float: left; margin: 20px auto; overflow: hidden;}
+.angel-doctor .M-k3bd1-k4{ width: 100%; height: 26px; line-height: 26px; font-size: 24px; color: #4a4a4a; float: left; margin-top: 20px;}
+.angel-doctor .M-k3hd{ width: 100%; height: 90px; position: absolute; top: 200px; left: 0; z-index: 1;}
+.angel-doctor .doctor-list .hd ul{display: none;}
+.angel-doctor .doctor-list .hd .prev,.doctor-list .hd .next{ display:block;  width:49px; height:90px; float:right; margin-right:5px; margin-top:10px;  overflow:hidden; cursor:pointer; background:url(../images/slider-arrow1.png) 0 0 no-repeat;}
+.angel-doctor .doctor-list .hd .next{ background-position:0 0; position: absolute; right: 34px;}
+.angel-doctor .doctor-list .hd .prev{background-position: -116px 0; position: absolute; left: 34px;}
+
+/*Channel @ 推荐文章*/
+.k-table{ width: 1200px; height: auto; overflow: hidden; margin: 32px auto 45px;}
+.k-table h3{font-size: 23px; color: #333333;padding-bottom: 20px;border-bottom: 1px solid #e1e1e1;margin-bottom: 20px;}
+.K-divhd{ width: 100%; height: 37px; float: left;}
+.K-divhd li{ width: 124.44px; height: 37px; position: relative; float: left; background: #efefef; text-align: center; line-height: 37px; font-size: 15px; color: #717171; margin-right: 10px;}
+.K-divhd li:last-child{margin-right:0px;}
+.K-divhd li.on{background: url(../images/lion.jpg); color: #fff;cursor: pointer;}
+.k-divbd{float: left;overflow: hidden;}
+.k-divbd-div{ width: 1200px;overflow: hidden; padding-top: 20px; float: left;}
+.k-divbd-div img{ width: 375px; height: 240px; float: left; overflow: hidden;}
+.k-divbd-div .head { color: #323131;margin-top: -14px; font-size: 18px; margin-left: 405px; text-align: left;line-height: 44px; }  
+.k-divbd-div p.info { line-height: 30px;padding-bottom: 25px; margin-left: 405px;border-bottom: 1px dashed #e1e1e1; }
+.k-divbd-div p.info a{color: #ef6b13;}
+.k-divbd-div1{ width: 795px; float: left;margin-left: 30px;}
+.k-divbd-div3{ width: 382px; float: left;}
+.k-divbd-div2{margin-right: 30px;}
+.k-divbd-div3 p{ width: 100%; height: 40px; line-height: 40px; float: left;border-bottom: 1px dashed #e1e1e1;}
+.k-divbd-div3 p a{ width: 300px; color: #808080; float: left; height: 34px; overflow: hidden;}
+.k-divbd-div3 p a:hover{color: #049CE5;}
+.k-divbd-div3 p span{width:80px; float: right; color: #cccccc;}

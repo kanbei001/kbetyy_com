@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{dede:global.cfg_webname/}</title>
+	<meta name="description" content="{dede:global.cfg_description/}" />
+	<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+	<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/public.css">
+	<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/404.css">
+	<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-2.0.0.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/player/jquery.video.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/getdata.js"></script>
+    <script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/public.js"></script>
+    
+</head>
+<style>
+</style>
+<body>
+	{dede:include filename="common/header.htm"/}
+	<div class="page-404">
+		<div class="info">
+			<a href="/index" class="index">返回首页</a>
+			<a href="/ksdh" class="ksdh">科室导航</a>
+		</div>
+	</div>
+	<!--信息切换-->
+	<div class="hospital-details">
+	  	<div class="title">深圳康贝儿童医院  专注儿童健康 建树儿科典范</div>
+	  	<div class='line'><img src="{dede:global.cfg_templets_skin/}/images/tbg.png"></div>
+		<div class="details-info">
+			<!--设备环境切换-->
+			<div class="slide-item">
+				<div class="slide-btn">
+					<ul><li><p></p>专家团队</li><li><p></p>诊疗技术</li><li><p></p>星级环境</li><li><p></p>公益活动</li></ul>
+				</div>
+				<div class="item-info">
+					
+					<div class="item-zjtd">
+				        <p class="zjtd-intro">医院医资技术力量雄厚，拥有一支由省内著名儿科专家肖侠明、刘震、陈昌辉、夏嘉陵、刘超、李戈、聂采现、杨小民、景玉华、田泽芳、吴育萍等领衔的专家团队。医院始终把科研创新、人才培养、专科建设作为提升医院核心竞争力的有力手段，通过积极完善人才梯队建设，强化制度管理，致力于打造一支技术过硬、作风优良的医学人才队伍。</p>
+						<a href="/myk/" class="zjtd-pic"><img src="{dede:global.cfg_templets_skin/}/images/doc.jpg"/><span class="tit">深圳康贝儿童医院专家团体照</span></a>
+					</div>  
+					
+					<div class="item-zljs">
+					    <p class="zljs-intro">深圳康贝儿童医院配备有一流的诊疗设备，如Achieva 3.0核磁共振，64排128层螺旋CT、全自动血细胞计数仪、全自动生化分析仪、微量元素分析仪、DR、美国GE四维彩超、数字脑电地形图系统等，高、尖、精的诊疗设备为治疗提供了保障。</p>
+					    <div class="zljs-info">
+						{dede:arclist typeid='14' row='6' flag='p' limit='2,6'}
+						<a href="[field:arcurl/]"><img src="[field:litpic/]"/><span>[field:title/]</span></a>
+						{/dede:arclist}
+						</div>
+					</div>
+					<div class="item-xjhj">
+				        <p class="xjhj-intro">医院环境优美，设施先进齐全，以“儿童乐园”式布局，突出功能区分，不同科室采用不同的卡通设计，针对儿童思维打造标识科室，配以符合儿童心理特征和身心特点的标识和设施设备，让患儿在玩乐中接受治疗，实现寓教于医、快乐就诊。</p>
+						<div class="xjhj-info">
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H5.jpg"/><span>二楼候诊区</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H7.jpg"/><span>输液大厅</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H12.jpg"/><span>手术室</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H9.jpg"/><span>儿童病房</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H13.jpg"/><span>中医馆</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2654.html"><img src="{dede:global.cfg_templets_skin/}/images/H16.jpg"/><span>治疗室</span></a>
+						</div>
+					</div>
+					
+					<div class="item-gyhd">
+					    <p class="gyhd-intro">在这里，没有煽情的口号，没有伪善的承诺，更没有夸张的报道。一切，以行动说话。医院通过组织“系上蓝丝带，让爱一起飞”，“美亚蒙特梭利幼儿园-公益体检”等活动，为数百名孩子、家庭带来温暖，我们正以平等和包容，跨越理解的鸿沟，感知缺憾与障碍。</p>
+					    <div class="gyhd-info">
+					    	<a href="http://www.cdkid.cn/tsgy/1370.html"><img src="{dede:global.cfg_templets_skin/}/images/gyhd1.jpg"/>
+					    	<span>“系上蓝丝带，让爱一起飞”救助自闭症</span></a>
+							<a href="http://www.cdkid.cn/tsgy/2298.html"><img src="{dede:global.cfg_templets_skin/}/images/gyhd2.jpg"/>
+							<span>美亚蒙特梭利幼儿园-公益体验</span></a>
+							<a href="http://www.cdkid.cn/tsdt/1359.html"><img src="{dede:global.cfg_templets_skin/}/images/gyhd3.jpg"/>
+							<span>媒体体验日</span></a>
+							<a href="/swt/"><img src="{dede:global.cfg_templets_skin/}/images/gyhd4.jpg"/><span>参加儿博会</span></a>
+							<a href="http://www.cdkid.cn/tsdt/1403.html"><img src="{dede:global.cfg_templets_skin/}/images/gyhd5.jpg"/>
+							<span>危重患者现场应急救护知识培训</span></a>
+							<a href="http://www.cdkid.cn/tsdt/2626.html"><img src="{dede:global.cfg_templets_skin/}/images/gyhd6.jpg"/>
+							<span>深圳康复论坛暨脑瘫康复进展培训会</span></a>
+					    </div>
+						
+					</div>
+				</div>
+				<script type="text/javascript"> 
+				jQuery(".slide-item").slide({titCell:".slide-btn li",mainCell:".item-info",trigger:"click"});
+				</script>
+			</div>
+			<div class="hopital-introduction">
+	            <div class="intro-img"><img src="{dede:global.cfg_templets_skin/}/images/yy.jpg"/></div>
+	            <p class="introduction-info">深圳康贝儿童医院是在国家卫计委等职能部门大力倡导下，经深圳市卫生行政管理部门批准的集医疗、科研、特教、康复、保健为一体的综合性儿童医院。医院地处深圳市武侯区人民南路......<a href="/zjts/">[详细]</a></p>
+			</div>
+		</div>
+	</div>
+	<!--科研教学-->
+	<div class="scientific-teaching">
+		<ul>
+			<li class="teaching-item">
+				<div class="item-block">
+					<h4 class="title">科研教学<a href="/kyjx">+MORE</a></h4>
+					{dede:arclist row="1" limit="0,1" typeid="754" flag="p"}
+					<p class="item-pic"><a href="[field:arcurl/]"><img src="[field:picname/]"/></a></p>
+					{/dede:arclist}
+					<div class="item-info">
+						{dede:arclist row="2" typeid="754" limit="0,2" titlelen="100"}
+						<p><a href="[field:arcurl/]">[field:title/]</a></p>
+						{/dede:arclist}
+					</div>
+					
+				</div>
+			</li>
+			
+			<li class="teaching-item">
+				<div class="item-block">
+					<h4 class="title">康贝公益<a href="/tsgy">+MORE</a></h4>
+					{dede:arclist row="1" limit="0,1" typeid="5" flag="p"}
+					<p class="item-pic"><a href="[field:arcurl/]"><img src="[field:picname/]"/></a></p>
+					{/dede:arclist}
+					<div class="item-info">
+						{dede:arclist row="2" typeid="5" limit="0,2" titlelen="100"}
+						<p><a href="[field:arcurl/]">[field:title/]</a></p>
+						{/dede:arclist}
+					</div>
+					
+				</div>
+			</li>
+			
+			<li class="teaching-item">
+				<div class="item-block">
+					<h4 class="title">育儿天地<a href="/yetd">+MORE</a></h4>
+					{dede:arclist row="1" limit="0,1" typeid="755" flag="p"}
+					<p class="item-pic"><a href="[field:arcurl/]"><img src="[field:picname/]"/></a></p>
+					{/dede:arclist}
+					<div class="item-info">
+						{dede:arclist row="2" typeid="755" limit="0,2" titlelen="100"}
+						<p><a href="[field:arcurl/]">[field:title/]</a></p>
+						{/dede:arclist}
+					</div>
+				</div>
+			</li>
+			
+			<li class="teaching-item">
+				<div class="item-block">
+					<h4 class="title">儿童故事<a href="/etgs">+MORE</a></h4>
+					{dede:arclist row="1" limit="0,1" typeid="8" flag="p"}
+					<p class="item-pic"><a href="[field:arcurl/]"><img src="[field:picname/]"/></a></p>
+					{/dede:arclist}
+					<div class="item-info">
+						{dede:arclist row="2" typeid="8" limit="0,2" titlelen="100"}
+						<p><a href="[field:arcurl/]">[field:title/]</a></p>
+						{/dede:arclist}
+					</div>
+				</div>
+			</li>
+			
+		</ul>
+	</div>	
+	{dede:include filename="common/footer.htm"/}
+	</body>
+</html>

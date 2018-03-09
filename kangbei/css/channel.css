@@ -1,0 +1,161 @@
+/**
+ * 
+ * @authors 康贝儿童医院
+ * @date    2017-08-12 14:52:13
+ * @templet channel.htm[所有频道页]
+ */
+
+@charset "UTF-8";
+@import url('channel_public.css');
+
+
+/*公共科室 @ 五大特色*/
+.k-tese{width:1200px;margin:auto;display: none;}  
+.k-tese h3 { border-bottom: 3px solid #f0f1f1; font-size: 24px; font-weight: bold; line-height: 30px; margin: 50px auto; padding-bottom: 20px; position: relative; text-align: center; } 
+.k-tese h3 span { background: #ef6b13; height: 7px; left: 0; margin: -6px auto; position: absolute; right: 0; top: 63px; width: 155px; } 
+.k-tese .txt{height:440px;} 
+.k-tese .txt li{float: left;background: url(../images/ts-1.jpg) no-repeat;width: 222px;margin-right: 22px;} 
+.k-tese .txt li:nth-child(2){background: url(../images/ts-2.jpg) no-repeat;} 
+.k-tese .txt li:nth-child(3){background: url(../images/ts-3.jpg) no-repeat;} 
+.k-tese .txt li:nth-child(4){background: url(../images/ts-4.jpg) no-repeat;} 
+.k-tese .txt li:nth-child(5){background: url(../images/ts-5.jpg) no-repeat;margin-right: 0;}  
+.k-tese .txt li .head { font-size: 16px; line-height: 40px; margin-top: 95px; text-align: center; }  
+.k-tese .txt li p { font-size: 14px; line-height: 30px; margin: 0 10px 25px 18px; }
+
+/*神经科 @ 科室项目*/
+.neurology{width: 100%;background: url(../images/j17.jpg) no-repeat top center;margin: 0px auto 30px auto;overflow:hidden;background-size: 100% 100%;}
+.neurology-project{width:1200px;height:370px;margin:30px auto;}
+.neurology .project-title{ background: #14a0e4 none repeat scroll 0 0; float: left; height: 370px; width: 100px; }
+.neurology .project-title p { color: #fff; font-size: 31px; height: 74px; margin: 130px auto; width: 64px; }
+.neurology .project-info{ width: 1100px;height: 370px; float: right;}
+.neurology .project-item{height:370px;background:rgba(255,255,255,0.5); float: left;}
+.neurology .item-xwfy{width:410px;margin:0px 35px;}
+.neurology .item-xesj{width:620px;}
+.neurology .project-item .item-title{ width: 100%; height: 50px; position: relative; text-align: center;}
+.neurology .project-item .item-title strong{width: 100px; line-height: 50px; font-size: 24px; color: #636363; position: absolute; left:37.5%; background: #fff;filter:Alpha(opacity=20); *zoom:1;background-color:rgba(255,255,255,0.2);}
+.neurology .project-item .item-title hr{height: 1px; border: none; border-bottom: 1px solid #dcdcdc; padding-top: 25px;}
+.neurology .item-list{padding:0px 20px;}
+.neurology .item-list li{ width:164px; height: 44px; line-height: 44px; text-align: center; border: 1px solid #bfe2dc; background: #fff;margin-top:15px; float: left;overflow: hidden;}
+.neurology .item-list li a{color: #666666; font-size: 16px; width: 164px; height: 44px; overflow: hidden;}
+.neurology .item-list li:hover{width: 164px; height: 44px; background: #25aaeb; text-align: center; line-height: 46px;}
+.neurology .item-list li:hover a{color: #fff; width: 164px; height: 44px; overflow: hidden;}
+.neurology .xwfy li:last-child{width:100%;}
+.neurology .xwfy li:nth-child(2n+1){margin-right: 38px;}
+.neurology .xesj li:nth-child(3n+1){margin-right: 41px;}
+.neurology .xesj li:nth-child(3n+2){margin-right: 41px;}
+
+/*神经科 @ 中医康复*/
+.recovery-project{width:1200px; height:240px;margin:auto;}
+.recovery-project .recovery-item{ width: 517px; height: auto; float: left;}
+.recovery-project .recovery-item img{ width: 222px; height: 240px; float: left; overflow:hidden ;}
+.recovery-project .item-list{width: 295px; height: auto; float: left; overflow: hidden;}
+.recovery-project .item-list li{ width: 132px; height: 46px; float: left; margin: 0 0 17px 15px;}
+.recovery-project .item-list li a{background: #dfdfdf; width: 132px; height: 46px; float: left; text-align: center; line-height: 46px; color: #525151; font-size: 16px;}
+.recovery-project .item-list li a:hover{color: #fff; background: #f18f4e;}
+.recovery-project .zykf-item li:nth-child(7){width: 82px;} 
+.recovery-project .zykf-item li:nth-child(7) a{width: 82px;} 
+.recovery-project .zykf-item li:nth-child(8){width: 82px;}
+.recovery-project .zykf-item li:nth-child(8) a{width: 82px;} 
+.recovery-project .zykf-item li:nth-child(9){width: 82px;}
+.recovery-project .zykf-item li:nth-child(9) a{width: 82px;}
+
+/*神经科 @ 西医康复*/
+.recovery-project .xykf-item{width: 627px; height: auto; float: right;}
+.recovery-project .item-right{ width: 96px; height: auto; float: right;}
+.recovery-project .item-right li{width: 96px; height: 110px; float: left; margin-bottom: 17px;}
+.recovery-project .item-right li a{ width: 50px; height: 48px; float: left; padding:31px 23px; font-size: 16px; background: #dfdfdf;color: #525151; text-align: center;}
+.recovery-project .item-right li a:hover{color: #fff; background: #f18f4e;}
+.recovery-project .xykf-item li:nth-child(7){width: 82px;}
+.recovery-project .xykf-item li:nth-child(7) a{width: 82px;}
+.recovery-project .xykf-item li:nth-child(8){width: 82px;}
+.recovery-project .xykf-item li:nth-child(8) a{width: 82px;}
+.recovery-project .xykf-item li:nth-child(9){width: 82px;}
+.recovery-project .xykf-item li:nth-child(9) a{width: 82px;}
+
+/*神经科 @ 医康养*/
+.yi-kang-yang{width:1200px;margin:20px auto;}
+.yi-kang-yang .yky-top{ width: 1200px; height: 100px; float: left; position: relative;}
+.yi-kang-yang .yky-top hr{border: none; height: 1px; border-bottom: 1px solid #e2e2e2; margin-top: 42px;}
+.yky-tt{width: 290px; height: 82px; position: absolute; top: 0; left: 430px; background: #fff; padding: 0 20px;}
+.yky-tt ul li{ width: 80px; height: 80px; border-radius: 6px; text-align: center; line-height: 80px; font-size: 53px; color: #fff; float: left; margin: 0 8px;}
+.yky-tt ul li:nth-child(1){background: #eca06d;}
+.yky-tt ul li:nth-child(2){background: #7bd9ed;}
+.yky-tt ul li:nth-child(3){background: #7bcbed;}
+.yky-intro{ width: 1200px; height: auto; float: left; overflow: hidden; text-align: center;}
+.yky-intro strong{ width: 100%; height: 30px; line-height: 30px; font-size: 20px; color: #525151;}
+.yky-intro p{ width: 100%; height: auto; font-size: 15px; color: #797878; line-height: 30px; padding-top: 30px;}
+.yky-item{ width: 1200px; height:253px; float: left; overflow: hidden; margin-top: 40px;}
+.yky-item li{background: #000000; width: 364px; height: 253px; float: left; margin-right: 52px; position: relative;}
+.yky-item li:last-child{margin-right: 0;}
+.yky-item li img{ width: 364px; height: 253px; float: left; overflow: hidden;}
+.yky-item li span{ width: 364px; height: 38px; text-align: center; line-height: 38px; background: #000;filter:Alpha(opacity=50); *zoom:1;background-color:rgba(0,0,0,0.5); position: absolute; bottom: 0; left: 0; color: #fff; font-size: 20px; cursor: pointer;}
+.yky-item li .dis{ display: none; width: 364px; height: 253px; background: #000000;filter:Alpha(opacity=40); *zoom:1;background-color:rgba(0,0,0,0.4); position: absolute; top: 0; left: 0;}
+.yky-item li .dis strong{ width: 364px; text-align: center; height: 54px; float: left; margin-top: 40px; font-size: 47px; color: #fff;}
+.yky-item li .dis p{ width: 242px; height: 100px; float: left; padding:20px 61px; overflow: hidden; font-size: 15px; color: #fff; line-height: 30px;}
+.yky-item li:hover span{ display:none;}
+.yky-item li:hover .dis{display: block;animation: fade-in;  animation-duration: 1s;  -webkit-animation:fade-in 1s;  }
+
+
+/*神经科 @ 三大优势*/
+.yky-advantage{ width: 1200px; height: auto; margin: 40px auto 20px auto; float: left;} 
+.yky-advantage strong{ width: 1200px; float: left; height: 36px; text-align: center; font-size: 31px; color: #525151;} 
+.yky-advantage strong span{font-weight: bold;}
+.yky-advantage .advantage-item{ width: 1200px; height: 320px; float: left; margin: 40px auto 0 auto;}
+.yky-advantage .advantage-item li{ width: 390px; height: 280px; float: left; margin-right: 14px; max-width: 396px;}
+.yky-advantage .advantage-item li:nth-child(1){background: #fcf0e9; border-top: 2px solid #f6b991;}
+.yky-advantage .advantage-item li:nth-child(2){background: #e5f9fd; border-top: 2px solid #82e0f4;}
+.yky-advantage .advantage-item li:nth-child(3){background: #fff7e6; border-top: 2px solid #f9da99;margin-right: 0px;}
+.yky-advantage .advantage-no{width:138px; height: 36px; border-radius: 18px; margin:25px auto;  color: #fff; font-size: 24px; text-align: center;}
+.yky-advantage .advantage-item li:nth-child(1) .advantage-no{background: #f6b991; }
+.yky-advantage .advantage-item li:nth-child(2) .advantage-no{background: #82e0f4; }
+.yky-advantage .advantage-item li:nth-child(3) .advantage-no{background: #f9da99; }
+.yky-advantage .advantage-info{width: 100%; text-align: center;font-size: 20px;line-height: 30px;}
+.yky-advantage .advantage-item li:nth-child(1) .advantage-info{color:#e17b37; }
+.yky-advantage .advantage-item li:nth-child(2) .advantage-info{color:#1ebee0; }
+.yky-advantage .advantage-item li:nth-child(3) .advantage-info{color:#ebb33b; }
+.yky-advantage .advantage-item li p{color: #7d7d7d; font-size: 15px; width:310px; margin: 20px auto 0 auto; line-height: 24px;}
+
+/*小儿中医科 @ 诊疗项目*/
+.zyk-project{width:1200px;margin:20px auto;}
+.M-k1ri2-517{ width: 629px; float: left;}
+.M-k1lf2-517{ width: 517px; float: right;}
+.M-k1lf2-517 img,.M-k1ri2-517 img{ width: 223px; height: 240px; float: left;}
+.M-k1lf2-ul{ width: 287px; height: auto; float: left;}
+.M-k1lf2-ul li{ width: 129px; height: 48px; float: left; margin: 0 0 16px 14px; text-align: center; line-height: 48px;}
+.M-k1lf2-ul li a{color: #525151; font-size: 16px; width: 129px; height: 48px; background: #dfdfdf; display: block;}
+.M-k1lf2-ul li a:hover{background: #68c9f9; color: #fff;}
+.M-k1lf2-ul li.M-k1lf2-ul-li2{width: 83px; height: 48px; text-align: center; line-height: 48px; float: left; margin: 0 0 16px 12px;}
+.M-k1lf2-ul li.M-k1lf2-ul-li2 a{width: 83px; height: 48px;}
+.M-k1lf2-ul ul{ width: 287px; float: left;}
+.M-k1lf2-ul1{ width: 105px; float: right; font-size: 16px;}
+.M-k1lf2-ul1 li.M-k1lf2-ul1-li{ width: 100%; height: 48px; margin-bottom: 16px; float: left; text-align: center; line-height: 48px;}
+.M-k1lf2-ul1 li.M-k1lf2-ul1-li a{ width: 100%; height: 48px; background: #dfdfdf; color: #525151; display: block;}
+.M-k1lf2-ul1 li.M-k1lf2-ul1-li a:hover,.M-k1lf2-ul1 li.M-k1lf2-ul1-li1 a:hover{ background: #68c9f9; color: #fff;}
+.M-k1lf2-ul1 li.M-k1lf2-ul1-li1{ width: 100%; height: 112px; margin-bottom: 16px; float: left; text-align: center; line-height: 110px;}
+.M-k1lf2-ul1 li.M-k1lf2-ul1-li1 a{ width: 100%; height: 112px; background: #dfdfdf; color: #525151; display: block;}
+
+/*小儿中医科 @ 特色技术*/
+.zyk-tsjs,.zyk-sdys{width:1200px;margin:20px auto;}
+.Z-title{ width: 100%; height: auto; float: left; text-align: center; height: 66px; position: relative;}
+.Z-title strong{font-size: 30px; color: #434343; font-weight: bold; height: 60px; line-height: 60px; float: left; width: 100%;border-bottom:1px solid #ececec ;}
+.Z-title p{ width: 130px; height: 6px; background: #68c4f0; float: left; margin-left: 535px;}
+.ZY,.ZY1{ width: 1200PX; height: auto; overflow: hidden; margin-top: 58px; float: left;}
+.ZY li{ width: 280px; float: left; height: auto; margin-right: 24px;}
+.ZY li:nth-child(4n){float: right; margin-right: 0;}
+.ZY-div{ width: 228px; height: 280px; float: left; padding: 39px 25px 29px 25px; border-top:1px solid #ececec; border-left:1px solid #ececec; border-right:1px solid #ececec;}
+.ZY-div strong{color: #606060; font-size: 20px; width: 100%; text-align: center; display: block;}
+.ZY-div strong span{font-weight: bold;}
+.ZY-div p{font-size: 15px; color: #808080; line-height: 34px; height: 200px; overflow: hidden; padding-top: 20px;}
+.ZY-div a{ width: 100%;text-align: center; display: block; font-size: 18px; color: #606060; padding-top: 18px;}
+.ZY-div:hover{ border-top:1px solid #68c4f0; border-left:1px solid #68c4f0; border-right:1px solid #68c4f0;}
+.ZY-div:hover strong,.ZY-div:hover a:hover,.ZY-div:hover a{color: #68c4f0;}
+.Z-title1 p{background: #f09254;}
+.ZY1 li{ width: 336px; height: 180px; border: 1px solid #e5e4e4; float: left; padding: 40px 15px 30px 15px; margin-right: 45px; overflow: hidden;}
+.ZY1 li:nth-child(3){margin-right:0px;}
+.ZY1-lf{ width: 110px; height: 110px; float: left; border: 1px dashed #f09254; border-radius: 50%; margin-top: 20px;}
+.ZY1-lf p{ width: 96px; height: 96px; text-align: center; line-height: 96px; border-radius: 50%; background: #f09254; margin: 7px; font-size: 28px; color: #fff;}
+.ZY1-ri{ width: 196px; height: auto; float: right;}
+.ZY1-ri strong{ width: 100%; float: left; font-size: 28px; color: #505050;}
+.ZY1-ri p{width: 100%; line-height: 30px; font-size: 15px; color: #757575; padding-top: 10px; float: left;}
+
+
